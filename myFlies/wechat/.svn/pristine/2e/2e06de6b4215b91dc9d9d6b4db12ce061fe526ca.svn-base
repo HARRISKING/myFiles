@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/goods.css">
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <a href="">
+                <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>商品详情</p>
+    </header>
+    <section class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="goods-info">
+        <p class="goods-name">明心电池</p>
+        <div class="goods-fee">
+            <div class="fee-left">
+                <p class="left-new">1980元</p>
+                <p class="left-old">(以旧换新)</p>
+            </div>
+            <div class="fee-right">
+                32人购买
+            </div>
+        </div>
+    </section>
+
+    <section class="goods-form">
+        <ul>
+            <li class="form-choose">
+                <span class="form-type">选择类别:</span>
+                <span class="form-chs">终极蓄电池L2-400</span>
+                <span class="form-chs-name">终极蓄电池L2-400</span>
+            </li>
+            <li class="form-num">
+                <span>购买数量:</span>
+                <div class="form-panel">
+                    <div class="down">-</div>
+                    <input type="text" class="show" value="1" data-num="1">
+                    <div class="up">+</div>
+                </div>
+            </li>
+            <li class="form-btn">
+                <button>立即购买</button>
+            </li>
+        </ul>
+    </section>
+
+    <section class="goods-intr">
+        <div class="goods-intr-title">产品介绍</div>
+        <div class="goods-content">
+            <p>配件列别：</p>
+            <p>产品编号</p>
+            <p>运费</p>
+            <p>服务</p>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+    $(".down").click(function() {
+        var num = parseInt($(".show").attr("data-num"));
+        if (num <= 1) {
+            return;
+        }
+        num--;
+        $(".show")
+            .attr("data-num", num)
+            .val(num);
+    })
+    $(".up").click(function() {
+        var num = parseInt($(".show").attr("data-num"));
+        num++;
+        $(".show")
+            .attr("data-num", num)
+            .val(num);
+    })
+    </script>
+</body>
+
+</html>

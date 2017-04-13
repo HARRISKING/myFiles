@@ -1,0 +1,19 @@
+
+$('.star').on('click',function(){
+  var idx = $('.star').index($(this));
+  $('#stars').val(idx);
+  console.log(this);
+  console.log(idx);
+
+  if(idx===0){
+    $('.assess').text('（差）');
+  }else if(idx===1){
+    $('.assess').text('（较差）');
+  }else if(idx===2){
+    $('.assess').text('（良）');
+  }else if(idx===3){
+    $('.assess').text('（好）');
+  }else if(idx===4){
+    $('.assess').text('（优秀）');
+  };
+});

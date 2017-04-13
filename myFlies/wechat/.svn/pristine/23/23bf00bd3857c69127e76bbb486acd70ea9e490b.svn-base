@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>D+护车</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="./css/share.css">
+  </head>
+  <body>
+    <section class="box-head">
+      <div class="box box1">
+        <p>你本次将赠送：</p>
+      </div>
+      <div class="box box2">
+        <div class="box2-innerbox">
+          <h1>免费洗车权益10次</h1>
+          <div class="price">
+            <span>价值</span>
+            <span class="word-price">800</span>
+            <span>元</span>
+          </div>
+          <p>每人只能领取一次</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="box-footer">
+      <p>快速点击右上角的按钮，选择“推荐给朋友”就可以送给您的朋友们了~</p>
+    </section>
+  </body>
+</html>

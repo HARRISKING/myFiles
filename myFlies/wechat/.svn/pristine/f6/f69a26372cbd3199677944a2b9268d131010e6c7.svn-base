@@ -1,0 +1,162 @@
+.banner {
+    height: 300px;
+    background-color: orange;
+}
+
+.goods-info {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.goods-name {
+    padding-bottom: 15px;
+}
+
+.goods-fee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fee-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-new {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #f89c0d;
+}
+
+.left-old {
+    font-size: 12px;
+    color: #999;
+}
+
+.fee-right {
+    font-size: 14px;
+    color: #666;
+}
+
+.goods-form {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.form-choose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #999;
+    border-bottom: 1px solid #eee;
+    height: 34px;
+}
+
+.form-chs {
+    color: #f89c0d;
+    border: 1px solid #f89c0d;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.form-num {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	font-size: 14px;
+	color: #999; 
+	border-bottom: 1px solid #eee;
+	height: 34px;
+}
+
+.form-panel {
+    display: flex;
+    margin-left: 20px;
+}
+
+.form-panel .down,
+.form-panel .up {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #999;
+    color: #666;
+}
+
+.form-panel .show {
+    width: 100px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+}
+
+.form-btn {
+	padding: 10px;	
+}
+
+.form-btn button {
+	width: 100%;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #f89c0d;
+	height: 40px;
+    border: 0;
+    font-size: 14px;
+}
+
+.goods-intr {
+	background-color: #fff;
+}
+
+.goods-intr-title {
+	padding: 15px 10px;
+	color: #999;
+	border-bottom: 1px solid #eee;
+}
+
+.goods-content {
+	padding: 10px;
+}
+
+.goods-content p {
+	font-size: 14px;
+	color: #999;
+	line-height: 21px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #f89c0d;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}

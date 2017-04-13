@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>新闻列表</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/news-detail.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="grid clear">
+            <div class="logo">
+                <a href="#">aaa</a></div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">模特</a></li>
+                    <li><a href="#">摄影师</a></li>
+                    <li><a href="#">通告</a></li>
+                    <li class="active"><a href="#">新闻</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <ul>
+                    <li><a class="fa fa-user" href="#"> 登录</a></li>
+                    <li><a class="fa fa-mobile" href="#"> 下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="ne-detail clear">
+                <div class="ne-item">
+                    <div class="ne-inner">
+                        <h1 class="ne-inner-title">MOKA环球旅拍邮轮产品开创旅拍新时代</h1>
+                        <p class="ne-inner-info clear">
+                            <span class="ne-inner-time">1小时前</span>
+                            <span><i class="fa fa-eye"></i>3334人已浏览</span>
+                            <span class="ne-inner-source">来源：*******</span>
+                        </p>
+                        <article>
+                            <!-- 新闻内容 -->
+                        </article>
+                    </div>
+                </div>
+                <div class="ne-ser">
+                    <div class="ne-ser-item">
+                        <h3 class="ne-ser-title">
+                            热门服务
+                        </h3>
+                        <div class="ne-ser-detail">
+                            <img src="http://cdn.q8oils.cc/7029490801d3a787d17a3a7c372b5d40@270w_150h_1c_1e.jpg" alt="">
+                            <h4>服务名称</h4>
+                            <p>300元</p>
+                        </div>
+                        <div class="ne-ser-detail">
+                            <img src="http://cdn.q8oils.cc/7029490801d3a787d17a3a7c372b5d40@270w_150h_1c_1e.jpg" alt="">
+                            <h4>服务名称</h4>
+                            <p>300元</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>footer</footer>
+    <script src='./js/jquery.min.js'></script>
+    <script src='./js/header.js'></script>
+</body>
+
+</html>

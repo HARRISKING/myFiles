@@ -1,0 +1,39 @@
+.box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height: 60px;
+  background-color: #fff;
+  border-top: 2px solid #eee;
+}
+
+.box2:first-child{
+  border: none;
+}
+
+.box{
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.innerbox2{
+  margin-top: 10px;
+}
+
+.word2{
+  font-size: 13px;
+  color: #999;
+}
+
+.color-orange{
+  color: rgb(254, 138, 1);
+}
+
+
+.box>img{
+  width: 18px;
+  height: 18px;
+}

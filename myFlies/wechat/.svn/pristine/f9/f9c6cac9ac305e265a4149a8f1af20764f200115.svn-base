@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mycoupon.css">
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <a href="javascript:history.back(-1)">
+                <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>我的会员</p>
+    </header>
+    <section class="tab-panel tab1">
+        <div class="tab tab-active" data-type="tab1">
+            我拥有的
+        </div>
+        <div class="tab" data-type="tab2">
+            可购买的
+        </div>
+        <div class="panel1">
+            <div class="c-item">
+              <a href="./ticketContent.html">
+                <img src="img/coupon/xichequan.png" alt="">
+                <div class="c-info">
+                    <div class="c-top">
+                        <div class="c-name">免费洗车券</div>
+                        <div class="c-note">持有本优惠券可免费享受一次洗车服务</div>
+                    </div>
+                    <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+                </div>
+              </a>
+
+            </div>
+            <div class="c-item">
+              <a href="./ticketContent.html">
+                <img src="img/coupon/baoyangquan.png" alt="">
+                <div class="c-info">
+                    <div class="c-top">
+                        <div class="c-name">车辆保养券</div>
+                        <div class="c-note">持有本优惠券可免费享受一次保养服务</div>
+                    </div>
+                    <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+                </div>
+              </a>
+
+            </div>
+        </div>
+        <div class="panel2">
+            <div class="c-item">
+                <img src="img/coupon/xichequan.png" alt="">
+                <div class="c-info">
+                    <div class="c-top">
+                        <div class="c-name">免费洗车券</div>
+                        <div class="c-note">持有本优惠券可免费享受一次洗车服务</div>
+                    </div>
+                    <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+                </div>
+            </div>
+            <div class="c-item">
+                <img src="img/coupon/baoyangquan.png" alt="">
+                <div class="c-info">
+                    <div class="c-top">
+                        <div class="c-name">车辆保养券</div>
+                        <div class="c-note">持有本优惠券可免费享受一次保养服务</div>
+                    </div>
+                    <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+                </div>
+            </div>
+            <div class="c-item">
+                <img src="img/coupon/dianchiquan.png" alt="">
+                <div class="c-info">
+                    <div class="c-top">
+                        <div class="c-name">电池券</div>
+                        <div class="c-note">持有本优惠券可免费享受一次电池服务</div>
+                    </div>
+                    <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+                </div>
+            </div>
+            <div class="c-item">
+                <img src="img/coupon/jiyouquan .png" alt="">
+                <div class="c-info">
+                    <div class="c-top">
+                        <div class="c-name">机油券</div>
+                        <div class="c-note">持有本优惠券可免费享受一次机油服务</div>
+                    </div>
+                    <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+                </div>
+            </div>
+            <div class="c-item">
+                <img src="img/coupon/luntaiquan.png" alt="">
+                <div class="c-info">
+                    <div class="c-top">
+                        <div class="c-name">轮胎券</div>
+                        <div class="c-note">持有本优惠券可免费享受一次更换轮胎服务</div>
+                    </div>
+                    <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+                </div>
+            </div>
+            <div class="c-item">
+                <img src="img/coupon/shangpinquan.png" alt="">
+                <div class="c-info">
+                    <div class="c-top">
+                        <div class="c-name">商品券</div>
+                        <div class="c-note">持有本优惠券可免费享受一次商品服务</div>
+                    </div>
+                    <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(".tab").click(function() {
+        var $this = $(this);
+        if ($this.hasClass("tab-active")) {
+            return;
+        }
+
+        $this.addClass("tab-active").siblings().removeClass("tab-active");
+
+        $this.parent().removeClass("tab1 tab2").addClass($this.attr("data-type"))
+    })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+
+
+.icon{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/common/back.png) no-repeat;
+	background-size: contain;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 102, 204);
+	margin-bottom: 10px;
+}
+.info{
+  display: flex;
+}
+
+.info img{
+  width: 70px;
+  height: 70px;
+  margin: 5px 0 5px 5px;
+}
+
+.btn{
+  height: 80px;
+  width: 70px;
+  background-color: rgb(254, 138, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn a{
+	text-align: center;
+}
+.btn img{
+  height: 25px;
+  margin: 0;
+}
+
+.btn p{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.info .tel{
+  margin: 5px 5px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+	color: #fff;
+	font-size: 12px;
+}
+
+.pay-footer {
+		position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+		margin-bottom: 10px;
+}
+
+.btn1{
+	width: 40%;
+	height: 40px;
+	border-radius: 4px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cancel{
+	background-color: #fff;
+}
+.cancel a{
+	color: rgb(248, 156, 13);
+}
+.pay-now{
+	background-color: rgb(248, 156, 13);
+}
+
+/*.pay-fee {
+	padding-left: 15px;
+	font-size: 15px;
+	color: #333;
+}
+
+.pay-fee-num {
+	color:  #f89c0d;
+}
+
+.pay-now {
+	width: 110px;
+    height: 100%;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f89c0d;
+}*/
+
+.order-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 70px;
+	background-color: #fff;
+}
+
+.info-left-img {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #eee;
+}
+
+.info-left {
+	display: flex;
+}
+
+.info-left-img {
+	margin-right: 10px;
+}
+
+.info-left-msg {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 70px;
+}
+
+.info-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	height: 100%;
+	color: #666;
+	font-size: 12px;
+}
+
+.msg-title {
+	font-size: 16px;
+	color: #333;
+}
+
+.msg-mark {
+	margin-left: 10px;
+	font-size: 16px;
+	color: #2168a4;
+}
+
+.msg-type {
+	font-size: 13px;
+	color: #2168a4;
+}
+
+.msg-fee {
+	font-size: 14px;
+	color: #666;
+}
+
+.msg-fee-num {
+	color: #f89c0d;
+	font-size: 14px;
+}
+
+.info-left-l {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 35px;
+}
+
+.order-content {
+	background-color: #fff;
+	color: #333;
+}
+
+.content-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	height: 20px;
+}
+
+.content-title-name {
+	font-size: 15px;
+}
+
+.content-title-fee {
+	color: #f89c0d;
+	font-size: 15px;
+}
+
+.content-list {
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+
+.content-list ul li {
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 0;
+}
+
+.list-name {
+	font-size: 14px;
+	color: #777;
+}
+
+.list-type {
+	font-size: 13px;
+	color: #999;
+}
+
+.list-num {
+	font-size: 13px;
+    color: #666;
+    min-width: 50px;
+    display: inline-block;
+    text-align: right;
+}
+
+.list-done {
+	padding: 2px 4px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #f89c0d;
+	border: 0;
+	border-radius: 5px;
+}

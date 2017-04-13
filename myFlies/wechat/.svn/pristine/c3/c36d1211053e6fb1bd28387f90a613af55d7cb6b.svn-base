@@ -1,0 +1,85 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.tab1{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background: #fff;
+  height:80px;
+  margin: 0 auto;
+}
+.down-border{
+  border-bottom: 2px solid black;
+}
+.tab1 p{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.tab-panel{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width: 94%;
+  height: 50px;
+  margin: 15px auto;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: #fff;
+  cursor: pointer;
+}
+.word1{
+  margin: 20px 3% 15px 3%;
+  font-size: 0.8rem;
+}
+.remark{
+  margin: 0px 3% 20px 3%;
+  font-size: 0.7rem;
+  color: #999;
+
+}
+.box{
+  width: 94%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.box .amount{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box :last-child{
+  color: #999;
+}
+
+.amount p{
+  margin-right: 10px;
+  color: #999;
+  font-size: 0.8rem;
+}
+.word2{
+  margin: 15px 3% 30px 3%;
+  font-size: 0.8rem;
+  color: black;
+}
+.btn{
+  justify-content: center;
+  background: rgb(248, 156, 13);
+  color: #fff;
+  font-size: 100%;
+  margin-top: 40px;
+}
+@media screen and (max-width:330px){
+  .tab-panel{
+    font-size: 0.8rem;
+  }
+}
+.active{
+  background: rgb(248, 156, 13);
+  color: #fff;
+}

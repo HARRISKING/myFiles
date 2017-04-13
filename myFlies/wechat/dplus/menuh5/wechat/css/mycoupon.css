@@ -1,0 +1,86 @@
+.tab-panel {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.tab {
+    flex-basis: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: #999;
+    font-size: 14px;
+}
+
+.tab-active {
+    position: relative;
+    color:#3266cc;
+    font-weight: 500;
+}
+
+.tab-active:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3266cc;
+}
+
+.tab2 .panel1 {
+    display: none;
+    width: 100%;
+}
+
+.tab1 .panel2 {
+    display: none;
+    width: 100%;
+}
+
+.c-item {
+    position: relative;
+    padding: 15px 10px 5px 10px;
+    background-color: #eee;
+    color: #fff;
+}
+
+.c-item img {
+    width: 100%;
+}
+
+.c-info {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85px;
+}
+
+.c-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 40px;
+}
+
+.c-name {
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 微软雅黑;
+}
+
+.c-note {
+    font-size: 12px;
+}
+
+.c-date {
+    font-size: 12px;
+}

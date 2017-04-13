@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>订单详情</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/app_confirm.css">
+</head>
+
+<body>
+
+      <section class="welcome">
+        <h3>订单已完成，欢迎下次光临D+护车~</h3>
+        <p>如有问题，请及时拨打电话与技师联系</p>
+      </section>
+      <section class="contact">
+        <div class="info">
+          <img src="./img/ad/head-pic.png" alt="无法显示">
+          <div class="tel">
+            <p>技师：张师傅</p>
+            <p>电话：13811111111</p>
+          </div>
+        </div>
+        <div class="btn">
+          <a href="#">
+            <img src="./img/ad/phone1.png" alt="无法显示">
+            <p>联系技师</p>
+          </a>
+        </div>
+      </section>
+      <section class="car-content">
+        <div class="box-assess">
+          <div class="stars-all">
+            <span>服务评价：</span>
+            <span class="stars star3"></span>
+          </div>
+        </div>
+      </section>
+      <section class="car-content">
+        <div class="box-assess ase2">
+          <div>
+            <span>师傅服务态度很好，很认真也很仔细。提了很多建议，各项服务都做的很到位，谢谢师傅~</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="welcome">
+        <div class="detailed">
+          <i class="down"></i>
+          <p class="color-gold">以下为您本次订单的详细内容</p>
+          <i class="down"></i>
+        </div>
+      </section>
+      <section class="car-content">
+        <div class="box box1">
+          <p>车辆型号：</p>
+          <p>撒的发生发送到发送到</p>
+        </div>
+        <div class="box box2">
+          <p>车牌号：</p>
+          <p>3454235435</p>
+        </div>
+      </section>
+    <section class="order-content">
+        <section class="content-title">
+            <span class="content-title-name">订单内容</span>
+            <span class="content-title-fee">共760元</span>
+        </section>
+        <section class="content-list">
+            <ul>
+                <li>
+                    <div class="list-name">明心电池aaa</div>
+                    <div>
+                        <span class="list-type list-done">已付</span>
+                        <span class="list-num">300元</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-name">明心电池aaa</div>
+                    <div>
+                        <span class="list-type">待付</span>
+                        <span class="list-num">300元</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <!-- 订单内容，使用优惠以及其他欲添加内容请放在content-all中 -->
+    <div class="content-all">
+
+    <section class="order-content">
+        <section class="content-title">
+            <span class="content-title-name">使用优惠</span>
+            <span class="content-title-fee">共-176元</span>
+        </section>
+        <section class="content-list">
+            <ul>
+                <li>
+                    <div class="list-name">电池优惠券</div>
+                    <span class="list-num">-88元</span>
+                </li>
+                <li>
+                    <div class="list-name">保养会员卡</div>
+                    <span class="list-num">-88元</span>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="order-content">
+        <section class="total">
+          <span>总计付款：</span>
+          <span>584元</span>
+        </section>
+    </section>
+  </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+
+      $('.assess').on('click',function(){
+        window.location.href = "./assess2.html"
+      })
+    </script>
+</body>
+
+</html>

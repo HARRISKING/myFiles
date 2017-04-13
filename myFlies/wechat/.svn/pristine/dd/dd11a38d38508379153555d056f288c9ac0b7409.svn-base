@@ -1,0 +1,64 @@
+.nav-pills>li>a {
+  color: black;
+  border-radius: 0;
+  margin: 10px 10px 10px 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.nav-pills{
+	border-bottom: 2px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+  width: 110px;
+  float: right;
+  margin: 20px 16px 20px 20px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover{
+    color: #fff;
+    background-color: rgb(11, 63, 107);
+}
+.panel-heading{
+  border-bottom: 2px solid #eee;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgb(11, 63, 107);
+    color: #fff;
+}
+
+.borders{
+  font-size: 25px;
+  font-weight: lighter;
+  height: 38px;
+  color:#ddd;
+}
+/*！！仅适用于当前页面：*/
+@media screen and (min-width:770px){
+  .hide-ele{
+    display: none;
+  }
+}
+
+@media screen and (max-width:770px){
+  .show-ele{
+    display: none;
+  }
+  .hide-ele{
+    display: block;
+    margin-top: 20px;
+  }
+
+
+  a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(11, 63, 107);
+}
+}

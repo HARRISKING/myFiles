@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>订单详情</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/app_confirm.css">
+</head>
+
+<body>
+    <section class="order-info">
+        <section class="info-left">
+            <img src="" alt="" class="info-left-img">
+            <section class="info-left-msg">
+                <p class="msg-title">某某某某<span class="msg-mark">技师</span></p>
+                <p class="msg-type">联系电话：15612341234</p>
+                <p class="msg-fee">这是您的订单信息，请确认无误后付款~</p>
+            </section>
+        </section>
+    </section>
+    <section class="order-content">
+        <section class="content-title">
+            <span class="content-title-name">订单内容</span>
+            <span class="content-title-fee">共760元</span>
+        </section>
+        <section class="content-list">
+            <ul>
+                <li>
+                    <div class="list-name">明心电池aaa</div>
+                    <div>
+                        <span class="list-type list-done">已付</span>
+                        <span class="list-num">300元</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-name">明心电池aaa</div>
+                    <div>
+                        <span class="list-type">待付</span>
+                        <span class="list-num">300元</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="order-content">
+        <section class="content-title">
+            <span class="content-title-name">使用优惠</span>
+            <span class="content-title-fee">共-176元</span>
+        </section>
+        <section class="content-list">
+            <ul>
+                <li>
+                    <div class="list-name">电池优惠券</div>
+                    <span class="list-num">-88元</span>
+                </li>
+                <li>
+                    <div class="list-name">保养会员卡</div>
+                    <span class="list-num">-88元</span>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="pay-footer">
+        <section class="pay-fee">
+            <p>总计需付款: <span class="pay-fee-num">1900元</span></p>
+        </section>
+        <a href="" class="pay-now">去支付</a>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(".down").click(function() {
+        var num = parseInt($(".show").attr("data-num"));
+        if (num <= 1) {
+            return;
+        }
+        num--;
+        $(".show")
+            .attr("data-num", num)
+            .val(num);
+    })
+    $(".up").click(function() {
+        var num = parseInt($(".show").attr("data-num"));
+        num++;
+        $(".show")
+            .attr("data-num", num)
+            .val(num);
+    })
+    </script>
+</body>
+
+</html>

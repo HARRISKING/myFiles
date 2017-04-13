@@ -1,0 +1,31 @@
+
+$('.star').on('click',function(){
+  var idx = $('.star').index($(this));
+  $('#stars').val(idx);
+  var idxs = idx + 1;
+  wid = '40px idxs*40px'
+
+  if(idx===0){
+    $('.assess').text('（差）');
+  }else if(idx===1){
+    $('.assess').text('（较差）');
+  }else if(idx===2){
+    $('.assess').text('（良）');
+  }else if(idx===3){
+    $('.assess').text('（好）');
+  }else if(idx===4){
+    $('.assess').text('（优秀）');
+  };
+
+});
+
+$('.star').on('blur',function(){
+  alert(1);
+})
+
+$('.button').on('click',function(){
+  window.location.href = "./app_confirm3.html";
+})
+$('.back').on('click',function(){
+  window.history.go(-1);
+})

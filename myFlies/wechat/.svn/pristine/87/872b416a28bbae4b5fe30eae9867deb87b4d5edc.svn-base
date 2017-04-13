@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>赠送卡券</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/donateCard.css">
+  </head>
+  <body>
+    <section class="tab1">
+      <p>赠送卡券</p>
+    </section>
+    <p class="word1">您的洗车优惠券剩余20张，请选择您要赠送的数量：</p>
+    <section class="tab-panel tab2">
+      <div class="box">
+        <p>总张数</p>
+        <div class="amount">
+          <p>0.00</p>
+          <p>张</p>
+        </div>
+      </div>
+    </section>
+    <p class="word2">所填张数不能为0，且不能超过您当前剩余的总张数；</p>
+    <section class="tab-panel tab3">
+      <div class="box">
+        <p>留言</p>
+        <p>我在D+护车给你们送福利了，先到先得~</p>
+      </div>
+    </section>
+    <section class="tab-panel tab4">
+      <div class="box">
+        <p>每人有且只能领取一次</p>
+        <input type="checkbox" class="check" value="">
+      </div>
+    </section>
+    <section class="tab5">
+      <p>价值</p>
+      <p class="num">0.00</p>
+      <p>元</p>
+    </section>
+    <div class="tab-panel btn">确定赠送</div>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>轮胎养护</title>
+
+  </head>
+  <body>
+    <div id="box">
+      <div id="inner-box">
+        <div id="head"><img src="../pic/logo_white.png" alt="无法显示"></div>
+
+        <div id="part-all">
+          <div class="little-tittle">
+            <img class="cube" src="../pic/color_cube-02.png" alt="无法显示">
+            <p class="title">制动系统养护</p>
+          </div>
+          <ul id="block">
+            <li class=" flip part part1-1 p1">
+              <a class="box-link" href="./more-clear/normal-wash.html">
+                <img src="../pic/1_卡钳更换.png" alt="无法显示">
+                <p>刹车保养套餐</p>
+              </a>
+            </li>
+            <li class=" flip part part1-2 p2 p2-up">
+              <a class="box-link" href="./more-clear/trim-wash.html">
+                <img src="../pic/1_刹车油更换.png" alt="无法显示">
+                <p>刹车油或卡钳更换</p>
+              </a>
+            </li>
+            <li class=" flip part part1-3 p3">
+              <a class="box-link" href="./more-clear/hub-wash.html">
+                <img src="../pic/1_刹车片更换.png" alt="无法显示" style="height:30%">
+                <p>刹车片或卡钳更换</p>
+              </a>
+            </li>
+            <li class=" flip part part1-4 p4">
+              <a class="box-link" href="./more-clear/engine-wash.html">
+                <img src="../pic/1_刹车盘更换.png" alt="无法显示" style="height:30%">
+                <p>刹车盘清洗或更换</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="part-all">
+          <div class="little-tittle">
+            <img class="cube" src="../pic/color_cube-03.png" alt="无法显示">
+            <p class="title">轮胎养护</p>
+          </div>
+          <ul id="block">
+            <li class=" flip part part1-1 p5">
+              <a class="box-link" href="./more-beauty/waxing.html">
+                <img src="../pic/dala.png" alt="无法显示">
+
+                <p>气门嘴更换或动平衡</p>
+              </a>
+            </li>
+            <li class=" flip part part1-2 p6">
+              <a class="box-link" href="./more-beauty/polishing.html">
+                <img src="../pic/1_动平衡.png" alt="无法显示" style="height:20%; margin-top:2rem">
+                <p>轮胎更换或轮毂改装</p>
+              </a>
+            </li>
+            <li class=" flip part part1-3 p7">
+              <a class="box-link" href="./more-beauty/crystal.html">
+                <img src="../pic/1_补胎.png" alt="无法显示" style="height:30%">
+                <p>补胎-贴片/蘑菇钉</p>
+              </a>
+            </li>
+            <li class=" flip part part1-4 p8">
+              <a class="box-link" href="./more-beauty/coating.html">
+                <img src="../pic/1_四轮定位.png" alt="无法显示" style="height:30%">
+                <p>四轮定位</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="part-all">
+          <div class="little-tittle">
+            <img class="cube" class="cube" src="../pic/color_cube-04.png" alt="无法显示">
+            <p class="title">雨刮系统养护</p>
+          </div>
+          <ul id="block">
+            <li class=" flip part part1-1 p9">
+              <a class="box-link" href="./upgrade/yuguazhuangyong.html">
+                <img src="../pic/qichetiemo.png" alt="无法显示">
+                <p>雨刮更换-专用型</p>
+
+              </a>
+            </li>
+            <li class=" flip part part1-2 p10">
+              <a class="box-link" href="./upgrade/fengdangqingjieye.html">
+                <img src="../pic/yinxingcheyi.png" alt="无法显示">
+                <p>风挡清洁液</p>
+
+              </a>
+            </li>
+            <li class=" flip part part1-3 p11" style="height:16rem">
+              <a class="box-link" href="./upgrade/yuguatongyong.html">
+                <img src="../pic/cheshengaise.png" alt="无法显示" style="height:30%">
+                <p>雨刮更换-通用型</p>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+      </div>
+
+      <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+      <script type="text/javascript" src="../js/car.js"></script>
+  </body>
+</html>

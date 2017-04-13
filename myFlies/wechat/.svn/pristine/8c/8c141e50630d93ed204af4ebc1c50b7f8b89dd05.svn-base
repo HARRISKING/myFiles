@@ -1,0 +1,472 @@
+
+//引入腾讯地图API
+var QQMapWX = require('../../libs/qqmap-wx-jssdk.js');
+
+
+
+var quality = {
+    l1: {
+        idx: 1,
+        num: '0 - 50',
+        level: '一级（优）',
+        health: '空气a质量令人满意，基本无空气污染',
+        do: '各类人群可正常活动'
+    },
+    l2: {
+        idx: 2,
+        num: '51 -100',
+        level: '二级（良）',
+        health: '空气质量可接受，但某些污染物可能对极少数异常敏感人群健康有较弱影响',
+        do: '极少数异常敏感人群应减少户外活动'
+    },
+    l3: {
+        idx: 3,
+        num: '101-150',
+        level: '三级（轻度污染）',
+        health: '易感人群症状有轻度加剧，健康人群出现刺激症状',
+        do: '儿童、老年人及心脏病、呼吸系统疾病患者应减少长时间、高强度的户外锻炼'
+    },
+    l4: {
+        idx: 4,
+        num: '151-200',
+        level: '四级（中度污染）',
+        health: '进一步加剧易感人群症状，可能对健康人群心脏、呼吸系统有影响',
+        do: '儿童、老年人及心脏病、呼吸系统疾病患者避免长时间、高强度的户外锻炼，一般人群适量减少户外运动'
+    },
+    l5: {
+        idx: 5,
+        num: '201-300',
+        level: '五级（重度污染）',
+        health: '心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群普遍出现症状',
+        do: '儿童、老年人及心脏病、肺病患者应停留在室内，停止户外运动，一般人群减少户外运动'
+    },
+    l6: {
+        idx: 6,
+        num: '300+',
+        level: '六级（严重污染）',
+        health: '健康人群运动耐受力降低，有明显强烈症状，提前出现某些疾病',
+        do: '儿童、老年人和病人应停留在室内，避免体力消耗，一般人群避免户外活动'
+    }
+}
+
+//随机获取背景图片
+function getImgs(body) {
+    var temp = body.split("<img")
+    console.log(temp)
+    var _urls = []
+    for (let x = 0; x < temp.length; x++) {
+        if (temp[x].match(/(data:image.*)' wid/, "$1")) {
+            let y = temp[x].match(/(data:image.*)' wid/, "$1")
+            _urls.push(y[1].replace(/\\/g, ""));
+        }
+    }
+    return _urls;
+}
+
+
+//判断等级
+function judgeLevel(data) {
+    var lel;
+
+    if (data < 50) {
+        lel = quality.l1;
+    } else if (data > 50 && data < 100) {
+        lel = quality.l2;
+    } else if (data > 100 && data < 150) {
+        lel = quality.l3;
+    } else if (data > 150 && data < 200) {
+        lel = quality.l4;
+    } else if (data > 200 && data < 300) {
+        lel = quality.l5;
+    } else {
+        lel = quality.l6;
+    }
+
+    return lel;
+}
+
+//Get请求数据
+http://apis.map.qq.com/ws/location/v1/ip?key=XFRBZ-NA7K3-UZK3C-YNGNZ-JG3EH-PHBCQ
+
+
+//获取应用实例
+var app = getApp()
+Page({
+    data: {
+        pagedataPlus: {},
+        
+        pagedata: {},
+        urls: {},
+        random: Math.ceil(Math.random() * 10),
+        loading: true
+    },
+    onlaunch: function() {
+        this.setData({
+            loading: false
+        })
+    },
+
+
+
+    //事件处理函数（弃用废码）
+    // bindViewTap: function() {
+    //     wx.navigateTo({
+    //         url: '../logs/logs'
+    //     })
+    // },
+    // bindShareTap: function() {
+
+    // },
+
+
+
+    //刷新处理：
+
+    refresh: function() {
+        var that = this
+
+
+        // //修改处1：
+        // var BMap = new bmap.BMapWX({
+        //     ak: 'tNh60bOhZqFsWmoS3YKbh2Nk8e075uIZ'
+        // })
+
+        //改变处：
+        var demo = new QQMapWX({
+            key: 'XFRBZ-NA7K3-UZK3C-YNGNZ-JG3EH-PHBCQ' // 必填
+        });
+
+
+        var fail = function(data) {
+            console.log(data)
+        };
+
+
+        var success = function(data) {
+            //IP定位，找到客户所处经纬度
+            wx.request({
+                url: 'http://apis.map.qq.com/ws/location/v1/ip?key=XFRBZ-NA7K3-UZK3C-YNGNZ-JG3EH-PHBCQ',
+
+                header: {
+                    'content-type': 'application/json'
+                },
+                success:function(res){
+                    console.log(res);
+                    var data = res.data;
+                    var locationAll= data.result.location.lat + ';' + data.result.location.lng + '/';
+                    console.log(locationAll)
+
+
+
+                    //根据经纬度，获取所在位置的空气质量等级
+                    wx.request({
+
+                        url: 'https://api.waqi.info/feed/geo:' + locationAll,
+                        data: {
+                            "token": "0663634b53ef244d50d8b3d09cd8d6aa93433167"
+
+                        },
+                        header: {
+                            'content-type': 'application/json'
+                        },
+
+                        //成功接收数据后:
+                        success: function(res) {
+                            console.log(res);
+                            console.log(loc);
+                            var loc = data.result.location.lat + ',' + data.result.location.lng;
+                            console.log(loc);
+                            var urlPlus = 'http://apis.map.qq.com/ws/geocoder/v1/?key=XFRBZ-NA7K3-UZK3C-YNGNZ-JG3EH-PHBCQ&location='+loc;
+                            console.log(urlPlus)
+
+                            //定义空气质量等级
+                            res.data.data.quality = judgeLevel(res.data.data.aqi);
+                            console.log("zheli",res.data);
+
+
+                            //定义时间
+                            that.setData({
+                                pagedata: res.data.data,
+                                loading: true
+                            })
+                            //定义城市名称(解决)
+                            wx.request({
+                                url: urlPlus,
+                            header: {
+                            'content-type': 'application/json'
+                            },
+
+                            success:function(res){
+                                console.log(res);
+
+                                that.setData({
+                                pagedataPlus: res.data.result,
+                                loading: true
+                            })
+                                // //用中文地名替换拼音地名
+                                // res.data.data.city.name = data.result.address_component;
+                                // console.log(res.data.data.city.name);
+
+
+                                //定义城市名，比如北京市
+                                var city_cn = res.data.result.address_component.city;
+                                console.log(city_cn);
+                                //去掉最后一个字“市”
+                                city_cn = city_cn.substring(-1, city_cn.length - 1);
+                                res.data.result.address_component.city = city_cn;
+                                console.log(res.data.result.address_component.city);
+
+
+
+                                //观测站
+                                wx.request({
+                                    url: 'https://api.waqi.info/search/',
+                                    data: {
+                                        token: "0663634b53ef244d50d8b3d09cd8d6aa93433167",
+                                        keyword: city_cn
+                                    },
+                                    header: {
+                                        'content-type': 'application/json'
+                                    },
+                                    success: function(res) {
+                                        wx.request({
+                                            url: 'https://api.waqi.info/api/feed/@' + res.data.data[0].uid + '/obs.cn.json',
+                                            data: {},
+                                            header: {
+                                                'content-type': 'application/json'
+                                            },
+                                            success: function(r) {
+                                                for (let i = 0; i < r.data.rxs.obs[0].msg.nearest.length; i++) {
+                                                    r.data.rxs.obs[0].msg.nearest[i].lv = judgeLevel(r.data.rxs.obs[0].msg.nearest[i].aqi);
+                                                }
+                                                that.setData({
+                                                    nearestList: r.data.rxs.obs[0].msg.nearest
+                                                })
+                                            },
+                                            fail: function(res) {}
+                                        })
+                                    },
+                                    fail: function(res) {}
+                                })
+                                return data.result.address_component;
+                            }
+                            })
+                        },
+                        fail: function(res) {}
+                    })
+                }
+
+            })
+        }
+
+
+
+
+
+        // //修改处2：调用接口
+        // BMap.regeocoding({
+        //     fail: fail,
+        //     success: success,
+        //     // iconPath: '../../img/marker_red.png',
+        //     // iconTapPath: '../../img/marker_red.png'
+        // });
+
+        //修改后：
+        demo.reverseGeocoder({
+            fail: fail,
+            success: success,
+            // iconPath: '../../img/marker_red.png',
+            // iconTapPath: '../../img/marker_red.png'
+        });
+
+
+        that.setData({
+            loading: false
+        })
+    },
+
+
+
+    onLoad: function() {
+        console.log('onLoad')
+        var that = this;
+
+
+        // //修改处3
+        // var BMap = new bmap.BMapWX({
+        //     ak: 'tNh60bOhZqFsWmoS3YKbh2Nk8e075uIZ'
+        // })
+
+        //改变处：
+        var demo = new QQMapWX({
+            key: 'XFRBZ-NA7K3-UZK3C-YNGNZ-JG3EH-PHBCQ' // 必填
+        });
+
+
+
+        var fail = function(data) {
+            console.log(data)
+        };
+
+
+        //后期修改添加处:
+
+
+        var success = function(data) {
+            //IP定位，找到客户所处经纬度
+            wx.request({
+                url: 'http://apis.map.qq.com/ws/location/v1/ip?key=XFRBZ-NA7K3-UZK3C-YNGNZ-JG3EH-PHBCQ',
+
+                header: {
+                    'content-type': 'application/json'
+                },
+                success:function(res){
+                    console.log(res);
+                    var data = res.data;
+                    var locationAll= data.result.location.lat + ';' + data.result.location.lng + '/';
+                    console.log(locationAll)
+
+
+
+                    //根据经纬度，获取所在位置的空气质量等级
+                    wx.request({
+
+                        url: 'https://api.waqi.info/feed/geo:' + locationAll,
+                        data: {
+                            "token": "0663634b53ef244d50d8b3d09cd8d6aa93433167"
+
+                        },
+                        header: {
+                            'content-type': 'application/json'
+                        },
+
+                        //成功接收数据后:
+                        success: function(res) {
+                            console.log(res);
+                            console.log(loc);
+                            var loc = data.result.location.lat + ',' + data.result.location.lng;
+                            console.log(loc);
+                            var urlPlus = 'http://apis.map.qq.com/ws/geocoder/v1/?key=XFRBZ-NA7K3-UZK3C-YNGNZ-JG3EH-PHBCQ&location='+loc;
+                            console.log(urlPlus)
+
+                            //定义空气质量等级
+                            res.data.data.quality = judgeLevel(res.data.data.aqi);
+                            console.log("zheli",res.data);
+
+
+                            //定义时间
+                            that.setData({
+                                pagedata: res.data.data,
+                                loading: true
+                            })
+                            //定义城市名称(解决)
+                            wx.request({
+                                url: urlPlus,
+                            header: {
+                            'content-type': 'application/json'
+                            },
+
+                            success:function(res){
+                                console.log(res);
+
+                                that.setData({
+                                pagedataPlus: res.data.result,
+                                loading: true
+                            })
+                                // //用中文地名替换拼音地名
+                                // res.data.data.city.name = data.result.address_component;
+                                // console.log(res.data.data.city.name);
+
+
+                                //定义城市名，比如北京市
+                                var city_cn = res.data.result.address_component.city;
+                                console.log(city_cn);
+                                //去掉最后一个字“市”
+                                city_cn = city_cn.substring(-1, city_cn.length - 1);
+                                res.data.result.address_component.city = city_cn;
+                                console.log(res.data.result.address_component.city);
+
+
+
+                                //观测站
+                                wx.request({
+                                    url: 'https://api.waqi.info/search/',
+                                    data: {
+                                        token: "0663634b53ef244d50d8b3d09cd8d6aa93433167",
+                                        keyword: city_cn
+                                    },
+                                    header: {
+                                        'content-type': 'application/json'
+                                    },
+                                    success: function(res) {
+                                        wx.request({
+                                            url: 'https://api.waqi.info/api/feed/@' + res.data.data[0].uid + '/obs.cn.json',
+                                            data: {},
+                                            header: {
+                                                'content-type': 'application/json'
+                                            },
+                                            success: function(r) {
+                                                for (let i = 0; i < r.data.rxs.obs[0].msg.nearest.length; i++) {
+                                                    r.data.rxs.obs[0].msg.nearest[i].lv = judgeLevel(r.data.rxs.obs[0].msg.nearest[i].aqi);
+                                                }
+                                                that.setData({
+                                                    nearestList: r.data.rxs.obs[0].msg.nearest
+                                                })
+                                            },
+                                            fail: function(res) {}
+                                        })
+                                    },
+                                    fail: function(res) {}
+                                })
+                                return data.result.address_component;
+                            }
+                            })
+                        },
+                        fail: function(res) {}
+                    })
+                }
+
+            })
+        }
+
+
+
+
+
+        // //修改处2：调用接口
+        // BMap.regeocoding({
+        //     fail: fail,
+        //     success: success,
+        //     // iconPath: '../../img/marker_red.png',
+        //     // iconTapPath: '../../img/marker_red.png'
+        // });
+
+        //修改后：
+        demo.reverseGeocoder({
+            fail: fail,
+            success: success,
+            // iconPath: '../../img/marker_red.png',
+            // iconTapPath: '../../img/marker_red.png'
+        });
+
+
+        that.setData({
+            loading: false
+        })
+    },
+
+
+    //分享的内容
+    onShareAppMessage: function() {
+        return {
+            title: 'PM25空气质量实时查询',
+            desc: '自定义分享描述',
+            path: '/page/weather'
+        }
+    },
+    onPullDownRefresh: function() {
+        this.refresh();
+        console.log("下拉刷新")
+        wx.stopPullDownRefresh()
+    }
+})

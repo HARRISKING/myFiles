@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+
+    <meta charset="utf-8">
+    <title>更干净</title>
+    <link rel="stylesheet" href="../../css/content.css">
+  </head>
+  <body>
+    <div id="box">
+      <div id="box-content">
+        <div id="head"><img class="logo"; src="../../pic/logo_white.png" alt="无法显示"></div>
+
+        <div class="little-tittle">
+          <img class="cube2" src="../../pic/color_cube-02.png" alt="无法显示">
+          <p class="inner-title word1">更干净</p>
+        </div>
+        <div id="main-up">
+          <div class="inner-content">
+            <img class="normal-wash" src="../../pic/lunguqingxi.png" alt="无法显示" >
+            <h1 class="inner-title word2">轮毂清洗</h1>
+            <div class="content-text">
+              <p>除了影响美观，附着的泥巴污物加上酸性雨质都会严重腐蚀轮毂。除了冲洗，配合精选优质清洗剂，在海绵、粗布、毛刷的共同努力下，轮毂表面的结焦物质会被深度祛除。</p>
+              <p>更细致地使用橡胶保护剂和轮胎泡沫清洗剂，轮胎也会随之焕然一新。</p>
+            </div>
+          </div>
+        </div>
+        <ul id="main-down">
+          <li class="part part1-1" style="width:100%">
+            <a href="#">
+              <p>单轮清洗券</p>
+              <p>40元</p>
+            </a>
+
+          </li>
+        </ul>
+        <div id="footer"><a href="../content2.html">更多车身养护套餐选择</a></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="../../js/car.js"></script>
+
+  </body>
+</html>

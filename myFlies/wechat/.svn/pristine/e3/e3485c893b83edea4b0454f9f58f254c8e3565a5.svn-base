@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>服务详情</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/direct.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="direct-grid">
+        <div class="direct-title clear">
+            <h2 class="clear"><span>直播标题</span>(111人正在观看)</h2>
+            <span class="gold">金币收入：11111</span>
+        </div>
+        <div class="direct-section clear">
+            <div class="direct-show">
+                <div class="video-plain">
+                    <div id="publisher">
+                        <h3>If your browser supports streaming, you'll<br>see the recorded video here.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="direct-chat">
+                <div class="top-chat-list clear">
+                    <ul class="clear">
+                        <li list-type='0'>公聊</li>
+                        <li class="top-chat-user-list" list-type='1'>观众列表</li>
+                        <li list-type='2'>用户1</li>
+                    </ul>
+                </div>
+                <div class="chat-section">
+                    <div class="chat-msg-list-section" chat-type='0'>
+                        <ul class="chat-msg-list">
+                            <li>公聊</li>
+                            <li>用户1</li>
+                            <li>公聊</li>
+                            <li>用户1</li>
+                            <li>公聊</li>
+                            <li>用户1</li>
+                            <li>公聊</li>
+                            <li>用户1</li>
+                            <li>公聊</li>
+                            <li>用户1</li>
+                            <li>公聊</li>
+                            <li>用户1</li>
+                            <li>公聊</li>
+                            <li>用户1</li>
+                        </ul>
+                    </div>
+                    <div class="chat-user-list-section" chat-type='1'>
+                        <ul class="chat-user-list">
+                            <li>1</li>
+                            <li>1</li>
+                        </ul>
+                    </div>
+                    <div class="chat-private-section" chat-type='2'></div>
+                    <div class="chat-send-box">
+                        <form class="chat-form clear" name="chat-form">
+                            <div class="chat-msg-wrap">
+                                <input type="text" class="chat-msg-info" placeholder="聊点什么">
+                            </div>
+                            <button type="button" class="chat-msg-submit">发送</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="anchor-info clear">
+            <div class="anchor-info-portrait">
+                <img src="http://cdn.q8oils.cc/19b7939385f1ccabe6cd3811d264150e@64-1ci_128w.png" alt="">
+            </div>
+            <div class="anchor-info-detail">
+                <h4>主播：哈哈哈哈</h4>
+                <p>MOKA号：321321 女 模特 中国 北京朝阳 天秤座</p>
+            </div>
+        </div>
+        <div class="direct-recommend clear">
+            <h4>这些人也在直播</h4>
+            <div class="direct-recommend-item">
+                <article>
+                    <a href="">
+                        <img src="http://cdn.q8oils.cc/0dfac6405065f503b880529a5c40ac46@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                    </a>
+                </article>
+                <article>
+                    <a href="">
+                        <img src="http://cdn.q8oils.cc/0dfac6405065f503b880529a5c40ac46@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                    </a>
+                </article>
+                <article>
+                    <a href="">
+                        <img src="http://cdn.q8oils.cc/0dfac6405065f503b880529a5c40ac46@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                    </a>
+                </article>
+                <article>
+                    <a href="">
+                        <img src="http://cdn.q8oils.cc/0dfac6405065f503b880529a5c40ac46@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                    </a>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="bdc-modal">
+        <div class="popup">
+            <div class="pop-content">
+                <h2>you want go?</h2>
+                <p>nonono,youdont want to go <br>
+                yes,maybe you can go</p>
+            </div>
+            <div class="pop-choose">
+                <div class="pop-left">yes</div>
+                <div class="pop-right">no</div>
+            </div>
+        </div>
+    </div> -->
+<!-- <div class="bdc-modal">
+        <div class="popup">
+            <div class="pop-content">
+                <h2>you want go?</h2>
+                <p>nonono,youdont want to go <br>
+                yes,maybe you can go</p>
+            </div>
+            <div class="pop-choose">
+                <div class="pop-left">yes</div>
+                <div class="pop-right">no</div>
+                <div class="pop-center">nonono</div>
+            </div>
+        </div>
+    </div> -->
+<div class="bdc-modal">
+    <div class="setting-form">
+        <form name="set-form">
+            <table>
+                <tr>
+                    <td>直播标题</td>
+                    <td>
+                        <input type="text" name="title">
+                    </td>
+                </tr>
+                <tr>
+                    <td>直播封面</td>
+                    <td>
+                        <input type="text" name="cover">
+                    </td>
+                </tr>
+                <tr>
+                    <td>是否允许私密</td>
+                    <td>
+                        <input type="checkbox" name="enable_private">
+                    </td>
+                </tr>
+                <tr>
+                    <td>私密直播价格</td>
+                    <td>
+                        <input type="num" name="private_price">金币/分钟</td>
+                </tr>
+                <tr>
+                    <td>公告</td>
+                    <td>
+                        <textarea name="notice" id="" cols="30" rows="10">公告</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>公告2</td>
+                    <td>
+                        <textarea name="notice2" id="" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="button">取消</button></td>
+                    <td><button type="button">提交</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<script src='./js/jquery.min.js'></script>
+<script>
+var i = 0
+$(".top-chat-list").find("li").on('click', function() {
+    var _type = $(this).attr('list-type')
+    $(".chat-section>div").not(".chat-send-box").hide().each(function(e) {
+        if ($(this).attr("chat-type") == _type) {
+            $(this).show()
+        }
+    })
+})
+</script>
+</body>
+
+</html>

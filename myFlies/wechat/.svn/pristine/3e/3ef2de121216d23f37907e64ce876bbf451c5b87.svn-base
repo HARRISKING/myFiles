@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>服务详情</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/circular-detail.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="grid clear">
+            <div class="logo">
+                <a href="#">aaa</a></div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">模特</a></li>
+                    <li><a href="#">摄影师</a></li>
+                    <li class="active"><a href="#">通告</a></li>
+                    <li><a href="#">新闻</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <ul>
+                    <li><a class="fa fa-user" href="#"> 登录</a></li>
+                    <li><a class="fa fa-mobile" href="#"> 下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="circular-detail clear">
+                <div class="cir-item">
+                    <div class="cir-inner">
+                        <div class="cir-card-header clear">
+                            <img src="http://cdn.q8oils.cc/19b7939385f1ccabe6cd3811d264150e@64-1ci_64w.png" alt="">
+                            <span class="cir-card-nickname">寂寞梧桐深院锁清秋</span>
+                            <span class="cir-card-time">发布于 2016-10-11</span>
+                        </div>
+                        <div class="cir-card">
+                            <div class="cir-card-tag">进行中</div>
+                            <img src="http://cdn.q8oils.cc/53f7118570aaa94412f78323edc1dbbc@724w_320h_1c_1e.jpg" alt="">
+                            <h1>陪你喝咖啡</h1>
+                            <p>价格：1000元</p>
+                            <p>时间：2016-11-22</p>
+                            <p>地点：望断南飞雁</p>
+                            <p class="order clear">
+                                <a href="#">立即报名</a>
+                                <span class="order-num">16人已报名</span>
+                                <span class="order-info">
+                                    <i class="fa fa-eye"></i>3334人已浏览
+                                    <i class="fa fa-commenting"></i>33人已留言
+                                </span>
+                            </p>
+                        </div>
+                        <h2>通告详情</h2>
+                        <p>这是价格说明，啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+                        <img src="http://cdn.q8oils.cc/53f7118570aaa94412f78323edc1dbbc@x1.jpg" alt="">
+                        <div class="cir-inner-tip">
+                            <p><span class="cir-inner-tip-title">MOKA官方提示</span>
+                                <br>为了模特宝贝们的利益，请在MOKA平台完成交易。
+                                <br>对于QQ/微信号，请谨慎调价，微信交易一旦被骗，MOKA很难为宝宝们维权。
+                                <br>MOKA官方发布的活动可以放心参加~</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cir-ser">
+                    <div class="cir-ser-item">
+                        <h3 class="cir-ser-title">
+                            热门通告
+                        </h3>
+                        <div class="cir-ser-detail">
+                            <img src="http://cdn.q8oils.cc/7029490801d3a787d17a3a7c372b5d40@274w_270h_1c_1e.jpg" alt="">
+                            <h4>通告名称</h4>
+                            <p>300元</p>
+                        </div>
+                        <div class="cir-ser-detail">
+                            <img src="http://cdn.q8oils.cc/7029490801d3a787d17a3a7c372b5d40@274w_270h_1c_1e.jpg" alt="">
+                            <h4>通告名称</h4>
+                            <p>300元</p>
+                        </div>
+                        <a href="/event/event_list" class="cir-more">查看更多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>footer</footer>
+</body>
+
+</html>

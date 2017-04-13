@@ -1,0 +1,91 @@
+html {
+    max-width: 500px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Helvetica, "Microsoft YaHei";
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*  取消选中边框*/
+
+* {
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input,
+textarea,
+button,
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/**anti-cheat**/
+
+section {
+    font-size: .85rem;
+    color: #333;
+    background-color: #fff;
+}
+
+p {
+    padding: .5rem 0;
+    line-height: 1.4rem;
+}
+
+.banner-content {
+    padding: .5rem 1.5rem 0 1.5rem;
+}
+
+.title {
+    margin: 1rem .6rem .5rem .6rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #e98390;
+}
+
+.item {
+    padding-left: 1.5rem;
+}
+
+.item p {
+    padding: 0 1.5rem 0 .5rem;
+}
+
+.pink-border {
+    border-bottom: 1px dotted #e98390; 
+}
+
+.question {
+    width: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+
+.q-title {
+    width: calc(100% - 1.5rem);
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.5rem;
+}
+
+.section-bottom {
+    padding-bottom: 2rem;
+}

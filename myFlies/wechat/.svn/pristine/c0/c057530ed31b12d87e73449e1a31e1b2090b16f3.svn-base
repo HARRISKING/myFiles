@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+
+    <meta charset="utf-8">
+    <title>更靓丽</title>
+    <link rel="stylesheet" href="../../css/content.css">
+  </head>
+  <body>
+    <div id="box">
+      <div id="box-content">
+        <div id="head"><img class="logo"; src="../../pic/logo_white.png" alt="无法显示"></div>
+
+        <div class="little-tittle">
+          <img class="cube2" src="../../pic/color_cube-02.png" alt="无法显示">
+          <p class="inner-title word1">更靓丽</p>
+        </div>
+        <div id="main-up">
+          <div class="inner-content">
+            <img class="normal-wash" src="../../pic/paoguang.png" alt="无法显示" >
+            <h1 class="inner-title word2">抛光</h1>
+            <div class="content-text">
+              <p>车身表面出现颗粒、砂纸痕、流痕、反白、橘皮等漆膜表面的细小缺陷时，就需要抛光处理了。清洗完整车后，在小橡胶衬块包裹中的水砂纸均匀打磨下，较大缺陷位置得到初步的处理。</p>
+              <p>将精选的粗研磨膏加入研磨机，缺陷位置被再次处理。镜面处理剂配合抛光机第三次处理划痕、粗粒位置，巧妙地去除掉研磨痕迹。擦净研磨膏，用棉纱沾上光油蜡擦拭抛光位置，再用干棉纱擦净多余的上光蜡。使光亮似镜、艳丽夺目的车身漆面效果就呈现在了大家眼前。</p>
+              <p>为了保持这种效果，为了更好地保护车漆，接着的便是打蜡、封釉或者镀膜步骤。</p>
+            </div>
+          </div>
+        </div>
+        <ul id="main-down">
+          <li class="part part1-2" style="width:47%">
+            <a href="#">
+              <p>单次抛光封釉</p>
+              <p>580元</p>
+            </a>
+          </li>
+          <li class="part part1-1" style="width:47%;float:left">
+            <a href="#">
+              <p>单次抛光打蜡</p>
+              <p>420元</p>
+            </a>
+
+          </li>
+        </ul>
+        <div id="footer"><a href="../content2.html">更多车身养护套餐选择</a></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="../../js/car.js"></script>
+
+  </body>
+</html>

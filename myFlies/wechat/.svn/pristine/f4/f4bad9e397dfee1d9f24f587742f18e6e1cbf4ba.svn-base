@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>提现5%</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/anti.css">
+</head>
+
+<body>
+    <section>
+        <img class="banner" src="./img/pic2.jpg" alt="">
+        <div class="banner-content">
+            <p>
+            	最近小编得到一些反馈，有些用户大大对账户收入提现和退款的细节还有点小疑问
+                <br>今天小编就在这给各位用户大大做一个小解惑！
+            </p>
+            <p>
+                下面给您带来，提现&退款 n问n答！
+            </p>
+        </div>
+    </section>
+    <section class="section-bottom">
+    	<img src="./img/pic3.png" alt="">
+    	<div class="title"><span class="question">Q : </span><span class="q-title">作为一名MOKA宝宝，我想知道我提现的服务费是怎么收取的呢？</span>
+        </div>
+    	<div class="item">
+    		<p>
+	    		在支付宝，微信提现都需要高额手续费的今天，MOKA平台为了提高用户大大们的积极性，到年底为止，每单只收5%的通道费！请宝宝们积极接单~
+			</p>
+    	</div>
+    	<div class="title"><span class="question">Q : </span><span class="q-title">我是一名模特，我在给完客户提供完服务后，我该如何提现我的收入呢？</span>
+        </div>
+        <div class="item">
+            <p>
+                当双方在确认完成服务后，客户支付的资金会首先存入我的钱包页面中 “我的收入”里，如果您想把它体现到微信等第三方，首先您要把资金提现到余额，（小编提示 ：在这里收取上面说过的服务费哟~），最后宝宝们就可以轻易把账户余额中的资金顺利地提现到第三方~此时，不再收取任何费用~！
+            </p>
+        </div>
+        <div class="title"><span class="question">Q : </span><span class="q-title">我是一名MOKA用户，在没有和心仪的模特达成合作时，我该如何退款呢？</span>
+        </div>
+        <div class="item">
+            <p>
+                没有达成合作的用户大大也不要担心，在订单取消之后，之前支付的资金回以退款的形式，存入我的钱包页面中“我的退款”里，此时您可以随时把退款提到第三方，而且，不收任！何！手！续！费！
+            </p>
+            <p>
+                MOKA平台目前采用腾讯微信支付通道，用户提现如遇流量高峰导致出现无法提现等一系列问题，请及时联系MOKA客服，我们会在24小时之内与您取得联系并予以解决。 MOKA平台致力于保障所有用户的权益，请您放心~
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

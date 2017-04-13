@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/myMemberCard2.css">
+    <title>会员卡详情</title>
+  </head>
+  <body>
+    <section class="pic">
+      <img src="./img/vip/vip-02.png" alt="无法显示">
+      <div class="title-card">爱干发电公司电饭锅净卡A</div>
+    </section>
+    <section class="box1">
+      <h4>会员卡权益详情：</h4>
+
+
+      <section class="box2">
+        <div class="box innerbox1">
+          <span>普通洗车20次</span>
+          <span class="word2 color-orange">月卡</span>
+        </div>
+        <div class="box innerbox2">
+          <span class="word2">到期时间：2017年6月15日</span>
+          <span class="word2">剩余次数：0次</span>
+        </div>
+      </section>
+      <section class="box2">
+        <div class="box innerbox1">
+          <span>普通洗车20次</span>
+          <span class="word2 color-orange">月卡</span>
+        </div>
+        <div class="box innerbox2">
+          <span class="word2">到期时间：2017年6月15日</span>
+          <span class="word2">剩余次数：0次</span>
+        </div>
+      </section>
+      <section class="box2">
+        <div class="box innerbox1">
+          <span>普通洗车20次</span>
+          <span class="word2 color-orange">月卡</span>
+        </div>
+        <div class="box innerbox2">
+          <span class="word2">到期时间：2017年6月15日</span>
+          <span class="word2">剩余次数：0次</span>
+        </div>
+      </section>
+      <section class="box2">
+        <div class="box innerbox1">
+          <span>普通洗车20次</span>
+          <span class="word2 color-orange">月卡</span>
+        </div>
+        <div class="box innerbox2">
+          <span class="word2">到期时间：2017年6月15日</span>
+          <span class="word2">剩余次数：0次</span>
+        </div>
+      </section>
+      <section class="box2">
+        <div class="box innerbox1">
+          <span>普通洗车20次</span>
+          <span class="word2 color-orange">月卡</span>
+        </div>
+        <div class="box innerbox2">
+          <span class="word2">到期时间：2017年6月15日</span>
+          <span class="word2">剩余次数：0次</span>
+        </div>
+      </section>
+      <section class="box2">
+        <div class="box innerbox1">
+          <span>普通洗车20次</span>
+          <span class="word2 color-orange">月卡</span>
+        </div>
+        <div class="box innerbox2">
+          <span class="word2">到期时间：2017年6月15日</span>
+          <span class="word2">剩余次数：0次</span>
+        </div>
+      </section>
+
+      <section class="box2">
+        <div class="box innerbox1">
+          <span>普通洗车20次</span>
+          <span class="word2 color-orange">月卡</span>
+        </div>
+        <div class="box innerbox2">
+          <span class="word2">到期时间：2017年6月15日</span>
+          <span class="word2">剩余次数：0次</span>
+        </div>
+      </section>
+
+      <section class="box5 box-record">
+        <div class="box5-inner">
+          <p>会员卡使用记录</p>
+          <img src="./img/me/right.png" alt="无法显示">
+        </div>
+      </section>
+
+      <section class="box5">
+        <div class="box5-inner">
+          <p>会员卡赠送记录</p>
+          <img src="./img/me/right.png" alt="无法显示">
+        </div>
+      </section>
+
+
+    <section class="box3">
+      <div class="box2 box4">
+        <span>赠送他人</span>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      document.getElementsByClassName('box3')[0].addEventListener("click",function(){
+        window.location.href = "./donateCard0.html"
+      })
+
+      // 会员卡使用记录：
+
+      document.getElementsByClassName('box5')[0].addEventListener("click",function(){
+        window.location.href = "./use_record.html";
+      })
+
+      //会员卡赠送记录：
+
+      document.getElementsByClassName('box5')[1].addEventListener("click",function(){
+        window.location.href = "./donate_record.html";
+      })
+    </script>
+  </body>
+</html>

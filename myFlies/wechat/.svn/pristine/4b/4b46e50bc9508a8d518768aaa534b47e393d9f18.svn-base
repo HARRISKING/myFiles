@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>我的优惠券</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/tic-content.css">
+</head>
+
+<body>
+    <header>
+      <div class="back">
+          <a href="">
+              <i class="back-icon"></i>
+          </a>
+      </div>
+      <p>我的会员</p>
+    </header>
+    <section class="tab-panel">
+      <div class="box">
+        <div class="c-item">
+          <img src="img/coupon/xichequan.png" alt="">
+          <div class="c-info">
+              <div class="c-top">
+                  <div class="c-name">免费洗车券</div>
+                  <div class="c-note">持有本优惠券可免费享受一次洗车服务</div>
+              </div>
+              <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="rule">
+        <div class="phase1">
+          <h2>可用门店：</h2>
+          <p>地址：北京市朝阳区酒仙桥驼房营路新华科技大厦0101</p>
+        </div>
+        <div>
+          <h2>使用规则：</h2>
+          <p>1. 一张优惠券仅可使用一次，且请在有效期内使用该券，否则逾期作废不可用。</p>
+          <p>2. 用户可在优惠券上注明地址的门店里使用。</p>
+          <p>3. 点击下方的“赠送他人”可将自己的优惠券赠他人使用。</p>
+        </div>
+      </div>
+    </section>
+    <div class="btn">赠送他人</div>
+
+
+
+  </body>
+</html>

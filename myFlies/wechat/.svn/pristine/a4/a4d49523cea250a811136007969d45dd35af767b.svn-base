@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/bindmobile.css">
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <a href="">
+                <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>绑定手机号</p>
+    </header>
+    <article class="mobile">
+        <form action="" class="mobile-form">
+            <div class="mobile-num">
+                <input type="num" placeholder="请输入手机号">
+                <button type="button" class="verification">获取验证码</button>
+                <span class="count" data-time="60">60s</span>
+            </div>
+            <div class="mobile-ver">
+                <input type="text" placeholder="请输入验证码">
+            </div>
+            <button type="button" class="submit">确定绑定</button>
+        </form>
+    </article>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+    
+    $(".verification").click(function() {
+        var $this = $(this);
+        $this.hide();
+        var that = $(".count");
+        that.show();
+        var handler = setInterval(function() {
+            var time = parseInt(that.attr("data-time"));
+            if (time > 1) {
+                time--;
+                that.attr("data-time", time).html(time + "s");
+            } else {
+                clearInterval(handler);
+                that.hide().attr("data-time", 60).html("60s");
+                $this.show();
+            }
+        }, 1000)
+    })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+.circular-detail .cir-item {
+    float: left;
+    width: calc(70% - .5rem);
+}
+
+.circular-detail .cir-inner {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.circular-detail .cir-inner h2 {
+	position: relative;
+	padding-left: .5rem;
+    margin: 1rem 0 2rem;
+    font-size: 1.15rem;
+    color: #f45460;
+    border-left: 2px solid #f45460;
+}
+
+.circular-detail .cir-inner p {
+    margin: .5rem 0;
+    color: #999;
+    line-height: 1.5rem;
+}
+
+.circular-detail .cir-card-header img {
+    float: left;
+    width: 2.7rem;
+    margin-right: 1rem;
+    margin-bottom: .8rem;
+}
+
+.circular-detail .cir-card-header .cir-card-nickname {
+    width: 450px;
+    line-height: 2.7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.circular-detail .cir-card-header .cir-card-time {
+	float: right;
+	color: #999; 
+	line-height: 2.7rem;
+}
+
+.circular-detail .cir-card {
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    border-top: 1px dotted #eee;
+}
+
+.circular-detail .cir-card-tag {
+	position: absolute;
+	top: 2.3rem;
+	left: 0;
+	color: #fff;
+	font-size: 14px;
+	background-color: #f45460;
+	padding: 7px 15px 7px 7px;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem; 
+}
+
+.circular-detail .cir-card img {
+    width: 100%;
+    height: 20rem;
+}
+
+.circular-detail .cir-card h1 {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.circular-detail .cir-card p {
+	margin: 0;
+}
+
+.circular-detail .cir-card .order {
+	margin-top: 2rem;
+    text-align: left;
+}
+
+.circular-detail .cir-card .order a {
+    width: 1rem;
+    padding: .5rem 2rem;
+    color: #fff;
+    font-size: 13px;
+    background-color: #f45460;
+    border: 10px;
+    border-radius: 20px;
+}
+
+.circular-detail .cir-card .order .order-info {
+	float: right;
+	word-spacing: 1rem;
+}
+
+.circular-detail .cir-card .order .order-info i {
+	margin-right: 5px;
+}
+
+.circular-detail .cir-card .order .order-num {
+	color: #f45460;
+}
+
+.circular-detail .cir-inner-tip p{
+	color: #333;
+}
+
+.circular-detail .cir-inner-tip .cir-inner-tip-title {
+	line-height: 2rem;
+}
+
+.circular-detail .tag {
+    position: absolute;
+    top: 275px;
+    left: 20px;
+    padding: .3rem 1.3rem;
+    color: #fff;
+    background-color: #f45460;
+    border-radius: 1rem;
+}
+
+.circular-detail .cir-ser {
+    float: left;
+    width: calc(30% - 1rem);
+    margin-left: 1.5rem;
+    background-color: #fff;
+}
+
+
+/********右边********/
+
+.circular-detail .cir-inner {
+    padding: 1.5rem;
+    background-color: #fff;
+}
+
+.circular-detail .cir-inner-title {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
+.circular-detail .cir-inner-time {
+    margin-right: 1rem;
+}
+
+.circular-detail .cir-inner-info {
+    color: #999;
+}
+
+.circular-detail .cir-inner-info .cir-inner-source {
+    float: right;
+}
+
+.circular-detail .cir-ser {
+    float: left;
+    width: calc(30% - 1rem);
+    margin-left: 1.5rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.circular-detail .cir-ser-item {
+    padding: 0 1rem 1rem 1rem;
+    background-color: #fff;
+}
+
+.circular-detail .cir-ser-item .cir-ser-title {
+	padding: 1.5rem 0;
+	font-size: 20px;
+	color: #f45460;
+	border-bottom: 1px solid #eee;
+}
+
+.circular-detail .cir-ser-item .cir-ser-detail {
+    margin-top: 1.5rem;
+	border: 1px solid #eee;
+}
+
+.circular-detail .cir-ser-item .cir-ser-detail img {
+	width: 100%;
+	height: 270px;
+	background-color: orange;	
+}
+
+.circular-detail .cir-ser-item .cir-ser-detail h4 {
+	padding: .5rem 0;
+}
+
+.circular-detail .cir-ser-item .cir-ser-detail p {
+	font-size: 15px;
+	color: #f45460;
+    margin: .1rem 0 .5rem;
+}
+
+.circular-detail .cir-ser-item .cir-more {
+    display: block;
+    padding: 1.5rem 0 .5rem;
+    margin-top: 1rem;
+    border-top: 1px solid #eee;
+}

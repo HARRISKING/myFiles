@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+
+    <meta charset="utf-8">
+    <title>空调系统养护</title>
+    <link rel="stylesheet" href="../../css/content.css">
+  </head>
+  <body>
+    <div id="box">
+      <div id="box-content">
+        <div id="head"><img class="logo"; src="../../pic/logo_white.png" alt="无法显示"></div>
+
+        <div class="little-tittle">
+          <img class="cube2" src="../../pic/color_cube-02.png" alt="无法显示">
+          <p class="inner-title word1">空调系统养护</p>
+        </div>
+        <div id="main-up">
+          <div class="inner-content">
+            <img class="normal-wash" src="../../pic/fadongjicangqingxi.png" alt="无法显示" style="width: 80px; height: 100px;">
+            <h1 class="inner-title word2">空调滤清更换</h1>
+            <div class="content-text">
+              <p>车内小小的空间，大大关乎肺部健康。定期更换空调滤清器已成为越来越多车主的选择。珍爱生命，保卫呼吸，保卫车内空气。</p>
+            </div>
+          </div>
+        </div>
+        <ul id="main-down">
+          <li class="part part1-1" style="width:100%">
+            <a href="#">
+              <p>更换操作工时费</p>
+              <p>30元</p>
+            </a>
+          </li>
+        </ul>
+        <div id="footer"><a href="../content2.html">更多车身养护套餐选择</a></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="../../js/car.js"></script>
+
+  </body>
+</html>

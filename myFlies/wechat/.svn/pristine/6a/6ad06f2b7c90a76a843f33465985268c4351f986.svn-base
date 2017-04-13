@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/donate_record2.css">
+    <title>会员卡赠送记录</title>
+  </head>
+  <body>
+
+    <section class="panel1">
+      <div class="box1">
+        <div class="box2">
+          <span class="title-name">您本次共赠送免费洗车权益10次</span>
+          <div class="box3">
+            <p class="color-orange">价值800元</p>
+            <span class="word1">赠送时间：2017-04-01 10:10</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="panel2">
+      <span>领取记录</span>
+      <span class="word1">当前已有4人领取，剩余6次可领</span>
+    </section>
+
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/girl.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">啦啦啦啦啦啦啦</span>
+            <span class="word1">2017-04-01 10:10</span>
+          </div>
+          <p class="word1 color-orange">领取了1次普通洗车权益</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/girl.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">啦啦啦啦啦啦啦</span>
+            <span class="word1">2017-04-01 10:10</span>
+          </div>
+          <p class="word1 color-orange">领取了1次普通洗车权益</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/girl.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">啦啦啦啦啦啦啦</span>
+            <span class="word1">2017-04-01 10:10</span>
+          </div>
+          <p class="word1 color-orange">领取了1次普通洗车权益</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/girl.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">啦啦啦啦啦啦啦</span>
+            <span class="word1">2017-04-01 10:10</span>
+          </div>
+          <p class="word1 color-orange">领取了1次普通洗车权益</p>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>

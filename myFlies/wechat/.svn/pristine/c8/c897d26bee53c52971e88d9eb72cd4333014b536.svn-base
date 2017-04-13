@@ -1,0 +1,14 @@
+var childrenNode;
+var over;
+function overTurn(){
+  over = setInterval(turn, 5000);
+};
+function turn(){
+  var num = Math.floor(Math.random()*9);
+  $('.box .part').eq(0).children().removeClass('animate');
+  $('.box .part').eq(0).children().eq(num).addClass('animate');
+};
+function stopOverTurn(){
+  clearInterval(over);
+}
+overTurn();

@@ -1,0 +1,162 @@
+html {
+    max-width: 500px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Helvetica, "Microsoft YaHei";
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*  取消选中边框*/
+
+* {
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input,
+textarea,
+button,
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* pay */
+
+.schedule {
+    padding: 15px 10px 5px 10px;
+    margin-bottom: 1px;
+    font-size: .75rem;
+    color: #999;
+    background-color: #fff;
+}
+
+.schedule .status {
+    padding: 5px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.schedule p {
+    margin: 5px 0px;
+}
+
+.title {
+    padding: 10px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: .95rem;
+    color: #333;
+    background-color: #fff;
+}
+
+.title-left {
+    float: left;
+}
+
+.title:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.title-fee {
+    float: right;
+}
+
+.title-fee i {
+    font-weight: 400;
+    color: #f45460;
+}
+
+.content {
+    padding: 13px 10px;
+    margin-bottom: 2px;
+    font-size: .95rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    background-color: #fff;
+}
+
+.pay {
+    padding: 10px;
+    font-size: .9rem;
+    background-color: #fff;
+}
+
+.pay input {
+    margin-right: 10px;
+}
+
+.pay img {
+    margin-right: 5px;
+    width: 25px;
+    color: #333;
+    vertical-align: middle;
+}
+
+.go-pay {
+    display: block;
+    margin: 3rem auto 0 auto;
+    width: 90%;
+    height: 2.5rem;
+    font-size: .9rem;
+    color: #fff;
+    text-align: center;
+    background-color: #f45460;
+    border: none;
+}
+
+.confirm {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px 3%;
+    width: 94%;
+    height: 2rem;
+    font-size: .9rem;
+    color: #333;
+    background-color: #fff;
+}
+
+.confirm img {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+    width: 20px;
+}
+
+.confirm span {
+    position: absolute;
+    top: 50%;
+    left: 4rem;
+    transform: translateY(-50%);
+}
+
+.confirm button {
+    padding: 0 10px;
+    float: right;
+    height: 2rem;
+    color: #fff;
+    background-color: #f45460;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>通告</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/common/ser-list.css">
+    <link rel="stylesheet" href="./css/circular.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="grid clear">
+            <div class="logo">
+                <a href="#">aaa</a></div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li class="active"><a href="#">服务</a></li>
+                    <li><a href="#">模特</a></li>
+                    <li><a href="#">摄影师</a></li>
+                    <li><a href="#">通告</a></li>
+                    <li><a href="#">新闻</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <ul>
+                    <li><a class="fa fa-user" href="#"> 登录</a></li>
+                    <li><a class="fa fa-mobile" href="#"> 下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="eve-category">
+                <h1 class="eve-cat-all">全部分类 <i class="fa fa-angle-right"></i> 北京</h1>
+                <div class="eve-cat-content clear">
+                    <div class="eve-category-list eve-cat-list1 clear">
+                        <h2>模特服务</h2>
+                        <ul>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">私房模特</a></li>
+                            <li>
+                                <a href="">其他</a></li>
+                        </ul>
+                    </div>
+                    <div class="eve-category-list eve-cat-list2 clear">
+                        <h2>线下服务</h2>
+                        <ul>
+                            <li>
+                                <a href="">陪你喝咖啡</a></li>
+                            <li>
+                                <a href="">陪看电影</a></li>
+                            <li>
+                                <a href="">线下一起打游戏</a></li>
+                            <li>
+                                <a href="">线下守望</a></li>
+                            <li>
+                                <a href="">美食评鉴</a></li>
+                            <li>
+                                <a href="">假装男女朋友</a></li>
+                            <li>
+                                <a href="">见家长</a></li>
+                            <li>
+                                <a href="">陪排队</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="circular">
+                <div class="cir-content clear">
+                    <div class="cir-item">
+                        <article>
+                            <a href="#">
+                                <div class="angle-warp">
+                                    招募通告
+                                </div>
+                                <div class="cir-cover-area">
+                                    <div class="cir-cover">
+                                        <img src="http://cdn.q8oils.cc/40ee5223c6007df41a1c839096c79c02@1e_332w_322h_1c_0i_1o_100Q_1x.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="cir-info">
+                                    <h4>淘宝模特</h4>
+                                    <p class="cir-fee">1000元</p>
+                                    <p>
+                                        <img src="http://cdn.q8oils.cc/19b7939385f1ccabe6cd3811d264150e@64-1ci_45w.png" alt="">
+                                        <span>
+                                            发布于 2016-10-26
+                                        </span>
+                                        <span class="cir-view">
+                                            <i class="fa fa-eye"></i>
+                                            浏览888
+                                        </span>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>footer</footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script>
+    $(".ser-item article").hover(function() {
+        $(this).find(".ser-cover").css('transform', 'scale(1.1)');
+    }, function() {
+        $(this).find(".ser-cover").css('transform', 'scale(1)');
+    });
+    </script>
+</body>
+
+</html>

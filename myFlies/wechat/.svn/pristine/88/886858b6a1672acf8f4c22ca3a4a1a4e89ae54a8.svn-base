@@ -1,0 +1,183 @@
+body{
+  background-color: rgb(99, 173, 235);
+  margin: 0;
+}
+.bg-up{
+  background: url('../img/login/bg_up.png') round;
+  height: 400px;
+  width:100%;
+}
+
+.ball{
+  background: url('../img/login/bg_ball.png') round;
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  margin-top: -175px;
+}
+
+.box-all{
+  width: 310px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  margin-top: -172.8px;
+}
+
+.box-login{
+  background-color: #fff;
+  text-align: center;
+}
+
+.box-inner{
+  width: 260px;
+  margin: 0 auto;
+}
+
+.box-inner img{
+  margin: 30px 0 10px 0;
+  width: 130px;
+}
+
+.input-box{
+  width: 248px;
+  height: 35px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 5px 0 5px 10px;
+}
+
+.remember{
+  display: inline-block;
+  margin-right: 128px;
+  font-size: 13px;
+}
+.forget{
+  font-size: 13px;
+
+}
+
+#remem{
+  margin: 10px 0;
+}
+
+.btn{
+  width: 260px;
+  height: 42px;
+  background-color: rgb(34, 104, 163);
+  color: #fff;
+  border: none;
+  margin: 30px 0 30px 0;
+}
+
+.enroll{
+  color: #fff;
+  font-size: 13px;
+  margin: 10px 0;
+  float: right;
+}
+
+.error{
+  color: #ff3945;
+  font-size: 13px;
+  margin: 20px 0 0 0;
+  display: none;
+}
+
+
+
+/*当用户名不存在或者密码错误，在class中加入：*/
+.error-active{
+  display: block;
+}
+/*媒体查询区：*/
+@media screen and (max-width:1120px){
+  .ball{
+    left: 10%;
+  }
+
+  .box-all{
+    right: 10%;
+  }
+}
+
+
+
+@media screen and (max-width:900px){
+  .ball{
+    background: none;
+  }
+
+  .box-all{
+    right: 50%;
+    margin-right: -155px;
+  }
+}
+
+@media screen and (max-width:400px) and (min-width:320px){
+
+  .box-all{
+    width: 80%;
+    display: inline-block;
+    margin-right: -40%;
+
+  }
+
+  .box-login{
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .box-inner{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .box-inner img{
+    margin: 30px 0 10px 0;
+    width: 130px;
+  }
+
+  .input-box{
+    width: 95%;
+    height: 25px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+  }
+  .box-pass-1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .remember{
+    margin-right:0;
+  }
+  .forget{
+    font-size: 13px;
+
+  }
+
+  #remem{
+    margin: 10px 0;
+  }
+
+  .btn{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(34, 104, 163);
+    color: #fff;
+    border: none;
+    margin: 40px 0 30px 0;
+  }
+
+  .enroll{
+    color: #fff;
+    font-size: 13px;
+    margin: 10px 0;
+    float: right;
+  }
+}

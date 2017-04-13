@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>通告</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/broadcast.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="broadcast-top clear">
+                <ul>
+                    <li>
+                        <a href="" class="broadcast-show">
+                            <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                            <p class="bdc-show-title">啦啦啦拉拉阿拉拉阿拉蕾</p>
+                            <div class="bdc-show-modal">
+                                <img class="bdc-show-play" src="./img/play.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="broadcast-mid">
+                        <a href="" class="broadcast-show">
+                            <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                            <p class="bdc-show-title">啦啦啦拉拉阿拉拉阿拉蕾</p>
+                            <div class="bdc-show-modal">
+                                <img class="bdc-show-play" src="./img/play.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="broadcast-show">
+                            <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                            <p class="bdc-show-title">啦啦啦拉拉阿拉拉阿拉蕾</p>
+                            <div class="bdc-show-modal">
+                                <img class="bdc-show-play" src="./img/play.png" alt="">       
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="broadcast">
+                <div class="broadcast-content clear">
+                    <article>
+                        <a href="http://www.moka.vc">
+                            <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                            <p class="bdc-title">galigaligali</p>
+                            <div class="bdc-bg"></div>
+                            <div class="bdc-show-modal bdc-show-modal-display">
+                                    <img class="bdc-show-play" src="./img/play.png" alt="">       
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/header.js"></script>
+    <!--     <script>
+    $(".ser-item article").hover(function() {
+        $(this).find(".ser-cover").css('transform', 'scale(1.1)');
+    }, function() {
+        $(this).find(".ser-cover").css('transform', 'scale(1)');
+    });
+    </script> -->
+</body>
+
+</html>

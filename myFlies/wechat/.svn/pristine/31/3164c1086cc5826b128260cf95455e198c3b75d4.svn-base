@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>我的车</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mycars.css">
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <a href="javascript:history.back(-1)">
+                <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>我的车</p>
+    </header>
+    <section class="cars">
+        <div class="cars-panel">
+            <img src="./img/me/70-01.png" alt="" class="car-img">
+            <div class="car-info">
+                <div class="info-sec">
+                    <p class="info-1">奔波寺 S级</p>
+                    <p class="info-2">车牌号：京N828282</p>
+                </div>
+                <p class="info-3">其他信息啦啦啦啦啦了</p>
+            </div>
+        </div>
+        <i class="right"></i>
+    </section>
+    <section class="cars">
+        <div class="cars-panel">
+            <img src="./img/me/70-01.png" alt="" class="car-img">
+            <div class="car-info">
+                <div class="info-sec">
+                    <p class="info-1">奔波寺 S级是的发送到发送到发送到发士大夫撒</p>
+                    <p class="info-2">车牌号：京N828282</p>
+                </div>
+                <p class="info-3">其他信息啦啦啦啦啦了</p>
+            </div>
+        </div>
+        <i class="right"></i>
+    </section>
+    <section class="cars">
+        <div class="cars-panel">
+            <img src="./img/me/70-01.png" alt="" class="car-img">
+            <div class="car-info">
+                <div class="info-sec">
+                    <p class="info-1">奔波寺 S级返回电饭锅电饭锅的股份分公司电饭锅</p>
+                    <p class="info-2">车牌号：京N828282</p>
+                </div>
+                <p class="info-3">其他信息啦啦啦啦啦了</p>
+            </div>
+        </div>
+        <i class="right"></i>
+    </section>
+    <script type="text/javascript">
+      document.getElementsByTagName('section')[0].addEventListener('click',function(){
+        window.location.href = "./mycar.html";
+      });
+      document.getElementsByClassName('back')[0].addEventListener('click',function(){
+        window.history.go(-1);
+      })
+    </script>
+</body>
+
+</html>

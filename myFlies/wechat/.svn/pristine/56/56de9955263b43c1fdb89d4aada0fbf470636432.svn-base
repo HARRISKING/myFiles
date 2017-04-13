@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="row-three-heightth=device-row-three-heightth, initial-scale=1, maximum-scale=1,user-scable=no">
+    <meta charset="utf-8">
+    <title>D+护车六大系统养护</title>
+    <link rel="stylesheet" href="../css/first-page.css">
+  </head>
+  <body>
+    <div id="content">
+      <div id="content-all">
+        <div id="head-pic">
+          <img src="../pic/logo_white.png" alt="无法显示">
+        </div>
+        <div class="title-big">
+          <p class="h1">D+护车六大系统养护</p>
+        </div>
+
+
+    <div id="part">
+
+      <div class="box-all">
+        <div class="box-left">
+
+          <div class="flip box1 green1 row-self column-self right-margin">
+            <a href="../page1/index.html">
+              <img src="../pic-first/cheshenyanghu.png" alt="无法显示">
+              <p class="tittle">车身养护</p>
+
+              <p>普通洗车/内饰精致清洗等</p>
+            </a>
+          </div>
+          <div class="flip box1 light-blue1 row-self column-self right-margin">
+            <a href="../page4/index.html">
+              <img src="../pic-first/dianhuoxitongyanghu.png" alt="无法显示">
+              <p class="tittle">点火电器系统养护</p>
+
+              <p>蓄电池更换/火花塞更换等</p>
+
+            </a>
+          </div>
+
+          <div class="flip box1 green2 row-self column-self right-margin">
+            <a href="../page5/index.html">
+              <img src="../pic-first/kongtiaoyanghu.png" alt="无法显示">
+              <p class="tittle">空调系统养护</p>
+
+              <p>冷媒更换/空调滤清器更换等</p>
+            </a>
+          </div>
+
+
+          <div class="flip box1 blue row-self column-self left-margin">
+            <a href="../page2/index.html">
+              <img src="../pic-first/luntaiyanghu.png" alt="无法显示">
+              <p class="tittle">轮胎制动系统养护</p>
+
+              <p>补胎/充气/轮胎更换等</p>
+            </a>
+          </div>
+          <div class="flip box1 purple row-self column-self left-margin">
+            <a href="../page3/index.html">
+              <img src="../pic-first/runhuayanghu.png" alt="无法显示">
+              <p class="tittle">润滑系统养护</p>
+              <p>润滑油/机油滤清器更换等</p>
+            </a>
+          </div>
+          <div class="flip box1 light-blue2 row-self column-self left-margin">
+            <a href="../page6/index.html">
+              <img src="../pic-first/ranyouyanghu.png" alt="无法显示">
+              <p class="tittle">燃油进气系统养护</p>
+              <p>喷油嘴清洗/燃油系统清洗等</p>
+            </a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+
+      <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+      <script type="text/javascript" src="../js/car.js"></script>
+  </body>
+</html>

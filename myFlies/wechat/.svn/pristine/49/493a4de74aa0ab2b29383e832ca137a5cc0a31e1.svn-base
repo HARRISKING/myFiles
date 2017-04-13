@@ -1,0 +1,53 @@
+
+.mySlideshow .animated{
+	position:absolute;
+}
+.first{
+	background:url("http://cdn.q8oils.cc/2d2e84843641ba5c8eecc44b52f4a91b@1e_1080w_320h_1c_0i_1o_100Q_1x.jpg") center no-repeat;
+}
+.first a,
+.first img{
+	display:block;
+}
+.first a{
+	top:80px;
+	left:39%;
+	margin-left:-165px;
+}
+.first div{
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:50px;
+	bottom:80px;
+	left:39%;
+	width:320px;
+	text-align:center;
+	margin-left:-160px;
+}
+.second{
+	background:url("http://cdn.q8oils.cc/4b7e75f21fa62b4dee3a2ee3f1e195d8@1e_1080w_320h_1c_0i_1o_100Q_1x.jpg") center no-repeat;
+}
+.second img{
+	top: 160px;
+	right: 19%;
+}
+.third{
+	background:url("http://cdn.q8oils.cc/90993218cb3dd8ce964918df097de1d1@1e_1080w_320h_1c_0i_1o_100Q_1x.jpg") center no-repeat;
+}
+.third img{
+	top:100px;
+	left: 23%;
+}
+.fourth{
+	background:url("http://cdn.q8oils.cc/dd019b6dfcf69803225860d3b94aaaf6@1e_1080w_320h_1c_0i_1o_100Q_1x.jpg") center no-repeat;
+}
+.fourth img{
+	top:320px;
+	right:8%;
+}
+.fifth{
+	background:url("http://cdn.q8oils.cc/991bfa7ee386053bc251ba9b41919984@1e_1080w_320h_1c_0i_1o_100Q_1x.jpg") center no-repeat;
+}
+.fifth img{
+	top:120px;
+	left:21%;
+}

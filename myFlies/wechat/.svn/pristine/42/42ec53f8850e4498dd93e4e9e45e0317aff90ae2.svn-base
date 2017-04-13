@@ -1,0 +1,48 @@
+.me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(34, 104, 164);
+    height: 180px;
+    padding-top: 20px;
+}
+
+.me img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.me-name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.me-tel {
+    color: #fff;
+    font-size: 13px;
+}
+
+.me-lists ul {
+	margin-bottom: 10px;
+}
+
+.me-lists ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+.me-left {
+	display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.me-left img {
+	width: 25px;
+	margin-right: 15px;
+}

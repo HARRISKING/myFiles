@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+
+    <meta charset="utf-8">
+    <title>更靓丽</title>
+    <link rel="stylesheet" href="../../css/content.css">
+  </head>
+  <body>
+    <div id="box">
+      <div id="box-content">
+        <div id="head"><img class="logo"; src="../../pic/logo_white.png" alt="无法显示"></div>
+
+        <div class="little-tittle">
+          <img class="cube2" src="../../pic/color_cube-02.png" alt="无法显示">
+          <p class="inner-title word1">更靓丽</p>
+        </div>
+        <div id="main-up">
+          <div class="inner-content">
+            <img class="normal-wash" src="../../pic/dala.png" alt="无法显示" >
+            <h1 class="inner-title word2">打蜡</h1>
+            <div class="content-text">
+              <p>彻底清洗完车身后，精选的优质车蜡被涂到海绵上。或手工或机械，往复地打圈过程中，车蜡以四分之一重合的紧密度被均匀地涂抹到车身的每一处漆面位置。从车顶到前后盖到车身侧面，还要巧妙地避开车牌、车灯和门边。</p>
+              <p>涂抹完成后，巡视每一处细节，没有遗漏，也没有残留。静候五分钟，在超细纤维毛巾的直线往复动作中，车身漆面逐渐呈镜面光泽，触之手感如丝般光滑。</p>
+            </div>
+          </div>
+        </div>
+        <ul id="main-down">
+          <li class="part part1-2" style="width:47%">
+            <a href="#">
+              <p>单次机器打蜡</p>
+              <p>120元</p>
+            </a>
+          </li>
+          <li class="part part1-1" style="width:47%;float:left">
+            <a href="#">
+              <p>单次手工打蜡</p>
+              <p>80元</p>
+            </a>
+
+          </li>
+        </ul>
+        <div id="footer"><a href="../content2.html">更多车身养护套餐选择</a></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="../../js/car.js"></script>
+
+  </body>
+</html>

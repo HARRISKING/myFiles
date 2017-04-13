@@ -1,0 +1,113 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+      <link rel="stylesheet" href="../css/index.css">
+      <title>车身养护</title>
+
+    </head>
+    <body>
+      <div id="box">
+        <div id="inner-box">
+          <div id="head"><img src="../pic/logo_white.png" alt="无法显示"></div>
+
+          <div id="part-all">
+            <div class="little-tittle">
+              <img class="cube" src="../pic/color_cube-02.png" alt="无法显示">
+              <p class="title">更干净</p>
+            </div>
+              <li class=" flip part part1-1 p1">
+                <a class="box-link" href="./more-clear/normal-wash.html">
+                  <img src="../pic/putongxiche.png" alt="无法显示">
+                  <p>普通洗车</p>
+                </a>
+              </li>
+              <li class=" flip part part1-2 p2 p2-up">
+                <a class="box-link" href="./more-clear/trim-wash.html">
+                  <img src="../pic/neishiqingxi.png" alt="无法显示">
+                  <p>内饰清洗</p>
+                </a>
+              </li>
+              <li class=" flip part part1-3 p3">
+                <a class="box-link" href="./more-clear/hub-wash.html">
+                  <img src="../pic/lunguqingxi.png" alt="无法显示">
+                  <p>轮毂清洗</p>
+                </a>
+              </li>
+              <li class=" flip part part1-4 p4 p4-down">
+                <a class="box-link" href="./more-clear/engine-wash.html">
+                  <img src="../pic/fadongjicangqingxi.png" alt="无法显示">
+                  <p>发动机舱清洗</p>
+                </a>
+              </li>
+          </div>
+          <div id="part-all">
+            <div class="little-tittle">
+              <img class="cube" src="../pic/color_cube-03.png" alt="无法显示">
+              <p class="title">更靓丽</p>
+            </div>
+              <li class=" flip part part1-1 p5">
+                <a class="box-link" href="./more-beauty/waxing.html">
+                  <img src="../pic/dala.png" alt="无法显示">
+                  <p>打蜡</p>
+                </a>
+              </li>
+              <li class=" flip part part1-2 p6 p2-up">
+                <a class="box-link" href="./more-beauty/polishing.html">
+                  <img src="../pic/paoguang.png" alt="无法显示">
+                  <p>抛光</p>
+                </a>
+              </li>
+              <li class=" flip part part1-3 p7">
+                <a class="box-link" href="./more-beauty/coating.html">
+                  <img src="../pic/neishidumo.png" alt="无法显示">
+                  <p>内饰镀膜</p>
+                </a>
+              </li>
+              <li class=" flip part part1-4 p8">
+                <a class="box-link" href="./more-beauty/crystal.html">
+                  <img src="../pic/cheshendujing.png" alt="无法显示">
+                  <p>车身镀晶</p>
+                </a>
+              </li>
+          </div>
+          <div id="part-all">
+            <div class="little-tittle">
+              <img class="cube" class="cube" src="../pic/color_cube-04.png" alt="无法显示">
+              <p class="title">升级</p>
+            </div>
+              <li class=" flip part part1-1 p9">
+                <a class="box-link" href="./upgrade/tiemo.html">
+                  <img src="../pic/qichetiemo.png" alt="无法显示">
+                  <p>汽车贴膜</p>
+                </a>
+              </li>
+              <li class=" flip part part1-2 p10 p2-up">
+                <a class="box-link" href="./upgrade/yinxing.html">
+                  <img src="../pic/yinxingcheyi.png" alt="无法显示">
+                  <p>隐形车衣</p>
+                </a>
+              </li>
+              <li class=" flip part part1-3 p11">
+                <a class="box-link" href="./upgrade/gaise.html">
+                  <img src="../pic/cheshengaise.png" alt="无法显示">
+                  <p>车身改色</p>
+                </a>
+              </li>
+              <li class=" flip part part1-4 p12">
+                <a class="box-link" href="./upgrade/lungugaise.html">
+                  <img src="../pic/lungugaise.png" alt="无法显示">
+                  <p>轮毂改色</p>
+                </a>
+              </li>
+          </div>
+
+        </div>
+        </div>
+
+        <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+        <script type="text/javascript" src="../js/car.js"></script>
+
+    </body>
+  </html>

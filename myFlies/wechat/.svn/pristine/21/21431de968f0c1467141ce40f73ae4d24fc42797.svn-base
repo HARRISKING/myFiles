@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/myMemberCard2.css">
+    <title>会员卡详情</title>
+  </head>
+  <body>
+    <header>
+      <h3>会员卡详情</h3>
+    </header>
+    <section class="pic">
+      <img src="./img/vip/vip-02.png" alt="无法显示">
+      <div class="title-card">爱干发电公司电饭锅净卡A</div>
+    </section>
+    <section class="box1">
+      <h4>会员卡权益使用记录：</h4>
+
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+      <section class="box2">
+        <span>普通洗车</span>
+        <span class="word2">已使用2次，剩余可用次数18次</span>
+      </section>
+    </section>
+    <section class="box3">
+      <div class="box2 box4">
+        <span>赠送他人</span>
+      </div>
+    </section>
+  </body>
+</html>

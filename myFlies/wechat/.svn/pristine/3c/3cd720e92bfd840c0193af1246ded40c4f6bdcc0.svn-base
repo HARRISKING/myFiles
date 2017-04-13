@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>个人主页</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="profile-info clear">
+                <div class="profile-info-portrait">
+                    <img src="" alt="">
+                </div>
+                <div class="profile-info-detail">
+                    <h2>呵呵呵呵</h2>
+                    <p class="profile-info-auth"></p>
+                    <p class="profile-info-item">女 模特 中国 北京海淀 MOKA号：156311</p>
+                    <p class="profile-info-item2">身高：168cm 体重：48kg 三围：0/0/0</p>
+                    <p class="profile-info-item3">简介：方法反反复复反复反复反复反复反复方法反反复复反复反复反复反复反复反复反复反复反复方法反反复复反复反复反复反复反复反复反复反复反复</p>
+                    <div class="profile-info-fans">
+                        <ul>
+                            <li>粉丝</li>
+                            <li>关注</li>
+                        </ul>
+                        <ul>
+                            <li>1111</li>
+                            <li>2222</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-album">
+                <div class="profile-album-swiper">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide choosed">
+                                <img src="http://cdn.q8oils.cc/19b7939385f1ccabe6cd3811d264150e@150w_150h_1c_1e.png" alt="">
+                                <h3>爱对方就爱了就 </h3>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://cdn.q8oils.cc/19b7939385f1ccabe6cd3811d264150e@150w_150h_1c_1e.png" alt="">
+                                <h3>爱对方就爱了就 </h3>
+                            </div>
+                           
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <div class="profile-album-detail">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src='./js/swiper.min.js'></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 5,
+        paginationClickable: true,
+        spaceBetween: 20,
+        freeMode: true
+    });
+    </script>
+</body>
+
+</html>

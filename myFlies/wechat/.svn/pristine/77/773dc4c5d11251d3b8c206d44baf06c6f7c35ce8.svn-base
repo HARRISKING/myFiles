@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+
+    <meta charset="utf-8">
+    <title>护车次页</title>
+    <link rel="stylesheet" href="../../css/content.css">
+  </head>
+  <body>
+    <div id="box">
+      <div id="box-content">
+        <div id="head"><img class="logo"; src="../../pic/logo_white.png" alt="无法显示"></div>
+
+        <div class="little-tittle">
+          <img class="cube2" src="../../pic/color_cube-02.png" alt="无法显示">
+          <p class="inner-title word1">更干净</p>
+        </div>
+        <div id="main-up">
+          <div class="inner-content">
+            <img class="normal-wash" src="../../pic/fadongjicangqingxi.png" alt="无法显示" style="width: 25%;">
+            <h1 class="inner-title word2">洗发动机舱</h1>
+            <div class="content-text">
+              <p>发动机舱的灰尘污垢不仅影响美观，更影响发动机的散热，清洗很重要，如何清洗很关键。</p>
+              <p>配合布和塑胶带，发电机、分电器、制动油壶被妥善保护起来；精选优质的清洗剂被喷到发动机舱各部件上；</p>
+              <p>待其溶解，8MPa的水枪由内而外冲过通风口、水箱、散热片、冷凝器、支撑条、排水孔、挡泥板；</p>
+              <p>无论树叶、虫尸、污物、灰尘都被一扫而光。紧接着上场的是空气吹枪，吹干水分、吹跑火花塞孔上的沙粒、吹跑接线柱上的水渍。细致而又负责地检查下密封区域，待干燥后，喷上上光剂，擦拭包括发动机室、引擎盖底部等各处细节，最后喷洒轮胎上光剂。这才是独具匠心完美而负责的发动机舱清洗。<p>
+            </div>
+          </div>
+        </div>
+        <ul id="main-down">
+          <li class="part part1-1"style="width:100%">
+            <a href="#">
+              <p>发动机舱清洗</p>
+              <p>80元</p>
+            </a>
+
+          </li>
+        </ul>
+        <div id="footer"><a href="../content2.html">更多车身养护套餐选择</a></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="../../js/car.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,71 @@
+.head-pic{
+  width: 60px;
+}
+.username{
+  color: #999;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.car-info{
+  line-height: 26px !important;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  vertical-align: middle;
+}
+
+a:focus,
+a:hover{
+  text-decoration: none!important;
+}
+.bg-color{
+  color: #fff;
+  background-color: rgb(34, 104, 163);
+}
+
+/*！！仅适用于当前页面：*/
+@media screen and (min-width:770px){
+
+  .hide-ele1{
+    display: none;
+  }
+}
+
+@media screen and (max-width:770px){
+  .show-ele{
+    display: none;
+  }
+  .hide-ele1{
+    display: block;
+    margin-top: 20px;
+  }
+  .hide-ele{
+    display: none;
+  }
+}
+
+  @media screen and (min-width:770px) and (max-width:995px){
+    .show-ele{
+      display: none;
+    }
+    .hide-ele1{
+      display: block;
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+
+
+
+  a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(11, 63, 107);
+}
+}

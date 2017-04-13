@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>提现门槛低至20元</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/anti.css">
+</head>
+
+<body>
+    <section>
+        <img class="banner" src="./img/pic3.jpg" alt="">
+        <div class="banner-content">
+            <p class="border-top">
+                为了回馈宝宝们对于平台的支持，<br>
+                更大地保障宝宝们的利益，<br>
+                MOKA平台又出新策！<br>
+            </p>
+            <p class="border-middle">
+                收入门槛再次降低！<br>
+                没错，你没有听错~<br>
+                收入提现门槛低至<span class="highlight"> 20元！</span><br>
+            </p>
+            <p class="border-bottom">
+                这就意味着，你在MOKA平台每赚得20元就能立刻提现！<br>
+                几乎是零门槛有木有~<br>
+                而且MOKA平台承诺24小时实时到账！流畅不间断！<br>
+                快来接单吧！
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

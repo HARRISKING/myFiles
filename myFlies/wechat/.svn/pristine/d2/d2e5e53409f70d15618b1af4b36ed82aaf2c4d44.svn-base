@@ -1,0 +1,43 @@
+.panel1{
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 2px solid #eee;
+}
+.panel2{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 10px 10px 10px;
+}
+.box1{
+  display: flex;
+  height: 100px;
+
+}
+
+.box1>img{
+  width: 80px;
+  margin: 10px;
+}
+
+.box2{
+  width:100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.word1{
+  font-size: 13px;
+  color: #999;
+  line-height: 18px;
+}
+
+.color-orange{
+  color: rgb(254, 138, 1);
+}
+
+.box3{
+  display: flex;
+  justify-content: space-between;
+}

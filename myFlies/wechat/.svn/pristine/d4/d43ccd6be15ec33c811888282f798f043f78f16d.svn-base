@@ -1,0 +1,55 @@
+.mobile {
+    padding: 20px 10px;
+}
+
+.mobile-form input {
+    font-size: 14px;
+    border: none;
+    line-height: 30px;
+    color: black;
+}
+
+.mobile-num {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    border-radius: 5px 5px 0 0;
+}
+
+.mobile-ver {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.verification {
+	padding: 8px 10px;
+	background: #3266cc;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	font-size: 12px;
+}
+
+.submit {
+	margin-top: 35px;
+	width: 100%;
+	color: #fff;
+  background: #3266cc;
+	font-size: 14px;
+	height: 45px;
+	border-radius: 5px;
+	border: none;
+}
+
+.count {
+	display: none;
+	line-height: 30px;
+    border: 1px solid rgb(84, 153, 210);
+    width: 50px;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(84, 153, 210);
+}

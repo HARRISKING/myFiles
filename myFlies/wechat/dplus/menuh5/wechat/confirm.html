@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/confirm.css">
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <a href="">
+                <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>确认订单</p>
+    </header>
+    <section class="order-info">
+        <section class="info-left">
+            <img src="" alt="" class="info-left-img">
+            <section class="info-left-msg">
+                <div class="info-left-l">
+                    <p class="msg-title">明心电池啦YHGK110-22</p>
+                    <p class="msg-type">中级蓄电池L2-400</p>
+                </div>
+                <p class="msg-fee"><span class="msg-fee-num">1980元</span> (以旧换新)</p>
+            </section>
+        </section>
+        <section class="info-right">
+            数量*1
+        </section>
+    </section>
+    <section class="order-content">
+        <ul>
+            <li>
+                <p>数量购买</p>
+                <div class="form-panel">
+                    <div class="down">-</div>
+                    <input type="text" class="show" value="1" data-num="1">
+                    <div class="up">+</div>
+                </div>
+            </li>
+            <li>
+                <p>支付方式</p>
+                <div>微信支付</div>
+            </li>
+            <li>
+                <p>推荐优惠券</p>
+                <div class="ticket">
+                    <span class="ticket-name">电池优惠券一张</span>
+                    <span>-￥80</span>
+                    <i class="right"></i>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="pay-footer">
+        <section class="pay-fee">
+            <p>费用总计: 1900元</p>
+        </section>
+        <a href="" class="pay-now">立即支付</a>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(".down").click(function() {
+        var num = parseInt($(".show").attr("data-num"));
+        if (num <= 1) {
+            return;
+        }
+        num--;
+        $(".show")
+            .attr("data-num", num)
+            .val(num);
+    })
+    $(".up").click(function() {
+        var num = parseInt($(".show").attr("data-num"));
+        num++;
+        $(".show")
+            .attr("data-num", num)
+            .val(num);
+    })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>D+专业汽车检测</title>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/check.css">
+    <link rel="stylesheet" type="text/css" href="./css/first.css">
+    <style type="text/css">
+    	.label{
+    		color:#ffd665;
+    		font-weight: 600;
+    	}
+    	.tips{
+    		color:#ffd665;
+    		font-size: 10px;
+    		text-indent: 2em;
+    	}
+    </style>
+</head>
+<body>
+	 <div id="imgdiv">
+        <img src="./img/check/bg2.jpg">
+    </div>
+    <div class="watch">
+        <img src="./img/check/22.png">
+        <div class="pointer" id="pointer"></div>
+        <div class="flip-container">
+            <div class="flipper">
+                <div class="front1"></div>
+                <div class="front2"></div>
+            </div>
+            <span class="goalText"></span>
+        </div>
+    </div>
+    <p class="share"></p>
+     <div class="red">
+        <div class="wheeltext">
+          <img src="./img/check/wheel.png" class="tu1 transparent_5">
+          <ul class="transparent_1">
+            <li class="one">
+            	<p class="onep">轮胎<img src="./img/check/gantanhao.png" class="alert"></p>
+              <p class="twop">
+                <label>已检测15项 发现4个问题</label>
+
+                <img src="./img/check/small.png" class="small">
+              	<span class="detail">查看详情</span>
+            	</p>
+            </li>
+  					<li class="two"><p>左后轮花纹深度 ：5毫米<span class="error"><img class="error-pic" src="./img/check/gantanhao.png" alt="">异常</span></p>
+              <p><label class="tips">数值范围：2mm < 深度 < 6mm </label></p>
+              <p><label class="tips">说明：左后胎纹低于6mm了，雨雪天气开慢点更安全！</label></p>
+  					</li>
+  					<li class="two"><p>右前轮花纹深度：2毫米<span class="error"><img class="error-pic" src="./img/check/gantanhao.png" alt="">异常</span></p>
+              <p><label class="tips">数值范围：2mm < 深度 < 6mm </label></p>
+              <p><label class="tips">说明：左后胎纹低于6mm了，雨雪天气开慢点更安全！</label></p>
+  					</li>
+  					<li class="two"><p>右后轮花纹深度：2毫米<span class="error"><img class="error-pic" src="./img/check/gantanhao.png" alt="">异常</span></p>
+              <p><label class="tips">数值范围：2mm < 深度 < 6mm </label></p>
+              <p><label class="tips">说明：左后胎纹低于6mm了，雨雪天气开慢点更安全！</label></p>
+  					</li>
+  					<li class="two"><p>气门嘴 ：坏<span class="error"><img class="error-pic" src="./img/check/gantanhao.png" alt="">异常</span></p>
+              <p><label class="tips">数值范围：2mm < 深度 < 6mm </label></p>
+              <p><label class="tips">说明：左后胎纹低于6mm了，雨雪天气开慢点更安全！</label></p>
+  					</li>
+          </ul>
+        </div>
+    </div>
+    <div class="yellow clearfix">
+        <div class="guatext clearfix">
+            <img src="./img/check/gua.png" class="tu2 transparent_6">
+            <ul class="transparent_6_1">
+              <li class="one">
+              	<p class="onep">雨刮<img src="./img/check/right.png" class="green"></p>
+                <p class="twop">综合得分：100.0</p>
+              </li>
+            </ul>
+        </div>
+    </div>
+    <div class="breakdiv clearfix">
+        <div class="breaktext clearfix">
+            <img src="./img/check/break.png" class="tu3 transparent_7">
+            <ul class="transparent_2">
+	                <li class="one">
+	                    <p class="onep">制动<img src="./img/check/gantanhao.png" class="alert"></p>
+	                    <p class="twop">
+
+	                    	<label>已检测15项 发现4个问题</label>
+                        <img src="./img/check/small.png" class="small">
+		                    <span class="detail">查看详情</span>
+
+	                    </p>
+	                </li>
+
+        					<li class="two"><p>左前制动片：1毫米<span class="error"><img class="error-pic" src="./img/check/gantanhao.png" alt="">异常</span></p>
+                    <p><label class="tips">数值范围：2mm < 深度 < 6mm </label></p>
+                    <p><label class="tips">说明：左后胎纹低于6mm了，雨雪天气开慢点更安全！</label></p>
+        					</li>
+
+
+        					<li class="two"><p>左后制动片：1毫米<span class="error"><img class="error-pic" src="./img/check/gantanhao.png" alt="">异常</span></p>
+
+                    <p><label class="tips">数值范围：2mm < 深度 < 6mm </label></p>
+                    <p><label class="tips">说明：左后胎纹低于6mm了，雨雪天气开慢点更安全！</label></p>
+
+        					</li>
+        					<li class="two"><p>右前制动片：1毫米<span class="error"><img class="error-pic" src="./img/check/gantanhao.png" alt="">异常</span></p>
+                    <p><label class="tips">数值范围：2mm < 深度 < 6mm </label></p>
+                    <p><label class="tips">说明：左后胎纹低于6mm了，雨雪天气开慢点更安全！</label></p>
+        					</li>
+        					<li class="two"><p>右后制动片：1毫米<span class="error"><img class="error-pic" src="./img/check/gantanhao.png" alt="">异常</span></p>
+                    <p><label class="tips">数值范围：2mm < 深度 < 6mm </label></p>
+                    <p><label class="tips">说明：左后胎纹低于6mm了，雨雪天气开慢点更安全！</label></p>
+        					</li>
+            </ul>
+        </div>
+    </div>
+    <div class="enginediv clearfix">
+        <div class="enginetext clearfix">
+            <img src="./img/check/engine.png" class="tu4 transparent_7">
+            <ul class="transparent_2">
+	                <li class="one">
+	                    <p class="onep">发动机舱<img src="./img/check/right.png" class="green"></p>
+	                    <p class="twop">综合得分：100.0
+
+	                    </p>
+	                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/touch.js"></script>
+    <script src="./js/fx.js"></script>
+    <script src="./js/fx.method.js"></script>
+    <script src="./js/first.js"></script>
+</body>
+<script type="text/javascript">
+var points=parseInt('100', 10);
+console.log(points);
+setGoal(points);
+var appId = "";
+var timestamp = "";
+var nonceStr = "";
+var signature = "";
+
+    var appid="wxfd9fabfa542a94a0";
+var url = window.location.href.split('#')[0];
+$.post("/weixin/js/jsapisign", {
+	url : url,
+	    appid : appid
+}, function(jsonData) {
+	appId = jsonData.appId;
+	timestamp = jsonData.timestamp;
+	nonceStr = jsonData.nonceStr;
+	signature = jsonData.signature;
+
+	wx.config({
+		debug : false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+		appId : appId, // 必填，公众号的唯一标识
+		timestamp : timestamp, // 必填，生成签名的时间戳
+		nonceStr : nonceStr, // 必填，生成签名的随机串
+		signature : signature,// 必填，签名，见附录1
+		jsApiList : [ 'showOptionMenu','onMenuShareTimeline',
+						'onMenuShareAppMessage', 'onMenuShareQQ',
+						'onMenuShareQZone' ]
+	// 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+	});
+	wx.ready(function() {
+		wx.showOptionMenu();
+
+		wx.onMenuShareTimeline({
+			title : '我刚使用D+护车进行了100项检测', // 分享标题
+			link : 'http://test.platform.dijiahuche.com//weixin/services/8a2c1fde5b567b18015b56d989d10023/testreport', // 分享链接
+			imgUrl : 'http://www.dijiahuche.com/images/icon_logo.png', // 分享图标
+			success : function() {
+				alert("分享成功");
+			},
+			cancel : function() {
+				// 用户取消分享后执行的回调函数
+			}
+		});
+//发送给朋友
+wx.onMenuShareAppMessage({
+			title : '我刚使用D+护车进行了100项检测', // 分享标题
+			desc : 'D+护车，百项检测，百般放心，上门养护，省时省心。', // 分享描述
+			link : 'http://test.platform.dijiahuche.com//weixin/services/8a2c1fde5b567b18015b56d989d10023/testreport', // 分享链接
+			imgUrl : 'http://www.dijiahuche.com/images/icon_logo.png', // 分享图标
+			type : '', // 分享类型,music、video或link，不填默认为link
+			dataUrl : '', // 如果type是music或video，则要提供数据链接，默认为空
+			success : function() {
+				alert("分享成功");
+			},
+			cancel : function() {
+				// 用户取消分享后执行的回调函数
+			}
+		});
+//分享到qq
+wx.onMenuShareQQ({
+			title : '我刚使用D+护车进行了100项检测', // 分享标题
+			desc : 'D+护车，百项检测，百般放心，上门养护，省时省心。', // 分享描述
+			link : 'http://test.platform.dijiahuche.com//weixin/services/8a2c1fde5b567b18015b56d989d10023/testreport', // 分享链接
+			imgUrl : 'http://www.dijiahuche.com/images/icon_logo.png', // 分享图标
+			success : function() {
+				alert("分享成功");
+			},
+			cancel : function() {
+				// 用户取消分享后执行的回调函数
+			}
+		});
+//分享到qq空间
+wx.onMenuShareQZone({
+			title : '我刚使用D+护车进行了100项检测', // 分享标题
+			desc : 'D+护车，百项检测，百般放心，上门养护，省时省心。', // 分享描述
+			link : 'http://test.platform.dijiahuche.com//weixin/services/8a2c1fde5b567b18015b56d989d10023/testreport', // 分享链接
+			imgUrl : 'http://www.dijiahuche.com/images/icon_logo.png', // 分享图标
+			success : function() {
+				alert("分享成功");
+			},
+			cancel : function() {
+				// 用户取消分享后执行的回调函数
+			}
+		});
+
+	});
+	wx.error(function(res) {
+		//	alert(res.errMsg);
+	});
+});
+</script>
+</html>

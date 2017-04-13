@@ -1,0 +1,38 @@
+.body{
+  width: 100%;
+}
+
+.pic>img{
+  /*border: 1px solid #ccc;*/
+  width: 90%;
+  margin: 20px 5%;
+}
+
+.box1 h4{
+  width: 90%;
+  margin: 10px auto;
+}
+
+.box2{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 5% 2% 5%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.box2 span{
+  margin: 20px 10px;
+}
+
+.word2{
+  font-size: 14px;
+  color: #999;
+}
+
+.btn{
+  border: 1px solid red;
+  width: 90%;
+  margin: 10% auto;
+}

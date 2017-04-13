@@ -1,0 +1,292 @@
+html {
+    max-width: 500px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Helvetica, "Microsoft YaHei";
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/********personal-info**********/
+
+.sec1 {
+    width: 100%;
+}
+
+.personal-info {
+    color: white;
+    position: relative;
+    font-size: .9rem;
+}
+
+.bg {
+    width: 100%;
+    z-index: -1;
+}
+
+.info {
+    width: 80%;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    text-align: center;
+}
+
+.portrait {
+    width: 30%;
+    margin: 4% auto;
+}
+
+.auth ul {
+    width: 40%;
+    display: table;
+    margin: 3% auto;
+}
+
+.auth ul li {
+    display: table-cell;
+    padding: 0 .3rem;
+}
+
+.auth ul .li2 {
+    width: 22%;
+}
+
+.auth ul .li3 {
+    width: 19%;
+}
+
+.level {
+    width: 23%;
+    position: absolute;
+    top: 12%;
+    left: 74%;
+}
+
+.level span {
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    font-size: .8rem;
+}
+
+
+/***********panel*************/
+
+.panel {
+    width: 100%;
+    margin-bottom: .3rem;
+    background-color: white;
+}
+
+.panel ul {
+    display: table;
+    width: 100%;
+}
+
+.panel ul li {
+    display: table-cell;
+    width: 25%;
+    padding: 3% 0%;
+    text-align: center;
+}
+
+.panel ul li img {
+    width: 30%;
+}
+
+.panel ul li p {
+    font-size: .8rem;
+    padding-top: .2rem;
+    color: #666666;
+}
+
+
+/***********go-list*************/
+
+.go-list {
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.go-list a {
+    display: block;
+    padding: 1rem;
+    font-size: .9rem;
+    color: #999999;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+
+.go-list a img {
+	width: 5%;
+	position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+/***********service*************/
+
+.service {
+	width: 100%;
+	background-color: white;
+	margin-bottom: 1rem;
+}
+
+.service-title {
+	width: 100%;
+	height: 2.5rem;
+	position: relative;
+	border-bottom: 1px solid #eeeeee;
+	font-size: .9rem;
+	color: #333333;
+}
+
+.s-head {
+	position: absolute;
+	top: 50%;
+	left: 4%;
+	border-left: 2px solid #333333;
+	padding: .2rem 1rem;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.s-more {
+	position: absolute;
+	top: 50%;
+	right: 8%;
+	font-size: .7rem;
+	color: #999999;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.s-logo {
+	width: 3.5%;
+	position: absolute;
+	top: 50%;
+	right: 4%;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.s-info {
+	width: 100%;
+	height: 3rem;
+	position: relative;
+}
+
+.s-type {
+	width: 20%;
+	color: white;
+	font-size: .75rem;
+	text-align: center;
+	border: none;
+	border-radius: 1rem;
+	background-color: rgb(244, 84, 96);
+	padding: .25rem 0;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.s-name {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	font-size: .95rem;
+	transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.s-fee {
+	position: absolute;
+	bottom: 12%;
+	left: 50%;
+	font-size: .95rem;
+	color: rgb(244, 84, 96);
+	transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.s-buy {
+	font-size: .8rem;
+	line-height: 1rem;
+	color: #999999;
+	padding-bottom: .5rem;
+	text-align: center;
+	position: relative;
+
+}
+
+.s-buy img{
+	display: inline;
+	width: 1rem;
+	margin-right: .2rem;
+	transform: translateY(15%);
+}
+
+/***********album*************/
+
+.album {
+	width: 100%;
+	background-color: white;
+	margin-bottom: 1rem;
+}
+
+.album-title {
+	width: 100%;
+	height: 2.5rem;
+	position: relative;
+	border-bottom: 1px solid #eeeeee;
+	font-size: .9rem;
+	color: #333333;
+}
+
+.a-head {
+	position: absolute;
+	top: 50%;
+	left: 4%;
+	border-left: 2px solid #333333;
+	padding: .2rem 1rem;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.a-more {
+	position: absolute;
+	top: 50%;
+	right: 8%;
+	font-size: .7rem;
+	color: #999999;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.a-logo {
+	width: 3.5%;
+	position: absolute;
+	top: 50%;
+	right: 4%;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}

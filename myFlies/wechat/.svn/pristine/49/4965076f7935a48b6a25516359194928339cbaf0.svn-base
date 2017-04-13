@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>我的订单</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/myorders.css">
+</head>
+
+<body>
+    <!-- 服务中 -->
+    <div>
+      <section class="progress">
+          <p>技师正在为您服务，请耐心等待 </p>
+            <i class="right"></i>
+      </section>
+      <section class="order">
+          <ul>
+              <li class="order-photo servering">
+                  <img src="./img/me/70-01.png" alt="无法显示">
+                  <div class="order-p-info">
+                      <p class="p-title">车辆照片：</p>
+                      <div class="p-inner">
+                          <p>购买铭心电池*2</p>
+                          <p>保养套餐</p>
+                      </div>
+                  </div>
+                  <span class="order-mark">服务中</span>
+              </li>
+              <li>
+                  <span class="sum">总计：6666元</span>
+              </li>
+          </ul>
+      </section>
+    </div>
+
+    <!-- 服务完成，待付款 -->
+    <div>
+      <section class="progress">
+          <p>技师已完成服务，等待您付款</p>
+          <i class="right"></i>
+      </section>
+      <section class="order">
+          <ul>
+              <li class="order-photo paying">
+                  <img src="./img/me/70-01.png" alt="无法显示">
+                  <div class="order-p-info">
+                      <p class="p-title">车辆照片：</p>
+                      <div class="p-inner">
+                          <p>购买铭心电池*2</p>
+                          <p>保养套餐</p>
+                      </div>
+                  </div>
+                  <span class="order-mark">待付款</span>
+              </li>
+              <li>
+                  <span class="sum">总计：6666元</span>
+                  <div class="btn-1">
+                    <button type="button" class="evaluate pay">去支付</button>
+                    <!-- <button type="button" class="evaluate other">找人代付</button> -->
+                  </div>
+                </li>
+          </ul>
+      </section>
+    </div>
+
+
+    <!-- 付款完成，等待评价 -->
+    <div>
+      <section class="progress">
+          <p>您已完成支付，快去评价吧</p>
+          <i class="right"></i>
+      </section>
+      <section class="order">
+          <ul>
+              <li class="order-photo assessing">
+                  <img src="./img/me/70-01.png" alt="无法显示">
+                  <div class="order-p-info">
+                      <p class="p-title">车辆照片：</p>
+                      <div class="p-inner">
+                          <p>购买铭心电池*2</p>
+                          <p>保养套餐</p>
+                      </div>
+                  </div>
+                  <span class="order-mark">已付款</span>
+              </li>
+              <li>
+                  <span class="sum">总计：6666元</span>
+                  <button type="button" class="evaluate assess">去评价</button>
+              </li>
+          </ul>
+      </section>
+    </div>
+
+
+    <!-- 订单完成 -->
+    <div>
+      <section class="progress">
+          <p>订单已完成</p>
+          <i class="right"></i>
+      </section>
+      <section class="order">
+          <ul>
+              <li class="order-photo finishing">
+                  <img src="./img/me/70-01.png" alt="无法显示">
+                  <div class="order-p-info">
+                      <p class="p-title">车辆照片：</p>
+                      <div class="p-inner">
+                          <p>购买铭心电池*2</p>
+                          <p>保养套餐</p>
+                      </div>
+                  </div>
+                  <span class="order-mark">已评价</span>
+              </li>
+              <li>
+                  <span class="sum">总计：6666元</span>
+              </li>
+          </ul>
+      </section>
+
+    </div>
+
+    <div>
+      <section class="progress">
+          <p>订单已取消</p>
+          <i class="right"></i>
+      </section>
+      <section class="order">
+          <ul>
+              <li class="order-photo">
+                  <img src="./img/me/70-01.png" alt="无法显示">
+                  <div class="order-p-info">
+                      <p class="p-title">车辆照片：</p>
+                      <div class="p-inner">
+                          <p>购买铭心电池*2</p>
+                          <p>保养套餐</p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <span class="sum">总计：6666元</span>
+              </li>
+          </ul>
+      </section>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      //服务中跳转
+      var servering = document.getElementsByClassName('servering')[0];
+      servering.addEventListener('click',function(){
+        window.location.href = "./assess.html"
+      });
+      //待付款跳转
+      var paying = document.getElementsByClassName('paying')[0];
+      paying.addEventListener('click',function(){
+        window.location.href = "./app_confirm.html"
+      });
+      //待评价跳转
+      var assessing = document.getElementsByClassName('assessing')[0];
+      assessing.addEventListener('click',function(){
+        window.location.href = "./app_confirm2.html"
+      });
+      //订单完成跳转
+      var finishing = document.getElementsByClassName('finishing')[0];
+      finishing.addEventListener('click',function(){
+        window.location.href = "./app_confirm3.html"
+      });
+      //
+
+      //返回上一页跳转
+
+
+      $('.other').on('click',function(){
+        $('.cover').addClass('active');
+        $('.bomb').addClass('active1');
+      });
+      $('.little-cancel').on('click',function(){
+        $('.cover').removeClass('active');
+        $('.bomb').removeClass('active1');
+      })
+      $('.cancel2').on('click',function(){
+        $('.cover').removeClass('active');
+        $('.bomb').removeClass('active1');
+      })
+      $('.pay-now').on('click',function(){
+        window.location.href = "./app_confirm2.html"
+      })
+      $('.back').on('click',function(){
+        window.history.go(-1);
+      })
+      $('.pay').on('click',function(){
+        window.location.href = "./app_confirm.html"
+      })
+      $('.assess').on('click',function(){
+        window.location.href = "./assess2.html"
+      })
+    </script>
+  </body>
+</html>

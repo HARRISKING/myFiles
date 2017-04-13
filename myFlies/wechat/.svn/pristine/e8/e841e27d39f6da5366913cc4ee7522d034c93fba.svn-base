@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/myMemberCard.css">
+    <title>我的会员卡</title>
+  </head>
+  <body>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+    <section class="panel1">
+      <div class="box1">
+        <img src="./img/vip/vip-01.png" alt="无法显示">
+        <div class="box2">
+          <div class="box3">
+            <span class="title-name">爱干净卡A</span>
+            <img src="./img/me/right.png" alt="">
+          </div>
+          <p>包含权益：普通洗车/内饰精致清洗/轮毂清洗/发动梵蒂冈梵蒂冈梵蒂冈梵蒂冈梵蒂已久的结果符合规范化个电话号更多活动忽高忽低好地方冈地方官机舱清洗</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $('.panel1').on("click",function(){
+        window.location.href = "./myMemberCard2.html";
+      });
+
+    </script>
+
+  </body>
+</html>

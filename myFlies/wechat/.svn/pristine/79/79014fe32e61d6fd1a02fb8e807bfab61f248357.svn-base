@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>服务详情</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/ser-detail.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="grid clear">
+            <div class="logo">
+                <a href="#">aaa</a></div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li class="active"><a href="#">服务</a></li>
+                    <li><a href="#">模特</a></li>
+                    <li><a href="#">摄影师</a></li>
+                    <li><a href="#">通告</a></li>
+                    <li><a href="#">新闻</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <ul>
+                    <li><a class="fa fa-user" href="#"> 登录</a></li>
+                    <li><a class="fa fa-mobile" href="#"> 下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="category">
+                <h1 class="cat-all">全部分类 <i class="fa fa-angle-right"></i> 北京</h1>
+            </div>
+            <div class="service-detail clear">
+                <div class="ser-item">
+                    <div class="ser-inner">
+                        <div class="ser-card">
+                            <img src="http://cdn.q8oils.cc/53f7118570aaa94412f78323edc1dbbc@724w_320h_1c_1e.jpg" alt="">
+                            <h1>陪你喝咖啡<span class="fee">300元</span></h1>
+                            <p><i class="fa fa-shopping-cart"></i>333  
+                            <i class="fa fa-eye"></i>333  
+                            <i class="fa fa-comment"></i>333</p>
+                            <p class="order"><a href="#">立即下单</a></p>
+                            <span class="tag">人物写真</span>
+                        </div>
+                        <h2>价格说明</h2>
+                        <p>这是价格说明，啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+                        <img src="http://cdn.q8oils.cc/53f7118570aaa94412f78323edc1dbbc@x1.jpg" alt="">
+                    </div>
+                    <div class="ser-comment">
+                        <div class="comment-inner clear">
+                            <h2>留言</h2>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <button>发布</button>
+                        </div>
+                        <div class="comment-list">
+                            <div class="comment-item clear">
+                                <img src="http://cdn.q8oils.cc/19b7939385f1ccabe6cd3811d264150e@64-1ci_64w.png" alt="">
+                                <div class="item-info">
+                                    <h3>姓名</h3>
+                                    <p>这是内容。。。</p>
+                                </div>
+                                <span class="time">10分钟前</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ser-supplier">
+                    <div class="supplier">
+                        <div class="sup-portrait">
+                            <img src="http://cdn.q8oils.cc/fe8fbc0dbbdabea55641449a4eb1ba76@100-1ci_128w.png" alt="">
+                            <p>寂寞梧桐深院锁清秋</p>
+                            <a href="">关注Ta</a>
+                        </div>
+                        <div class="sup-recommend">
+                            <div class="sup-recommend-item">
+                                <img src="http://cdn.q8oils.cc/be6a1f5bbdb6f292fbff02f2e9e8ce29@260w_128h_1c_1e.jpg" alt="">
+                                <h4>淘宝模特</h4>
+                                <p>200元</p>
+                            </div>
+                            <a href="#">查看更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>footer</footer>
+</body>
+
+</html>

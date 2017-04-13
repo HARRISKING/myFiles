@@ -1,0 +1,64 @@
+body,div,img,a{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+}
+#main{
+  width:100%;
+  background-color: rgb(34, 104, 164);
+}
+#main img{
+  width:100%;
+}
+
+#server{
+  position: relative;
+  top: 30%;
+}
+#server:after{
+  display: block;
+  clear: both;
+  content: "";
+}
+#server .price-word div{
+  width: 20%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 30%;
+  padding: 1% 0;
+  background: rgb(72, 179, 235);
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+#server .up{
+  width: 100%;
+  position: absolute;
+  top: 22.4%;
+}
+#server .down{
+  width: 100%;
+  position: absolute;
+  top: 54%;
+}
+.btn{
+  width: 90%;
+  border-radius: 6px;
+  padding: 3% 0;
+  background: #fff;
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+.btn a{
+  color: rgb(34, 104, 164);
+  text-decoration: none;
+  font-size: 50px;
+}
+.price{
+  position: relative;
+}

@@ -1,0 +1,43 @@
+.box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height: 70px;
+  background-color: #fff;
+  border-top: 2px solid #eee;
+}
+
+.box2:first-child{
+  border: none;
+}
+
+section:last-of-type{
+  margin-bottom: 15px;
+}
+
+.box{
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.innerbox2{
+  margin-top: 20px;
+}
+
+.word2{
+  font-size: 13px;
+  color: #999;
+}
+
+.color-orange{
+  color: rgb(254, 138, 1);
+}
+
+
+.box>img{
+  width: 13px;
+  height: 13px;
+}

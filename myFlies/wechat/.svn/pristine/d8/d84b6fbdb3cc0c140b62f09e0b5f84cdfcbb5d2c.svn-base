@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D+护车</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/assess.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+  </head>
+  <body>
+    <div class="panel panel1">
+      <img src="./pic/logo.png" alt="无法显示">
+      <h5 class="tittle tittle1">欢迎光临D+护车南湖店</h5>
+      <h5 class="tittle tittle2">高级技师张师傅已被指派为您的特约服务技师</h5>
+      <p class="note">如有问题，请及时拨打电话与技师沟通</p>
+      <div class="contact">
+        <div class="info">
+          <img src="./pic/head-pic.png" alt="无法显示">
+          <div class="tel">
+            <h4>张师傅</h4>
+            <p>13811111111</p>
+          </div>
+        </div>
+        <div class="btn">
+          <a href="#"><img src="./pic/phone1.png" alt="无法显示"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel2">
+      <h4 class="content-tittle">门店介绍</h4>
+      <div class="box-store">
+        <div class="word1">
+          <p>门店地址：</p>
+          <p>北京市朝阳区酒仙桥驼房营南路新华科技大厦</p>
+        </div>
+        <div class="word1">
+          <p>门店服务：</p>
+          <p>洗车/养护/打蜡/抛光等各项服务应有尽有</p>
+        </div>
+        <div class="word1">
+          <p>门店电话：00-0000-0000</p>
+        </div>
+      </div>
+      <img class="pic-store" src="./pic/timg.png" alt="无法显示">
+    </div>
+
+    <div class="panel panel3">
+      <h4 class="content-tittle">活动推荐</h4>
+      <div class="activity">
+        <img src="./pic/pic-1.png" alt="无法显示">
+        <div class="content-active">
+          <h4 class="word4">终身会员低价抢购中...</h4>
+          <div class="content-ac">
+            <p class="word3">最低4000元起可购终身会员/终身免费换机油/每年三次除积碳</p>
+
+            <p>速来抢购，手速慢无~</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="button">
+        <a href="./ad.html">查看活动详情 ></a>
+      </div>
+    </div>
+
+    <div class="panel panel4">
+      <h4 class="content-tittle">热门商品</h4>
+        <div class="box-goods">
+          <img src="./pic/pic-1.png" alt="无法显示">
+          <div class="content-goods">
+            <h4>嘉实多(Castrol)磁护 5W-40 4L 合成机油润滑油SN/CF</h4>
+            <div class="price">
+              <h4>259元</h4>
+              <div class="buy">立即购买</div>
+            </div>
+          </div>
+        </div>
+        <div class="box-goods">
+          <img src="./pic/pic-1.png" alt="无法显示">
+          <div class="content-goods">
+            <h4>嘉实多(Castrol)磁护 5W-40 4L 合成机油润滑油SN/CF</h4>
+            <div class="price">
+              <h4>259元</h4>
+              <div class="buy">立即购买</div>
+            </div>
+          </div>
+        </div>
+        <div class="box-goods">
+          <img src="./pic/pic-1.png" alt="无法显示">
+          <div class="content-goods">
+            <h4>嘉实多(Castrol)磁护 5W-40 4L 合成机油润滑油SN/CF</h4>
+            <div class="price">
+              <h4>259元</h4>
+              <div class="buy">立即购买</div>
+            </div>
+          </div>
+        </div>
+        <div class="box-goods">
+          <img src="./pic/pic-1.png" alt="无法显示">
+          <div class="content-goods">
+            <h4>嘉实多(Castrol)磁护 5W-40 4L 合成机油润滑油SN/CF</h4>
+            <div class="price">
+              <h4>259元</h4>
+              <div class="buy">立即购买</div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </body>
+</html>

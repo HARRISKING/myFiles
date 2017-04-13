@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>我</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/me.css">
+</head>
+
+<body>
+    <header>
+        <p>我</p>
+    </header>
+    <section class="me">
+        <img src="img/2.png" alt="">
+        <p class="me-name">爱爱爱爱i哎i哎</p>
+        <p class="me-tel">请先绑定手机号></p>
+    </section>
+    <section class="me-lists">
+        <ul>
+            <li>
+                <div class="me-left">
+                    <img src="img/me/my_icon_car.png" alt="">
+                    <p>我的车</p>
+                </div>
+                <div class="me-right">
+                    <i class="right"></i>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div class="me-left">
+                    <img src="img/me/my_icon_order.png" alt="">
+                    <p>我的订单</p>
+                </div>
+                <div class="me-right">
+                    <i class="right"></i>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li class="card">
+                <div class="me-left">
+                    <img src="img/me/my_icon_vip.png" alt="">
+                    <p>我的会员卡</p>
+                </div>
+                <div class="me-right">
+                    <i class="right"></i>
+                </div>
+            </li>
+            <li class="coupon">
+                <div class="me-left">
+                    <img src="img/me/my_icon_youhuiquan.png" alt="">
+                    <p>我的优惠券</p>
+                </div>
+                <div class="me-right">
+                    <i class="right"></i>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div class="me-left">
+                    <img src="img/me/my_icon_shezhi.png" alt="">
+                    <p>设置</p>
+                </div>
+                <div class="me-right">
+                    <i class="right"></i>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <img src="img/common/tab_icon_home_default.png" alt="">
+                <p>首页</p>
+            </li>
+            <li>
+                <img src="img/common/tab_icon_my_selected.png" alt="">
+                <p class="is-active">我的</p>
+            </li>
+        </ul>
+    </footer>
+    <script type="text/javascript">
+      var card = document.getElementsByClassName('card')[0];
+      card.addEventListener('click',function(){
+        window.location.href = "./donateCard0.html";
+      })
+      var coupon = document.getElementsByClassName('coupon')[0];
+      coupon.addEventListener('click',function(){
+        window.location.href = "./donateCard.html";
+      })
+    </script>
+  </body>
+</html>

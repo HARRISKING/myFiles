@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+	<title>支付页面</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/pay.css">
+</head>
+<body>
+	<div class="schedule">
+		<p class="status">订单已完成，等待确认支付</p>
+		<p>对方未接受，费用将退回账户</p>
+		<img src="./img/支付费用.png" alt="">
+		<img src="./img/参与拍摄.png" alt="">
+		<img src="./img/确认付款.png" alt="">
+	</div>	
+	<div class="order">
+		<div class="title">
+			<span class="title-left">订单内容</span>
+			<span class="title-fee">费用:<i>11.00</i></span>
+		</div>
+		<div class="content">
+			<p>服务名称：求带。。</p>
+			<p>发起人：Z.z。。</p>
+			<p>下单日期：2016-10-09</p>
+		</div>
+		<div class="pay">
+			<input type="radio" checked>
+			<img src="./img/weixin.png" alt="">
+			<span>微信支付</span>
+		</div>
+		<button class="go-pay">去支付</button>
+	</div>
+	<div class="confirm">
+		<img src="./img/评价.png" alt="">
+		<span>私信</span>	
+		<button>确认支付</button>
+	</div>
+</body>
+</html>

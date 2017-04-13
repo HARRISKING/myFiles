@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>分享页面</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/share.css">
+    <link rel="stylesheet" href="./css/share/video.css">
+    <script src="./js/video.js"></script>
+    <script src="./js/videojs-live.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="share-title">
+            <div class="share-name">这里显示当前的直播标题</div>
+            <a href="#" class="share-head-section">
+                <span class="share-user-portrait">
+					<img src="http://cdn.q8oils.cc/19b7939385f1ccabe6cd3811d264150e@64-1ci_50w.png" alt="">
+				</span>
+                <div class="share-user-name">alallallaall</div>
+                <div class="share-user-coin">5877金币</div>
+            </a>
+            <div class="share-viewers">1234人正在观看 ></div>
+        </div>
+        <div class="share-video">
+            <video autoplay="" webkit-playsinline="true" x-webkit-airplay="true" x5-video-player-type="h5" playsinline="" preload="auto" id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1000" height="500" data-setup='{}'>
+                <source src="http://pili-live-rtmp.streamqn.moka.vc/mokastream/5b2ebe388f239f2287970e8d7004d7da.m3u8" type="application/x-mpegURL">
+            </video>
+        </div>
+        <share class="share-bar">
+            <div class="share-left-menus">
+            </div>
+        </share>
+    </div>
+</body>
+
+</html>

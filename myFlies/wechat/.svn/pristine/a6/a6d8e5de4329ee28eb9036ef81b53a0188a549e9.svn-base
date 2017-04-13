@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/myorders.css">
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <a href="">
+                <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>我的订单</p>
+    </header>
+    <section class="progress">
+        <p>订单进度：正在进行车辆检测</p>
+        <i class="right"></i>
+    </section>
+    <section class="order">
+        <ul>
+            <li class="order-photo">
+                <img src="" alt="">
+                <div class="order-p-info">
+                    <p class="p-title">车辆照片：</p>
+                    <div class="p-inner">
+                        <p>购买铭心电池*2</p>
+                        <p>保养套餐</p>
+                    </div>
+                </div>
+                <span class="order-mark">已付款</span>
+            </li>
+            <li>
+                <span class="sum">总计：6666元</span>
+                <button type="button" class="evaluate">去评价</button>
+            </li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+      var myOrder = document.getElementsByClassName('order')[0];
+      myOrder.addEventListener('click',function(){
+        window.location.href = "./myorder.html"
+      })
+      document.getElementsByClassName('back')[0].addEventListener('click',function(){
+        window.history.go(-1);
+      })
+    </script>
+  </body>
+</html>

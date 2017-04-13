@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>提现门槛低至20元</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/anti.css">
+</head>
+
+<body>
+    <section>
+        <img class="banner" src="./img/咖啡.png"  border="0" usemap="#planetmap" alt="Planets" hidefocus="true">
+        <map  name="planetmap" id="planetmap">
+          <area shape="rect" coords="95,450,280,485" href="http://www.baidu.com" alt="Sun" />
+        </map>
+        <div class="banner-content">
+            
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        var $h = $(".banner").height(); 
+        var $w = $(".banner").width();
+        var temp = [];
+        temp.push(parseInt($w*.24));
+        temp.push(parseInt($h*.78));
+        temp.push(parseInt($w*.76));
+        temp.push(parseInt($h*.85));
+        var l = temp.join(",")
+        $("area").attr("coords", l);
+    </script>
+</body>
+
+</html>

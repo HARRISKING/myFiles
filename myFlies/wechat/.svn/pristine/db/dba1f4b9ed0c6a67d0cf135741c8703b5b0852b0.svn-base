@@ -1,0 +1,70 @@
+.ne-item {
+    float: left;
+    width: calc(70% - .5rem);
+}
+
+.ne-inner {
+    padding: 1.5rem;
+    background-color: #fff;
+}
+
+.ne-inner-title {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
+.ne-inner-time {
+    margin-right: 1rem;
+}
+
+.ne-inner-info {
+    color: #999;
+}
+
+.ne-inner-info .ne-inner-source {
+    float: right;
+}
+
+.ne-ser {
+    float: left;
+    width: calc(30% - 1rem);
+    margin-left: 1.5rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.ne-ser-item {
+    padding: 0 1rem;
+    background-color: #fff;
+}
+
+.ne-ser-item .ne-ser-title {
+	padding: 1.5rem 0;
+	font-size: 20px;
+	color: #f45460;
+	border-bottom: 1px solid #eee;
+}
+
+.ne-ser-item .ne-ser-detail {
+	padding: 1.5rem 0 .7rem;
+	border-bottom: 1px solid #eee;
+}
+
+.ne-ser-item .ne-ser-detail:last-child {
+	border-bottom: none;
+}
+
+.ne-ser-item .ne-ser-detail img {
+	width: 100%;
+	height: 150px;
+	background-color: orange;	
+}
+
+.ne-ser-item .ne-ser-detail h4 {
+	padding: .5rem 0;
+}
+
+.ne-ser-item .ne-ser-detail p {
+	font-size: 15px;
+	color: #999;
+}

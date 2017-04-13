@@ -1,0 +1,97 @@
+.gift {
+	padding: 10px 15px;
+	margin-bottom: 10px;
+	min-height: 200px;
+	background-color: #fff;
+}
+
+.gift-btn {
+	width: 100%;
+	background-color: #f89c0d;
+	color: #fff;
+	height: 40px;
+	border-radius: 5px;
+	border: 0;
+}
+
+.gift-detail {
+	padding: 0 10px;
+	background-color: #fff;
+}
+
+.gift-title {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #eee;
+	font-size: 15px;
+}
+
+.gift-lists {
+	padding: 10px 0;
+	min-height: 300px;
+}
+
+.gift-lists ul li {
+	margin-bottom: 5px;
+}
+
+.gift-lists p {
+	line-height: 24px;
+}
+
+.g-name {
+	font-size: 14px;
+	color: #333;
+}
+
+.g-num {
+	font-size: 13px;
+	color: #999;
+}
+
+.vip {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #ebebeb;
+    background-image: url(../img/vip/vip_bg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    min-height: 200px;
+}
+
+.vip-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.vip-top img {
+	width: 90px;
+}
+
+.vip-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.vip-item img {
+	margin-right: 15px;
+	width: 40px;
+}
+
+.vip-item p {
+	color: #999;
+	font-size: 14px;
+}
+
+.vip-item .item-name {
+	color: #333;
+	margin-bottom: 8px;
+}

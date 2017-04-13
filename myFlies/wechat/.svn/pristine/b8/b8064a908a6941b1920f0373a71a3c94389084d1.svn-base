@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>官网</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/common/moto-list.css">
+    <link rel="stylesheet" href="./css/common/ser-list.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/edslider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/animate-custom.css"> -->
+</head>
+
+<body>
+    <header>
+        <div class="grid clear">
+            <div class="logo">
+                <a href="#">aaa</a></div>
+            <nav class="header-nav">
+                <ul>
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">模特</a></li>
+                    <li><a href="#">摄影师</a></li>
+                    <li><a href="#">通告</a></li>
+                    <li><a href="#">新闻</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <ul>
+                    <li><a class="fa fa-user" href="#"> 登录</a></li>
+                    <li><a class="fa fa-mobile" href="#"> 下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="banner">
+                <div class="ban-content">
+                    <ul class="mySlideshow">
+                        <li class="first">
+                            <a href="#" target="_blank" class="animated fadeInLeft">
+                                <!-- <img src="images/hd-logo.png" width="330" height="255" alt="Harley-Davidson"> -->
+                            </a>
+                            <!-- <div class="animated fadeInRight">It's time to ride!</div> -->
+                        </li>
+                        <li class="second">
+                            <!-- <img src="images/second-title.png" class="animated fadeInRight"> -->
+                        </li>
+                        <li class="third">
+                            <!-- <img src="images/third-title.png" class="animated fadeInLeft"> -->
+                        </li>
+                        <li class="fourth">
+                            <!-- <img src="images/fourth-title.png" class="animated fadeInRight"> -->
+                        </li>
+                        <li class="fifth">
+                            <!-- <img src="images/fifth-title.png" class="animated fadeInLeft"> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="news clear">
+                <div class="news-detail">
+                    <a href="#">
+                        <img class="news-pic" src="http://cdn.q8oils.cc/4cdfae3d7129dcbce3263b597cb33e8b@1e_520w_260h_1c_0i_1o_100Q_1x.jpg" alt="">
+                        <h1>MOKAaaaaaaaa</h1>
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                    </a>
+                </div>
+                <div class="news-lists">
+                    <div class="news-item">
+                        <h2>mokaaaaaaaaaaaa</h2>
+                        <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                    </div>
+                    <div class="news-item">
+                        <h2>mokaaaaaaaaaaaa</h2>
+                        <p>aaaaaaaaaaaaaa</p>
+                    </div>
+                    <div class="news-item">
+                        <h2>mokaaaaaaaaaaaa</h2>
+                        <p>aaaaaaaaaaaaaa</p>
+                    </div>
+                    <a href="#">
+                        更多新闻...
+                    </a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="ser-title clear">
+                    <h3 class="ser-name">微店服务</h3>
+                    <div class="ser-list">
+                        <ul>
+                            <li>
+                                <a href="#">全部分类</a>
+                            </li>
+                            <li class="list-border">
+                                <a href="#">模特类</a>
+                            </li>
+                            <li class="list-border">
+                                <a href="#">摄影师类
+                            </a></li>
+                            <li class="list-border">
+                                <a href="#">线上服务
+                            </a></li>
+                            <li>
+                                <a href="#">线下服务
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="ser-more">更多服务...</div>
+                </div>
+                <div class="ser-content clear">
+                    <div class="ser-special">
+                        <img src="http://cdn.q8oils.cc/95f68057cca8a21db17ecb74b7d6c739@1e_260w_430h_1c_0i_1o_100Q_1x.jpg" alt="">
+                        <div class="ser-modal">
+                            <div class="ser-modal-info">
+                                <h4>热门服务</h4>
+                                <p>看电影 / 打游戏 / 星座占卜 / 情感咨询</p>
+                            </div>
+                            <a href="#" class="ser-modal-more">
+                                查看更多<i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ser-item">
+                        <article>
+                            <a href="#">
+                                <div class="ser-cover-area">
+                                    <div class="ser-cover">
+                                        <img src="http://cdn.q8oils.cc/40ee5223c6007df41a1c839096c79c02@1e_240w_130h_1c_0i_1o_100Q_1x.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="ser-info">
+                                    <h4>淘宝模特</h4>
+                                    <p class="clear">
+                                        <span>1000</span>
+                                        <a class="order" href="#">下单</a>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <div class="ser-cover-area">
+                                    <div class="ser-cover">
+                                        <img src="http://cdn.q8oils.cc/40ee5223c6007df41a1c839096c79c02@1e_240w_130h_1c_0i_1o_100Q_1x.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="ser-info">
+                                    <h4>淘宝模特</h4>
+                                    <p class="clear">
+                                        <span>1000</span>
+                                        <a class="order" href="#">下单</a>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <div class="ser-cover-area">
+                                    <div class="ser-cover">
+                                        <img src="http://cdn.q8oils.cc/40ee5223c6007df41a1c839096c79c02@1e_240w_130h_1c_0i_1o_100Q_1x.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="ser-info">
+                                    <h4>淘宝模特</h4>
+                                    <p class="clear">
+                                        <span>1000</span>
+                                        <a class="order" href="#">下单</a>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <div class="ser-cover-area">
+                                    <div class="ser-cover">
+                                        <img src="http://cdn.q8oils.cc/40ee5223c6007df41a1c839096c79c02@1e_240w_130h_1c_0i_1o_100Q_1x.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="ser-info">
+                                    <h4>淘宝模特</h4>
+                                    <p class="clear">
+                                        <span>1000</span>
+                                        <a class="order" href="#">下单</a>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <div class="ser-cover-area">
+                                    <div class="ser-cover">
+                                        <img src="http://cdn.q8oils.cc/40ee5223c6007df41a1c839096c79c02@1e_240w_130h_1c_0i_1o_100Q_1x.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="ser-info">
+                                    <h4>淘宝模特</h4>
+                                    <p class="clear">
+                                        <span>1000</span>
+                                        <a class="order" href="#">下单</a>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <div class="ser-cover-area">
+                                    <div class="ser-cover">
+                                        <img src="http://cdn.q8oils.cc/40ee5223c6007df41a1c839096c79c02@1e_240w_130h_1c_0i_1o_100Q_1x.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="ser-info">
+                                    <h4>淘宝模特</h4>
+                                    <p class="clear">
+                                        <span>1000</span>
+                                        <a class="order" href="#">下单</a>
+                                    </p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="direct">
+                <div class="dir-title clear">
+                    <h3 class="dir-name">热门直播</h3>
+                    <div class="dir-more">更多直播...</div>
+                </div>
+                <div class="dir-content clear">
+                    <div class="dir-special">
+                        <img src="http://cdn.q8oils.cc/95f68057cca8a21db17ecb74b7d6c739@1e_430w_430h_1c_0i_1o_100Q_1x.jpg" alt="">
+                        <p class="dir-special-title">cococoococo</p>
+                        <span class="dir-status">直播中</span>
+                        <div class="bdc-bg"></div>
+                        <div class="bdc-show-modal bdc-show-modal-display">
+                                <img class="bdc-show-play" src="./img/play.png" alt="">       
+                        </div>
+                    </div>
+                    <div class="dir-item">
+                        <article>
+                            <a href="#">
+                                <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                                <p class="bdc-title">galigaligali</p>
+                                <div class="bdc-bg"></div>
+                                <div class="bdc-show-modal bdc-show-modal-display">
+                                        <img class="bdc-show-play" src="./img/play.png" alt="">       
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                                <p class="bdc-title">galigaligali</p>
+                                <div class="bdc-bg"></div>
+                                <div class="bdc-show-modal bdc-show-modal-display">
+                                        <img class="bdc-show-play" src="./img/play.png" alt="">       
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                                <p class="bdc-title">galigaligali</p>
+                                <div class="bdc-bg"></div>
+                                <div class="bdc-show-modal bdc-show-modal-display">
+                                        <img class="bdc-show-play" src="./img/play.png" alt="">       
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                                <p class="bdc-title">galigaligali</p>
+                                <div class="bdc-bg"></div>
+                                <div class="bdc-show-modal bdc-show-modal-display">
+                                        <img class="bdc-show-play" src="./img/play.png" alt="">       
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                                <p class="bdc-title">galigaligali</p>
+                                <div class="bdc-bg"></div>
+                                <div class="bdc-show-modal bdc-show-modal-display">
+                                        <img class="bdc-show-play" src="./img/play.png" alt="">       
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="#">
+                                <img src="http://cdn.q8oils.cc/79bbb576541a29dff5415b6c92c03f19@1e_240w_240h_1x.jpg" alt="">
+                                <p class="bdc-title">galigaligali</p>
+                                <div class="bdc-bg"></div>
+                                <div class="bdc-show-modal bdc-show-modal-display">
+                                        <img class="bdc-show-play" src="./img/play.png" alt="">       
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="moto clear">
+                <div class="moto-title clear">
+                    <div class="moto-name">模特精选</div>
+                    <div class="moto-list">
+                        <ul>
+                            <li><a href="">全部分类</a></li>
+                            <li class="list-border"><a href="">模特类</a></li>
+                            <li class="list-border"><a href="">摄影师类</a></li>
+                            <li class="list-border"><a href="">线上服务</a></li>
+                            <li><a href="">线下服务</a></li>
+                        </ul>
+                    </div>
+                    <div class="moto-more">更多服务...</div>
+                </div>
+                <div class="moto-content">
+                    <article class="mark">
+                        <a href="#">
+                            <div class="moto-cover">
+                                <img src="http://cdn.q8oils.cc/2d2a4f6c06d054c6ca36b5c907756907@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="moto-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="mark">
+                        <a href="#">
+                            <div class="moto-cover">
+                                <img src="http://cdn.q8oils.cc/2d2a4f6c06d054c6ca36b5c907756907@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="moto-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="mark">
+                        <a href="#">
+                            <div class="moto-cover">
+                                <img src="http://cdn.q8oils.cc/2d2a4f6c06d054c6ca36b5c907756907@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="moto-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="mark">
+                        <a href="#">
+                            <div class="moto-cover">
+                                <img src="http://cdn.q8oils.cc/2d2a4f6c06d054c6ca36b5c907756907@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="moto-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+            <div class="photo clear">
+                <div class="photo-title clear">
+                    <div class="photo-name">摄影师精选</div>
+                    <div class="photo-list">
+                        <ul>
+                            <li><a>全部分类</a></li>
+                            <li class="list-border"><a>模特类</a></li>
+                            <li class="list-border"><a>摄影师类</a></li>
+                            <li class="list-border"><a>线上服务</a></li>
+                            <li><a>线下服务</a></li>
+                        </ul>
+                    </div>
+                    <div class="photo-more">更多服务...</div>
+                </div>
+                <div class="photo-content">
+                    <article class="mark">
+                        <a href="#">
+                            <div class="photo-cover">
+                                <img src="http://cdn.q8oils.cc/d8290e4d434c1071ed4b9e703ac9ea44@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="photo-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="mark">
+                        <a href="#">
+                            <div class="photo-cover">
+                                <img src="http://cdn.q8oils.cc/d8290e4d434c1071ed4b9e703ac9ea44@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="photo-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="mark">
+                        <a href="#">
+                            <div class="photo-cover">
+                                <img src="http://cdn.q8oils.cc/d8290e4d434c1071ed4b9e703ac9ea44@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="photo-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="mark">
+                        <a href="#">
+                            <div class="photo-cover">
+                                <img src="http://cdn.q8oils.cc/d8290e4d434c1071ed4b9e703ac9ea44@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="photo-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+            <div class="notice clear">
+                <div class="not-title clear">
+                    <div class="not-name">微店服务</div>
+                    <div class="not-list">
+                        <ul>
+                            <li><a href="">全部活动</a></li>
+                            <li class="list-border"><a href="">通告</a></li>
+                            </li>
+                            <li class="list-border"><a href="">众筹</a></li>
+                            <li><a href="">海报</a></li>
+                        </ul>
+                    </div>
+                    <div class="not-more">更多服务...</div>
+                </div>
+                <div class="not-content">
+                    <article class="not-left">
+                        <a href="#">
+                            <div class="not-cover">
+                                <img src="http://cdn.q8oils.cc/215e1e0b5c7ef2cec3bd9a1c68a092b1@329w_400h_1e_1c.jpg" alt="">
+                            </div>
+                            <div class="not-info">
+                                <span class="not-info-name">淘宝模特招募</span>
+                                <span class="not-info-view"><i class="fa fa-eye"></i> 3334人已浏览</span>
+                                <p>我只要特别漂亮的妹子，特别特别辣种</p>
+                            </div>
+                        </a>
+                    </article>
+                    <div class="not-middle">
+                        <article class="">
+                            <a href=" ">
+                                <div class="not-cover">
+                                    <img src="http://cdn.q8oils.cc/215e1e0b5c7ef2cec3bd9a1c68a092b1@329w_190h_1e_1c.jpg" alt=" ">
+                                </div>
+                                <div class="not-info not-info-mid">
+                                    <span class="not-info-name">淘宝模特招募</span>
+                                    <span class="not-info-view"><i class="fa fa-eye"></i> 3334人已浏览</span>
+                                    <p>我只要特别漂亮的妹子，特别特别辣种</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="">
+                            <a href=" ">
+                                <div class="not-cover">
+                                    <img src="http://cdn.q8oils.cc/215e1e0b5c7ef2cec3bd9a1c68a092b1@329w_190h_1e_1c.jpg" alt=" ">
+                                </div>
+                                <div class="not-info not-info-mid">
+                                    <span class="not-info-name">淘宝模特招募</span>
+                                    <span class="not-info-view"><i class="fa fa-eye"></i> 3334人已浏览</span>
+                                    <p>我只要特别漂亮的妹子，特别特别辣种</p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <article class="not-right">
+                        <a href="#">
+                            <div class="not-cover">
+                                <img src="http://cdn.q8oils.cc/215e1e0b5c7ef2cec3bd9a1c68a092b1@329w_400h_1e_1c.jpg" alt="">
+                            </div>
+                            <div class="not-info">
+                                <span class="not-info-name">淘宝模特招募</span>
+                                <span class="not-info-view"><i class="fa fa-eye"></i> 3334人已浏览</span>
+                                <p>我只要特别漂亮的妹子，特别特别辣种</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="grid">
+            <div class="footer-sec">
+                <p>Designed by <a href="http://www.moka.vc">moka.vc</a></p>
+                <p>Copyright © 2016. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="page-mask">
+        <div class="page-mask-close">
+            <i class="close fa fa-close"></i>
+        </div>
+    </div> 
+    <div class="page-modal">
+       <h3>如果您还未注册MOKA<br>请您下载MOKA APP后使用更多功能~</h3> 
+       <img src="./img/code.png" alt="">
+       <p>扫描二维码下载APP</p>
+    </div>
+
+
+    <style>
+        .page-mask {
+            display: none;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            z-index: 9997;
+            background-color: rgba(0, 0, 0, 0.701961);
+            opacity: 1;
+        }
+
+        .close {
+            position: fixed;
+            top: 25px;
+            right: 25px;
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 2.5rem;
+        }
+
+        .page-modal {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 420px;
+            height: 466px;
+            margin-left: -210px;
+            margin-top: -233px;
+            background-color: #fff;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 4px rgba(0,0,0,.3);
+            z-index: 9999;
+            box-shadow: 0 0 10px #cbcbcb;
+            -o-box-shadow: 0 0 10px #cbcbcb;
+            -moz-box-shadow: 0 0 10px #cbcbcb;
+            -webkit-box-shadow: 0 0 10px #cbcbcb;
+        }
+
+        .page-modal h3 {
+            font-size: 1.1rem;
+            line-height: 1.7rem;
+            color: #f45460;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .page-modal img {
+            width: 65%;
+            margin: auto;
+        }
+
+        .page-modal p {
+            font-size: 1.25rem;
+            color: #333;
+            margin: 1rem 0;
+            text-align: center;
+        }
+    </style>
+
+
+
+
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.edslider.js"></script>
+    <script src="./js/header.js"></script>
+    <script>
+    $(".ser-item article").hover(function() {
+        $(this).find(".ser-cover").css('transform', 'scale(1.1)');
+    }, function() {
+        $(this).find(".ser-cover").css('transform', 'scale(1)');
+    });
+
+    $(".not-content article").hover(function() {
+        var height = $(this).height() - $(this).find(".not-info").height();
+        $(this).find(".not-info").css('top', height);
+    }, function() {
+        var height = $(this).height() - 32;
+        $(this).find(".not-info").css('top', height);
+    });
+
+    $(".news-detail").hover(function() {
+        $(this).find("h1").css("color", "#f45460");
+    }, function() {
+        $(this).find("h1").css("color", "#333")
+    })
+
+    $(".news-item").hover(function() {
+        $(this).find("h2").css({
+            "color": "#f45460",
+            "border-color": "#f45460"
+        });
+    }, function() {
+        $(this).find("h2").css({
+            "color": "#333",
+            "border-color": "#333"
+        });
+    })
+    </script>
+    <script>
+    $(document).ready(function() {
+        //Call plugin
+        $('.mySlideshow').edslider({
+            width: '100%',
+            height: 320,
+            animation: true,
+            progress: false
+        });
+    });
+    </script>
+</body>
+
+</html>

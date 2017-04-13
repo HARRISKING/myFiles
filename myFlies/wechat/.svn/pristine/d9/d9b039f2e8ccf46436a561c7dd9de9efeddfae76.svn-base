@@ -1,0 +1,141 @@
+.category {
+    margin-bottom: 1rem;
+}
+
+.cat-content {
+    padding: 1rem;
+}
+
+.cat-all {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    color: #f45460;
+}
+/**/
+.ne-item {
+    float: left;
+    width: calc(70% - .5rem);
+}
+
+.ne-inner {
+    padding: 1.5rem;
+    background-color: #fff;
+}
+
+.ne-inner-cover {
+    float: left;
+    width: 170px;
+    height: 170px;
+    background-color: #f45460;
+}
+
+.ne-inner-item:first-child .ne-inner-cover {
+    width: 260px;
+    height: 260px;
+}
+
+.ne-inner-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.ne-inner-item:first-child {
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.ne-inner-content {
+    float: left;
+    padding: .5rem 0;
+    width: 498px;
+    margin-left: 2rem;
+}
+
+.ne-inner-item:first-child .ne-inner-content {
+    float: left;
+    padding: .5rem 0;
+    width: 408px;
+    margin-left: 2rem;
+}
+
+.ne-inner-content h2 {
+    height: 40px;
+    font-size: 20px;
+}
+
+.ne-inner-item:first-child .ne-inner-content h2 {
+    height: 60px;
+}
+
+.ne-inner-content .ne-inner-desc {
+    height: 100px;
+    font-size: 15px;
+    color: #999;
+    line-height: 20px;
+}
+
+.ne-inner-item:first-child .ne-inner-content .ne-inner-desc {
+    height: 160px;
+}
+
+.ne-inner-info {
+    color: #999;
+    font-size: 14px;
+}
+
+.ne-inner-time {
+    float: left;
+}
+
+.ne-inner-view {
+    margin-left: 2rem;
+}
+
+.ne-inner-source {
+    float: right;
+}
+/**/
+.ne-ser {
+    float: left;
+    width: calc(30% - 1rem);
+    margin-left: 1.5rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.ne-ser-item {
+    padding: 0 1rem;
+    background-color: #fff;
+}
+
+.ne-ser-item .ne-ser-title {
+	padding: 1.5rem 0;
+	font-size: 20px;
+	color: #f45460;
+	border-bottom: 1px solid #eee;
+}
+
+.ne-ser-item .ne-ser-detail {
+	padding: 1.5rem 0 .7rem;
+	border-bottom: 1px solid #eee;
+}
+
+.ne-ser-item .ne-ser-detail:last-child {
+	border-bottom: none;
+}
+
+.ne-ser-item .ne-ser-detail img {
+	width: 100%;
+	height: 150px;
+	background-color: orange;	
+}
+
+.ne-ser-item .ne-ser-detail h4 {
+	padding: .5rem 0;
+}
+
+.ne-ser-item .ne-ser-detail p {
+	font-size: 15px;
+	color: #999;
+}

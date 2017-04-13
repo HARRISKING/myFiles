@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>领取卡券</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/getCard.css">
+</head>
+
+<body>
+    <section class="tab-panel">
+      <div class="box">
+        <img src="./img/girl.png" alt="我的头像">
+        <div class="word">
+          <p>某某某某某</p>
+          <p class="yellow-word">送了你一张免费券，快来领取吧~</p>
+        </div>
+        <div class="c-item">
+          <img src="img/coupon/xichequan.png" alt="">
+          <div class="c-info">
+              <div class="c-top">
+                  <div class="c-name">免费洗车券</div>
+                  <div class="c-note">持有本优惠券可免费享受一次洗车服务</div>
+              </div>
+              <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+          </div>
+          <div class="btn-fir">点击领取</div>
+          <div class="btn-sed">您已领取该卡券</div>
+          <p class="least-card">已有3人领取，还剩5张</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel">
+      <div class="rule">
+        <div class="phase1">
+          <h2>可用门店：</h2>
+          <p>地址：北京市朝阳区酒仙桥驼房营路新华科技大厦0101</p>
+        </div>
+        <div>
+          <h2>使用规则：</h2>
+          <p>1. 一张优惠券仅可使用一次，且请在有效期内使用该券，否则逾期作废不可用。</p>
+          <p>2. 用户可在优惠券上注明地址的门店里使用。</p>
+          <p>3. 点击下方的“赠送他人”可将自己的优惠券赠他人使用。</p>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="tab-panel">
+      <div class="record boxPlus">
+        <h2>领取记录：</h2>
+      </div>
+      <div class="box boxPlus">
+        <div class="word1">
+          <img src="./img/girl.png" alt="我的头像">
+
+          <div class="info">
+            <p>某某某某某</p>
+            <p class="yellow-word">领取了1张洗车优惠券</p>
+          </div>
+          <p class="data-word">2017-03-13 10:00</p>
+        </div>
+
+      </div>
+      <div class="box boxPlus">
+        <div class="word1">
+          <img src="./img/girl.png" alt="我的头像">
+
+          <div class="info">
+            <p>某某某某某</p>
+            <p class="yellow-word">领取了1张洗车优惠券</p>
+          </div>
+          <p class="data-word">2017-03-13 10:00</p>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <script type="text/javascript">
+      var btnFir = document.getElementsByClassName('btn-fir')[0];
+      var btnSed = document.getElementsByClassName('btn-sed')[0];
+      btnFir.addEventListener('click',function(){
+        btnFir.style.display="none";
+        btnSed.style.display="flex";
+      },false)
+    </script>
+
+
+  </body>
+</html>

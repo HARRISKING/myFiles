@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>赠送卡券</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/donateCard.css">
+  </head>
+  <body>
+
+    <p class="word1">您的免费洗车权益剩余20次，请选择您要赠送的数量：</p>
+    <section class="tab-panel tab2">
+      <div class="box">
+        <p>总次数</p>
+        <div class="total_share">
+          <input type="hidden" value="20" id="max_value" />
+          <input class="input_num" type="number" placeholder="1" name="" value="">
+          <p id="total_share_num" class="">张</p>
+        </div>
+      </div>
+    </section>
+    <p class="word2">所填张数不能为0，且不能超过您当前剩余的总次数；</p>
+    <section class="tab-panel tab3">
+      <div class="box">
+        <p>留言</p>
+        <input type="text" class="message" placeholder="我在D+护车给你们送福利了，先到先得~" name="" value="">
+      </div>
+    </section>
+    <section class="tab-panel tab4">
+      <div class="box">
+        <label for="only-one"><p>每人有且只能领取一次</p></label>
+        <input type="checkbox" class="check" value="0" id="only-one">
+      </div>
+    </section>
+    <section class="tab5">
+      <p>价值</p>
+      <p class="num">0.00</p>
+      <p>元</p>
+    </section>
+    <div class="tab-panel btn">确定赠送</div>
+
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript">
+    var maxValue = $("#max_value").val();
+      $('.input_num').on('blur',function(){
+        var value = $(this).val();
+        if(/\d/.test(value) !=true){
+            alert('您输入的不是数字！');
+        }else if(value>maxValue||value <1){
+  　　　　　 alert('您输入的范围不正确！');
+      }
+      return false;
+     });
+
+     $('.btn').on('click',function(){
+       window.location.href = './share.html'
+     })
+    </script>
+  </body>
+</html>

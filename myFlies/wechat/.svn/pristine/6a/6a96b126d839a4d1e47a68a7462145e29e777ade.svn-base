@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>金币兑换说明</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/anti.css">
+</head>
+
+<body>
+    <section>
+        <img class="banner" src="./img/img/banner.jpg" alt="">
+        <div class="banner-content">
+            <p>
+                各位MOKA宝宝们注意啦！随着直播大版本的到来，宝宝们积攒已久的金币终于可以兑现啦！小编似乎已经嗅到了空气中金币的味道$(づ￣ 3￣)づ$~下面就由小编为各位宝宝带来详细的兑换说明。
+            </p>
+            <p class="yellow-border-top divide">
+                宝宝们进入APP后，点击"我"这个按钮，就可以进入到我的个人中心，然后点击"设置"按钮，前往主播认证页面进行主播认证。
+            </p>
+            <img class="display" src="./img/img/1-1.jpg" alt="">
+            <img class="display" src="./img/img/2.jpg" alt="">
+            <p class="yellow-border-top divide">
+                到达"设置"页面之后，点击"主播认证"按钮来完成主播认证。最后只需要简单的点击"申请认证"按钮即可完成认证。是不是 so easy~
+            </p>
+            <img class="display" src="./img/img/3.jpg" alt="">
+            <img class="display" src="./img/img/4.jpg" alt="">
+            <p class="yellow-border-top ">
+                Tips：小编最后再给各位宝宝们一点小提醒。点击完按钮之后，MOKA官方会火速处理个位宝宝的认证申请，请个位宝宝耐心等待。如果遇到无法认证等情况，请及时和平台工作人员联系。
+            </p>
+        </div>
+        <!-- <img src="./img/j-footer.png" alt=""> -->
+    </section>
+</body>
+
+</html>

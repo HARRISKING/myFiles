@@ -1,0 +1,55 @@
+.me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(50, 102, 204);
+}
+
+.me>img {
+    width: 25%;
+    border-radius: 50%;
+    margin: 40px 0 0 0;
+}
+
+.me-name {
+    color: #fff;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+.me-tel {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 15px;
+    /*绑定手机号的功能暂时无*/
+    display: none;
+}
+
+.me-lists ul {
+	margin-bottom: 10px;
+}
+
+.me-lists .bot {
+	margin-bottom: 2px;
+}
+
+.me-lists ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+.me-left {
+	display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.me-left img {
+	width: 25px;
+	margin-right: 15px;
+}

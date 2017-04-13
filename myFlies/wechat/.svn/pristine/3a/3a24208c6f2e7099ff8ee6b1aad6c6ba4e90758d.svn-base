@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mycar.css">
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <a href="">
+                <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>我的车</p>
+    </header>
+    <section class="car">
+        <ul>
+            <li class="car-photo">
+                <span>车辆照片：</span>
+                        <img src="" alt="">
+            </li>
+            <li>
+                <span>型号：</span>
+                <span>巴博斯S级</span>
+            </li>
+            <li>
+                <span>车牌号</span>
+                <span>京N67887</span>
+            </li>
+            <li>
+                <span>车身VIN码</span>
+                <span>bjbjbj</span>
+            </li>
+            <li>
+                <p>其他：</p>
+                <p>啊啊aaaaa</p>
+            </li>
+        </ul>
+    </section>
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>模特首页</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/common/moto-list.css">
+    <link rel="stylesheet" href="./css/moto.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="grid clear">
+            <div class="logo">
+                <a href="#">aaa</a></div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li class="active"><a href="#">模特</a></li>
+                    <li><a href="#">摄影师</a></li>
+                    <li><a href="#">通告</a></li>
+                    <li><a href="#">新闻</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <ul>
+                    <li><a class="fa fa-user" href="#"> 登录</a></li>
+                    <li><a class="fa fa-mobile" href="#"> 下载</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="moto-category">
+                <h1 class="moto-cat-all">全部分类 <i class="fa fa-angle-right"></i></h1>
+                <div class="moto-cat-content clear">
+                    <div class="moto-category-list cat-list1 clear">
+                        <h2>地区</h2>
+                        <ul>
+                            <li>
+                                <a href="">上海</a></li>
+                        </ul>
+                    </div>
+                    <div class="moto-category-list cat-list2 clear">
+                        <h2>性别</h2>
+                        <ul>
+                            <li>
+                                <a href="">不限</a></li>
+                            <li>
+                                <a href="">男</a></li>
+                            <li>
+                                <a href="">女</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="moto clear">
+                <div class="moto-content">
+                    <article class="mark">
+                        <a href="#">
+                            <div class="moto-cover">
+                                <img src="http://cdn.q8oils.cc/2d2a4f6c06d054c6ca36b5c907756907@1e_233w_200h_1c_0i_1o_100Q_1x.jpg" alt="">
+                            </div>
+                            <div class="moto-info">
+                                <h4>淘宝模特</h4>
+                                <ul class="clear">
+                                    <li>女</li>
+                                    <li>北京朝阳</li>
+                                    <li>摩羯座</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>footer</footer>
+    <script src="./js/jquery.min.js"></script>
+    <script>
+    var _current = $(".header-nav").find(".active");
+    $(".header-nav").find("li").hover(function() {
+        if ($(this).hasClass("active")) {
+            return false;
+        }
+        $(".header-nav").find(".active").removeClass('active')
+        $(this).addClass("active")
+    }, function() {
+        $(this).removeClass("active")
+    })
+
+    $(".header-nav").mouseleave(function() {
+        _current.addClass("active")
+    })
+    </script>
+</body>
+
+</html>

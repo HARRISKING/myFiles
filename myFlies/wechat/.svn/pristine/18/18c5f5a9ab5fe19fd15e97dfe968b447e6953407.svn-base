@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>个人主页</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="sec1">
+        <div class="personal-info">
+            <!-- <div class="bg"> -->
+            <img class="bg" src="http://cdn.q8oils.cc/e191731da3193d715daede1512eb8468@1e_420w_240h_1c_0i_1o_90Q_3-3bl_1x.png" alt="">
+            <!-- </div> -->
+            <div class="info">
+                <div class="portrait">
+                    <img src="http://cdn.q8oils.cc/e191731da3193d715daede1512eb8468@100-1ci_1e_150w_150h_1c_0i_1o_100Q_1x.png" alt="">
+                </div>
+                <div class="name">
+                    <span>MOKA号：2238518</span>
+                    <span>女</span>
+                    <span>北京丰台</span>
+                </div>
+                <div class="auth">
+                    <ul>
+                        <li class="li1"><img src="./img/认证.png" alt=""></li>
+                        <li class="li2"><img src="./img/皇冠.png" alt=""></li>
+                        <li class="li3"><img src="./img/签约.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="fans">
+                    <span>粉丝 33</span>
+                    <span>关注 23</span>
+                </div>
+            </div>
+            <div class="level">
+                <img src="./img/lv3.png" alt="">
+                <span>1111</span>
+            </div>
+        </div>
+        <div class="panel">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="./img/模特卡-01.png" alt="">
+                        <p>模特卡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/微店-01.png" alt="">
+                        <p>约拍·微店</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/相册-01.png" alt="">
+                        <p>相册</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/视频-01.png" alt="">
+                        <p>视频</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="go-list">
+            <a href="#">查看她的动态
+				<img src="./img/右.png" alt="">
+            </a>
+            <a href="#">查看她收到的评价
+				<img src="./img/右.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="sec2">
+    	<div class="service">
+    		<div class="service-title">
+    			<div class="s-head">她的服务</div>
+    			<div class="s-more">更多</div>
+    			<div class="s-logo">
+    				<img src="./img/右.png" alt="">
+    			</div>
+    		</div>
+    		<div class="service-list">
+    			<div class="s-item">
+    				<div class="s-pic">
+    					<img src="http://cdn.q8oils.cc/e09de7afba2aeb68f2a5848e9cf780a6@1e_420w_220h_1c_0i_1o_90Q_1x.png" alt="">
+    				</div>
+					<div class="s-info">
+						<div class="s-type">约拍</div>
+						<div class="s-name">淘宝模特</div>
+						<div class="s-fee">
+							10元 / 小时
+						</div>
+					</div>
+    			</div>
+    			<div class="s-item">
+    				<div class="s-pic">
+    					<img src="http://cdn.q8oils.cc/e09de7afba2aeb68f2a5848e9cf780a6@1e_420w_220h_1c_0i_1o_90Q_1x.png" alt="">
+    				</div>
+					<div class="s-info">
+						<div class="s-type">人物写真</div>
+						<div class="s-name">淘宝模特</div>
+						<div class="s-fee">
+							10元 / 小时
+						</div>
+					</div>
+					<div class="s-buy">
+						<img src="./img/购买.png" alt="">
+						233人已购买
+					</div>
+    			</div>
+    			<div class="s-item">
+    				<div class="s-pic">
+    					<img src="http://cdn.q8oils.cc/e09de7afba2aeb68f2a5848e9cf780a6@1e_420w_220h_1c_0i_1o_90Q_1x.png" alt="">
+    				</div>
+					<div class="s-info">
+						<div class="s-type">#出摄影#</div>
+						<div class="s-name">古装造型小清新</div>
+						<div class="s-fee">
+							起拍价：200
+						</div>
+					</div>
+					<div class="s-buy">
+						<img src="./img/购买.png" alt="">
+						233人已出价
+					</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="album">
+    		<div class="album-title">
+    			<div class="a-head">她的服务</div>
+    			<div class="a-more">更多</div>
+    			<div class="a-logo">
+    				<img src="./img/右.png" alt="">
+    			</div>
+    		</div>
+    		<div class="album-list">
+    			<div class="a-list"></div>
+    		</div>
+    	</div>
+    </div>
+</body>
+
+</html>

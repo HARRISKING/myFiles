@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>通告</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="bdc-form">
+                <div class="bdc-form-title">
+                    <ul>
+                        <li class="is-active">
+                            <span class="radius">1</span>
+                            <span>设置房间名称</span>
+                            <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li>
+                            <span class="radius">2</span>
+                            <span>设置房间公告</span>
+                            <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li>
+                            <span class="radius">3</span>
+                            <span>设置打赏菜单</span>
+                            <i class="fa fa-angle-right"></i>
+                        </li>
+                        <li>
+                            <span class="radius">4</span>
+                            <span>开始直播</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bdc-form-content">
+                    <div class="bdc-form-content-center">
+                        <form class="applyform">
+                            <div class="bdc-form-page1">
+                                <h2>请起一个吸引人的名字吧~</h2>
+                                <input type="text" class="bdc-form-input" name="title" value="100金币一首歌/50金币跳三跳" autocomplete="off">
+                                <button type="button" class="bdc-form-btn" disabled>下一步</button>
+                            </div>
+                            <div class="bdc-form-page2">
+                                <h2>房间公告</h2>
+                                <textarea name="notice" id="" cols="30" rows="10">文明直播，非诚勿扰。</textarea>
+                                <p>说明：</p>
+                                <p>1.如果想要在直播中修改房间公告，可以点击直播间的设置去修改；</p>
+                                <p>2.公告会在公了消息中以3分钟一次的频率出现；</p>
+                                <p>3.如果不想设置房间公告，可直接点击下一部；</p>
+                                <button type="button" class="bdc-form-btn">下一步</button>
+                            </div>
+                            <div class="bdc-form-page3">
+                                <h2>打赏菜单</h2>
+                                <textarea name="menu" id="" cols="30" rows="10">5个金币，笑一笑</textarea>
+                                <p>说明：</p>
+                                <p>1.如果你想要直播中修改打赏信息，可以点击直播间里的设置去修改；</p>
+                                <p>2.打赏菜单会在公聊消息以3分钟一次的频率出现；</p>
+                                <p>3.如果不想设置打赏菜单，可以直接点击下方的下一步；</p>
+                                <p>4.一旦设置，请自觉遵守自己的打赏准则，为自己件绿优秀的主播信誉；</p>
+                                <button type="button" class="bdc-form-btn">下一步</button>
+                            </div>
+                            <div class="bdc-form-page4">
+                                <h3>房间名称</h3>
+                                <p class="room-title">你直播你快乐</p>
+                                <hr>
+                                <h3>房间公告</h3>
+                                <p class="room-notice">文明直播，请勿色情暴力；</p>
+                                <hr>
+                                <h3>打赏菜单</h3>
+                                <p class="room-menu">文明直播</p>
+                                <button type="button" class="bdc-form-btn">开始直播</button>
+                            </div>
+                            <input type="text" style="display: none;">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script>
+    var index = 1;
+    $(".bdc-form-page" + index).find("button").on("click", btnClick);
+
+    function btnClick() {
+        if (index > 3) {
+            alert("is all")
+            var data = $(".applyform").serialize();
+            $.post("broadcast/create_stream", data, function(res) {
+                console.log(res)
+            })
+            return false;
+        }
+
+        if (index == 3) {
+            $(".room-title").html($(".bdc-form-page1").find("input").val())
+            $(".room-notice").html($(".bdc-form-page2").find("textarea").val())
+            $(".room-menu").html($(".bdc-form-page3").find("textarea").val())
+        }
+
+        $(".bdc-form-title").find("li").removeClass("is-active").eq(index).addClass("is-active");
+
+        $(this).parent().hide();
+        index++;
+
+        $(".bdc-form-page" + index).show().find("button").on("click", btnClick);
+    }
+
+    $(".bdc-form-page1").find("input").change(function() {
+        if ($(this).val()) {
+            console.log($(this).val())
+            $(".bdc-form-page1").find("button").removeAttr("disabled").addClass("btn-ok")
+        } else {
+            $(".bdc-form-page1").find("button").attr("disabled", "true").removeClass("btn-ok")
+        }
+    })
+    </script>
+</body>
+
+</html>

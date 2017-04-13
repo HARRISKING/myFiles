@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>我的优惠券</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/tic-content.css">
+</head>
+
+<body>
+
+    <section class="tab-panel">
+      <div class="box">
+        <div class="c-item">
+          <img src="img/coupon/xichequan.png" alt="">
+          <div class="c-info">
+              <div class="c-top">
+                  <div class="c-name">免费洗车券</div>
+                  <div class="c-note">持有本优惠券可免费享受一次洗车服务</div>
+              </div>
+              <div class="c-date">有效日期：2017-02-02 --- 2017-10-02</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="rule">
+        <div class="phase1">
+          <h2>可用门店：</h2>
+          <p>地址：北京市朝阳区酒仙桥驼房营路新华科技大厦0101</p>
+        </div>
+        <div>
+          <h2>使用规则：</h2>
+          <p>1. 一张优惠券仅可使用一次，且请在有效期内使用该券，否则逾期作废不可用。</p>
+          <p>2. 用户可在优惠券上注明地址的门店里使用。</p>
+          <p>3. 点击下方的“赠送他人”可将自己的优惠券赠他人使用。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel1">
+      <h4>优惠券来源：</h4>
+      <div class="box1a">
+        <img src="./img/girl.png" alt="无法显示">
+        <div class="box2a">
+          <div class="box3a">
+            <span class="title-name">某某某某</span>
+            <span class="word2">2017-03-23 10:00</span>
+          </div>
+          <p class="word2 color-orange">送了你一张免费洗车券~</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="box5 box-record">
+      <div class="box5-inner">
+        <p>优惠券使用记录</p>
+        <img src="./img/me/right.png" alt="无法显示">
+      </div>
+    </section>
+
+    <section class="box5 lastChild">
+      <div class="box5-inner">
+        <p>优惠券赠送记录</p>
+        <img src="./img/me/right.png" alt="无法显示">
+      </div>
+    </section>
+
+
+    <section class="box3 btn">
+      <div class="box2 box4">
+        <span>赠送他人</span>
+      </div>
+    </section>
+  </body>
+  <script type="text/javascript">
+    document.getElementsByClassName('btn')[0].addEventListener('click',function(){
+      window.location.href="./donateCard.html";
+    })
+
+    // 优惠券使用记录：
+    document.getElementsByClassName('box-record')[0].addEventListener('click',function(){
+      window.location.href="./use_record.html";
+    })
+
+    // 优惠券赠送记录：
+    document.getElementsByClassName('lastChild')[0].addEventListener('click',function(){
+      window.location.href="./donate_record.html";
+    })
+
+  </script>
+</html>

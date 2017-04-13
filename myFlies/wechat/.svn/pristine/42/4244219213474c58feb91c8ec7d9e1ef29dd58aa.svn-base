@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D+护车</title>
+    <meta charset="utf-8">
+    <title>D+护车</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/assess2.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+  </head>
+  <body>
+    <div class="box-all">
+      <img src="./pic/duigou.png" alt="无法显示">
+      <h3>付款成功，感谢您对D+护车的信任</h3>
+      <p class="word1">如有问题，请及时拨打电话与技师沟通</p>
+      <div class="contact">
+        <div class="info">
+          <img src="./pic/head-pic.png" alt="无法显示">
+          <div class="tel">
+            <h4>张师傅</h4>
+            <p>13811111111</p>
+          </div>
+        </div>
+        <div class="btn">
+          <a href="#"><img src="./pic/phone1.png" alt="无法显示"></a>
+        </div>
+      </div>
+      <p class="word2">请点评一下技师1111号的服务吧~</p>
+      <div class="star-bg">
+        <a class="star star1"></a>
+        <a class="star star2"></a>
+        <a class="star star3"></a>
+        <a class="star star4"></a>
+        <a class="star star5"></a>
+    </div>
+      <p class="assess">（请选择）</p>
+      <input  id="stars" type="hidden" value="5">
+      <textarea name="name" rows="8" cols="80"  placeholder="请在此处输入评论内容"></textarea>
+      <div class="button">
+        <a href="#">提交评价</a>
+      </div>
+    </div>
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="./js/assess.js" charset="utf-8"></script>
+  </body>
+</html>

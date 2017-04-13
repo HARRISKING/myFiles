@@ -1,0 +1,33 @@
+body {
+	background-color: #fff;
+}
+
+.car {
+	padding: 0 10px;
+	background-color: #fff;
+	font-size: 15px;
+}
+
+.car ul li {
+	border-bottom: 1px solid #eee;
+	line-height: 50px;
+}
+
+.car ul li p {
+	line-height: 30px;
+}
+
+.car ul li:not(:last-child) {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.car ul li img {
+	width: 60px;
+	height: 60px;
+}
+
+.car ul li.car-photo {
+	line-height: 100px;
+}

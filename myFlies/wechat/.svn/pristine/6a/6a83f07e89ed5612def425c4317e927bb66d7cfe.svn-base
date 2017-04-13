@@ -1,0 +1,133 @@
+body{
+  max-width:500px;
+  margin: 0 auto;
+}
+
+
+.box-all{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+
+.box-all >img{
+  width: 60px;
+  height: 60px;
+  margin: 30px 0 15px 0;
+}
+
+.box-all >h3{
+  color: rgb(195, 168, 94);
+}
+
+.word1{
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  margin-top: 10px;
+}
+
+.word2{
+  font-size: 13px;
+}
+
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  width: 94%;
+  background-color: #fff;
+}
+.info{
+  display: flex;
+}
+
+.info img{
+  width: 60px;
+  height: 60px;
+  margin: 5px 0 5px 5px;
+}
+
+.btn{
+  height: 70px;
+  width: 70px;
+  background-color: rgb(254, 138, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn img{
+  height: 30px;
+  margin: 0;
+}
+
+.info .tel{
+  margin: 5px 5px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.info .tel p:last-child{
+  font-size: 13px;
+}
+
+.button{
+  width: 94%;
+  height: 45px;
+  text-align: center;
+  line-height: 46px;
+  background-color: rgb(50, 102, 204);
+  border-radius: 6px;
+  margin:30px 0;
+  font-size: 14px;
+}
+
+
+textarea{
+  width: 88%;
+  height: 150px;
+  border-radius: 3px;
+  border: 0;
+  line-height: normal;
+  margin-top: 30px;
+  color: black;
+  padding:3%;
+  resize: none;
+}
+
+/*小行星部分：*/
+.star-bg{
+  width: 200px;
+  height: 40px;
+  background: url(../pic/Star1.png) repeat-x;
+  background-size: 40px 40px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.star {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    z-index: 3;
+}
+.star1 { left: 0; }
+.star2 { left: 20%; }
+.star3 { left: 40%; }
+.star4 { left: 60%; }
+.star5 { left: 80%; }
+.star:hover {
+  background: url(../pic/Star2.png) repeat-x;
+  background-size: 40px 40px;
+  left: 0;
+  z-index: 2;
+}
+.star1:hover { width: 20%; }
+.star2:hover { width: 40%; }
+.star3:hover { width: 60%; }
+.star4:hover { width: 80%; }
+.star5:hover { width: 100%; }

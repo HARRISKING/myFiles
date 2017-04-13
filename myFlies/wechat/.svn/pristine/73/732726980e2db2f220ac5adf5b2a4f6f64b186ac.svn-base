@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+
+    <meta charset="utf-8">
+    <title>更干净</title>
+    <link rel="stylesheet" href="../../css/content.css">
+  </head>
+  <body>
+    <div id="box">
+      <div id="box-content">
+        <div id="head"><img class="logo"; src="../../pic/logo_white.png" alt="无法显示"></div>
+
+        <div class="little-tittle">
+          <img class="cube2" src="../../pic/color_cube-02.png" alt="无法显示">
+          <p class="inner-title word1">更干净</p>
+        </div>
+        <div id="main-up">
+          <div class="inner-content">
+            <img class="normal-wash" src="../../pic/neishiqingxi.png" alt="无法显示">
+            <h1 class="inner-title word2">内饰精致洗</h1>
+            <div class="content-text">
+              <p>洗完车，仔细拆除坐垫，冲去门边框、门栏条、门铰链、脚踏板这些沿边死角的泥巴、污垢。仪表台、中控区、储物盒、凹槽、边角、椅缝的灰尘在吹风枪的作用下一扫而光，座椅、地毯上的灰尘也会被吸尘器吸得干干净净。</p>
+              <p>别忘了天窗轨道、侧边缝、内侧玻璃、遮阳板、顶棚，在小毛刷、魔力擦、干湿毛巾、龙卷风枪、精选优质清洗剂的作用下，无论橡胶、玻璃、化纤、丝绒，各种材质都会不留任何污渍水迹。</p>
+              <p>视线又重回仪表台，音响、电话、空调等控制开关，在小毛刷和毛巾配合专用清洗剂的作用下，污渍灰尘不留痕迹，各种边缝也都绝无残留。再到座椅，根据丝绒或皮质的材料，
+                以方形或柱状折叠的小毛巾吸附不同的清洁剂挤压污渍处，再配合魔力擦清除细纹里的污垢，焕然一新的座椅呈现眼前。</p>
+              <p>配合龙卷风枪、毛刷、毛巾、魔力擦和专用清洗剂车门饰板、玻璃轨道、升降器开关、B柱、安全带、椅背、扶手等都会被彻底清洗。除了味道，就跟新车一样，这是D+的一颗匠心。<p>
+            </div>
+          </div>
+        </div>
+        <ul id="main-down">
+          <li class="part part1-1" style="width:100%">
+            <a href="#">
+              <p>单次清洗券</p>
+              <p>320元</p>
+            </a>
+
+          </li>
+        </ul>
+        <div id="footer"><a href="../content2.html">更多车身养护套餐选择</a></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="../../js/car.js"></script>
+
+  </body>
+</html>

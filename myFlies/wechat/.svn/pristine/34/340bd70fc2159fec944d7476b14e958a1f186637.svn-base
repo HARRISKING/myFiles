@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/brief.css">
+
+    <title>关于D+</title>
+  </head>
+  <body>
+    <section class="head">
+      <div class="box">
+        <img src="./img/vip/logo.png" alt="无法显示">
+        <p>D+护车</p>
+      </div>
+    </section>
+    <div id="boxAll">
+      <div>
+        <div class="mark"></div>
+        <section class="inner-content">
+          <h4>定期检测</h4>
+          <p>D+护车，是一种习惯，我们通过定期检测，更早地发现问题，让车主更加了解车；</p>
+        </section>
+      </div>
+      <div>
+        <div class="mark"></div>
+        <section class="inner-content">
+          <h4>上门养护</h4>
+          <p>D+护车，是一项服务，我们通过上门养护，更快地解决问题，让车主更方便的用车；</p>
+        </section>
+      </div>
+      <div>
+        <div class="mark"></div>
+        <section class="inner-content">
+          <h4>集团化管理</h4>
+          <p>D+护车，是一个组织，我们通过集团化管理，连锁式经营，规范化操作，标准化行为，捍卫汽车后市场从业人员的尊严；</p>
+        </section>
+      </div>
+      <div>
+        <div class="mark"></div>
+        <section class="inner-content">
+          <h4>其他</h4>
+          <p>检测是我们服务的基础。
+        不经过检测而进行的维修或保养是不负责任的。通过涵盖底盘系统、动力系统、防盗系统、车身系统、刹车系统、轮胎、灯光、油液、蓄电池、雨刮等检测项目，我们还原给车主一个真实而全面的车辆情况，让车主更加了解车。
+      </br>根据检测结果，结合技师对于车主驾驶习惯的判断，再加上云端大数据的匹配，我们给出科学而规范的维修保养建议，同时，我们提供完整且便利的保养解决方案——上门养护。
+
+    </br>目前我们解决方案涵盖润滑系统、燃油系统、冷却系统和空调系统，有的放矢才能以养代修。全国范围内，D+护车采取“集团化管理，连锁式经营”的管理模式，我们坚守“统一战略制定，品牌标识、”</p>
+
+        </section>
+      </div>
+
+    </div>
+
+
+
+
+
+  </body>
+</html>

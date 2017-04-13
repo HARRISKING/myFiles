@@ -1,0 +1,274 @@
+//引入百度地图API
+var bmap = require('../../libs/bmap-wx.js');
+
+var quality = {
+    l1: {
+        idx: 1,
+        num: '0 - 50',
+        level: '一级（优）',
+        health: '空气质量令人满意，基本无空气污染',
+        do: '各类人群可正常活动'
+    },
+    l2: {
+        idx: 2,
+        num: '51 -100',
+        level: '二级（良）',
+        health: '空气质量可接受，但某些污染物可能对极少数异常敏感人群健康有较弱影响',
+        do: '极少数异常敏感人群应减少户外活动'
+    },
+    l3: {
+        idx: 3,
+        num: '101-150',
+        level: '三级（轻度污染）',
+        health: '易感人群症状有轻度加剧，健康人群出现刺激症状',
+        do: '儿童、老年人及心脏病、呼吸系统疾病患者应减少长时间、高强度的户外锻炼'
+    },
+    l4: {
+        idx: 4,
+        num: '151-200',
+        level: '四级（中度污染）',
+        health: '进一步加剧易感人群症状，可能对健康人群心脏、呼吸系统有影响',
+        do: '儿童、老年人及心脏病、呼吸系统疾病患者避免长时间、高强度的户外锻炼，一般人群适量减少户外运动'
+    },
+    l5: {
+        idx: 5,
+        num: '201-300',
+        level: '五级（重度污染）',
+        health: '心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群普遍出现症状',
+        do: '儿童、老年人及心脏病、肺病患者应停留在室内，停止户外运动，一般人群减少户外运动'
+    },
+    l6: {
+        idx: 6,
+        num: '300+',
+        level: '六级（严重污染）',
+        health: '健康人群运动耐受力降低，有明显强烈症状，提前出现某些疾病',
+        do: '儿童、老年人和病人应停留在室内，避免体力消耗，一般人群避免户外活动'
+    }
+}
+
+function getImgs(body) {
+    var temp = body.split("<img")
+    console.log(temp)
+    var _urls = []
+    for (let x = 0; x < temp.length; x++) {
+        if (temp[x].match(/(data:image.*)' wid/, "$1")) {
+            let y = temp[x].match(/(data:image.*)' wid/, "$1")
+            _urls.push(y[1].replace(/\\/g, ""));
+        }
+    }
+    return _urls;
+}
+
+function judgeLevel(data) {
+    var lel;
+
+    if (data < 50) {
+        lel = quality.l1;
+    } else if (data > 50 && data < 100) {
+        lel = quality.l2;
+    } else if (data > 100 && data < 150) {
+        lel = quality.l3;
+    } else if (data > 150 && data < 200) {
+        lel = quality.l4;
+    } else if (data > 200 && data < 300) {
+        lel = quality.l5;
+    } else {
+        lel = quality.l6;
+    }
+
+    return lel;
+}
+
+//获取应用实例
+var app = getApp()
+Page({
+    data: {
+        pagedata: {},
+        urls: {},
+        random: Math.ceil(Math.random() * 10),
+        loading: true
+    },
+    onlaunch: function() {
+        this.setData({
+            loading: false
+        })
+    },
+    //事件处理函数
+    bindViewTap: function() {
+        wx.navigateTo({
+            url: '../logs/logs'
+        })
+    },
+    bindShareTap: function() {
+
+    },
+    refresh: function() {
+        var that = this
+        var BMap = new bmap.BMapWX({
+            ak: 'tNh60bOhZqFsWmoS3YKbh2Nk8e075uIZ'
+        })
+
+        var fail = function(data) {
+            console.log(data)
+        };
+
+        var success = function(data) {
+            wx.request({
+                url: 'https://api.waqi.info/feed/geo:' + data.wxMarkerData[0].latitude + ';' + data.wxMarkerData[0].longitude + '/',
+                data: {
+                    token: "0663634b53ef244d50d8b3d09cd8d6aa93433167"
+                },
+                header: {
+                    'content-type': 'application/json'
+                },
+                success: function(res) {
+                    console.log(res)
+                    res.data.data.quality = judgeLevel(res.data.data.aqi);
+
+                    res.data.data.city.name = data.wxMarkerData[0].business;
+
+                    var city_cn = data.originalData.result.addressComponent.city;
+                    city_cn = city_cn.substring(-1, city_cn.length - 1);
+                    res.data.data.cityname = city_cn;
+
+                    that.setData({
+                        pagedata: res.data.data,
+                        loading: true
+                    })
+
+                    wx.request({
+                        url: 'https://api.waqi.info/search/',
+                        data: {
+                            token: "0663634b53ef244d50d8b3d09cd8d6aa93433167",
+                            keyword: city_cn
+                        },
+                        header: {
+                            'content-type': 'application/json'
+                        },
+                        success: function(res) {
+                            wx.request({
+                                url: 'https://api.waqi.info/api/feed/@' + res.data.data[0].uid + '/obs.cn.json',
+                                data: {},
+                                header: {
+                                    'content-type': 'application/json'
+                                },
+                                success: function(r) {
+                                    for (let i = 0; i < r.data.rxs.obs[0].msg.nearest.length; i++) {
+                                        r.data.rxs.obs[0].msg.nearest[i].lv = judgeLevel(r.data.rxs.obs[0].msg.nearest[i].aqi);
+                                    }
+                                    that.setData({
+                                        nearestList: r.data.rxs.obs[0].msg.nearest
+                                    })
+                                },
+                                fail: function(res) {}
+                            })
+                        },
+                        fail: function(res) {}
+                    })
+
+                },
+                fail: function(res) {}
+            })
+        }
+
+        BMap.regeocoding({
+            fail: fail,
+            success: success,
+            iconPath: '../../img/marker_red.png',
+            iconTapPath: '../../img/marker_red.png'
+        });
+        that.setData({
+            loading: false
+        })
+    },
+    onLoad: function() {
+        console.log('onLoad')
+        var that = this;
+
+        var BMap = new bmap.BMapWX({
+            ak: 'tNh60bOhZqFsWmoS3YKbh2Nk8e075uIZ'
+        })
+
+        var fail = function(data) {
+            console.log(data)
+        };
+
+        var success = function(data) {
+            wx.request({
+                url: 'https://api.waqi.info/feed/geo:' + data.wxMarkerData[0].latitude + ';' + data.wxMarkerData[0].longitude + '/',
+                data: {
+                    token: "0663634b53ef244d50d8b3d09cd8d6aa93433167"
+                },
+                header: {
+                    'content-type': 'application/json'
+                },
+                success: function(res) {
+                    console.log(res)
+                    res.data.data.quality = judgeLevel(res.data.data.aqi);
+
+                    res.data.data.city.name = data.wxMarkerData[0].business;
+
+                    var city_cn = data.originalData.result.addressComponent.city;
+                    city_cn = city_cn.substring(-1, city_cn.length - 1);
+                    res.data.data.cityname = city_cn;
+
+                    that.setData({
+                        pagedata: res.data.data,
+                        loading: true
+                    })
+
+                    wx.request({
+                        url: 'https://api.waqi.info/search/',
+                        data: {
+                            token: "0663634b53ef244d50d8b3d09cd8d6aa93433167",
+                            keyword: city_cn
+                        },
+                        header: {
+                            'content-type': 'application/json'
+                        },
+                        success: function(res) {
+                            wx.request({
+                                url: 'https://api.waqi.info/api/feed/@' + res.data.data[0].uid + '/obs.cn.json',
+                                data: {},
+                                header: {
+                                    'content-type': 'application/json'
+                                },
+                                success: function(r) {
+                                    for (let i = 0; i < r.data.rxs.obs[0].msg.nearest.length; i++) {
+                                        r.data.rxs.obs[0].msg.nearest[i].lv = judgeLevel(r.data.rxs.obs[0].msg.nearest[i].aqi);
+                                    }
+                                    that.setData({
+                                        nearestList: r.data.rxs.obs[0].msg.nearest
+                                    })
+                                },
+                                fail: function(res) {}
+                            })
+                        },
+                        fail: function(res) {}
+                    })
+
+                },
+                fail: function(res) {}
+            })
+        }
+
+        BMap.regeocoding({
+            fail: fail,
+            success: success,
+            iconPath: '../../img/marker_red.png',
+            iconTapPath: '../../img/marker_red.png'
+        });
+    },
+    onShareAppMessage: function() {
+        return {
+            title: 'PM25空气质量实时查询',
+            desc: '自定义分享描述',
+            path: '/page/weather'
+        }
+    },
+    onPullDownRefresh: function() {
+        this.refresh();
+        console.log("下拉刷新")
+        wx.stopPullDownRefresh()
+    }
+})

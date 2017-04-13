@@ -1,0 +1,150 @@
+/********services*********/
+
+.service {
+    padding: 1.3rem;
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+}
+
+.ser-title {
+    border-bottom: 1px solid #eee;
+}
+
+.ser-name {
+    float: left;
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.ser-list {
+    float: left;
+    margin: .5rem 0 0 13rem;
+}
+
+.ser-list li {
+    float: left;
+    padding: 0 1rem;
+}
+
+.ser-more {
+    float: right;
+    color: #f45460;
+}
+
+.ser-content {
+    padding-top: 2rem;
+}
+
+.ser-special {
+    position: relative;
+    float: left;
+    height: 430px;
+    margin: 0 1rem 1rem 0;
+}
+
+.ser-special img {
+    width: 260px;
+    height: 430px;
+}
+
+.ser-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all .2s linear;
+}
+
+.ser-modal:hover {
+    opacity: 1;
+}
+
+.ser-modal-info {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 200px;
+}
+
+.ser-modal-info h4 {
+    padding: .6rem 0;
+    font-size: 1.1rem;
+}
+
+.ser-modal-info p {
+    padding-top: .8rem;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    border-top: 1px solid #fff;
+}
+
+.ser-modal-more {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    transform: translateX(-50%);
+}
+
+.ser-item {
+    position: relative;
+    float: right;
+    width: 760px;
+}
+
+.ser-item article {
+    float: left;
+    margin: 0 1rem 1.5rem 0;
+    width: 240px;
+    border: 1px solid #eee;
+}
+
+.ser-item article:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .06);
+}
+
+.ser-item article:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.ser-cover-area {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+
+.ser-cover {
+    -webkit-transition: all .7s ease-out;
+    transition: all .7s ease-out;
+}
+
+.ser-cover img {
+    width: 100%;
+    height: 130px;
+}
+
+.ser-info {
+    padding: .5rem;
+}
+
+.ser-info h4 {
+    padding: 2px 0 10px 0;
+}
+
+.ser-info .order {
+    float: right;
+    padding: .3rem .8rem;
+    font-size: .8rem;
+    color: #fff;
+    background-color: #f45460;
+    border-radius: 10px;
+}

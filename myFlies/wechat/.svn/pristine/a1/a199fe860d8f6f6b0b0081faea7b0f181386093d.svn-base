@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>赠送卡券</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/donateCard0.css">
+  </head>
+  <body>
+
+    <p class="word1">请选择一项你要赠送的会员卡权益：</p>
+    <p class="remark">注：一次仅能选择一种权益来赠送</p>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>    <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+        <section class="tab-panel">
+          <div class="box">
+            <p>洗车权益</p>
+            <p>当前剩余100次</p>
+          </div>
+        </section>
+    <section class="tab-panel">
+      <div class="box">
+        <p>洗车权益</p>
+        <p>当前剩余100次</p>
+      </div>
+    </section>
+    <div class="box3">
+      <div class="tab-panel btn">下一步</div>
+
+    </div>
+
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var lock = false;
+      $('section').on('click',function(){
+        $('.tab-panel').removeClass('active');
+        $(this).addClass('active');
+        lock = true;
+      });
+        $('.btn').on('click',function(){
+          if(lock){
+            window.location.href = "./donateCard2.html"
+          }
+        })
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no" />
+    <title>我的会员</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/myvip.css">
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <a href="">
+                <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>我的会员</p>
+    </header>
+    <section class="gift">
+        <div class="vip">
+            <div class="vip-top">
+                <span>D+护车会员卡</span>
+                <img src="img/vip/vip_icon_logo.png" alt="">
+            </div>
+            <div class="vip-bottom">
+                <div class="vip-item">
+                    <img src="img/vip/my_icon_car.png" alt="">
+                    <div class="item-info">
+                        <p class="item-name">洗车权益</p>
+                        <p>已使用10次，剩余90次</p>
+                    </div>
+                </div>
+                <div class="vip-item">
+                    <img src="img/vip/my_icon_car.png" alt="">
+                    <div class="item-info">
+                        <p class="item-name">洗车权益</p>
+                        <p>已使用10次，剩余90次</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="gift-btn">赠送他人</button>
+    </section>
+
+    <section class="gift-detail">
+        <div class="gift-title">
+            其他会员权益使用详情：
+        </div>
+        <div class="gift-lists">
+            <ul>
+                <li>
+                    <p class="g-name">使用权益</p>
+                    <p class="g-num">已用20次，剩余80次</p>
+                </li>
+                <li>
+                    <p class="g-name">保养权益</p>
+                    <p class="g-num">已使用20次，剩余80次</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script type="text/javascript">
+      document.getElementsByClassName('gift-btn')[0].addEventListener('click',function(){
+        window.location.href = "./donateCard0.html";
+      })
+      document.getElementsByClassName('back')[0].addEventListener('click',function(){
+        window.history.go(-1);
+      })
+    </script>
+</body>
+
+</html>

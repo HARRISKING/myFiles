@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>护车会员专享</title>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+    <div id="main">
+      <img src="./pic/pic-head.png" class="head" alt="no-picture">
+      <div id="server">
+        <img src="./pic/pic-middle.png" class="middle" alt="no-picture">
+        <div class="price-word up">
+          <div>380元</div>
+          <div>480元</div>
+          <div>280元</div>
+        </div>
+        <div class="price-word down">
+          <div>420元</div>
+          <div>520元</div>
+        </div>
+      </div>
+
+
+      <div class="price">
+        <img src="./pic/pic-foot.png" class="foot" alt="no-picture">
+        <div class="btn"><a href="#">立即购买</a></div>
+      </div>
+    </div>
+  </body>
+</html>

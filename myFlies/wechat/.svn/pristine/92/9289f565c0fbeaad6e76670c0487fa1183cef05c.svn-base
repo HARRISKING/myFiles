@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scable=no">
+
+    <meta charset="utf-8">
+    <title>更多车身养护套餐选择</title>
+    <link rel="stylesheet" href="../css/content2.css">
+  </head>
+  <body>
+    <div id="content">
+      <div id="content-all">
+        <div id="head-pic">
+          <img src="../pic/logo_white.png" alt="无法显示">
+        </div>
+
+        <div class="title-big">
+          <p class="h1">车身养护套餐</p>
+          <p class="h2">(&nbsp &nbsp注：所有服务项目都能拆分送朋友一起分享！ )</p>
+        </div>
+        <div id="part">
+          <div class="header">
+            <img src="../pic/color_cube-02.png" alt="无法显示">
+            <p class="inner-text">爱干净A</p>
+          </div>
+          <div id="box-all">
+            <div class="box1">
+              <a href="#">
+                <img src="../pic/putongxiche.png" alt="无法显示">
+                <p>套餐价：900元</p>
+                <div class="line">原价：1240元</div>
+              </a>
+            </div>
+            <div class="box2">
+              <div class="box-small b1">
+                <p>普通洗车20次</p>
+              </div>
+              <div class="box-small b2">
+                <p>轮毂清洗4轮</p>
+              </div>
+              <div class="box-small b3">
+                <p>内饰精致清洗4次</p>
+              </div>
+              <div class="box-small b4">
+                <p>发动机舱清洗2次</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div id="part">
+          <div class="header">
+            <img src="../pic/color_cube-04.png" alt="无法显示">
+            <p class="inner-text">爱干净C</p>
+          </div>
+          <div id="box-all">
+            <div class="box1 box-cor2">
+              <a href="#">
+                <img src="../pic/套餐-01.png" alt="无法显示">
+                <p>套餐价：1150元</p>
+                <div class="line">原价：1600元</div>
+              </a>
+            </div>
+            <div class="box2">
+              <div class="box-small b1 wid">
+                <p>普通洗车20次</p>
+              </div>
+              <div class="box-small b2 wid">
+                <p>轮毂清洗4轮</p>
+              </div>
+              <div class="box-small b3 wid">
+                <p>内饰精致清洗1次</p>
+              </div>
+              <div class="box-small b4 wid">
+                <p>发动机舱清洗2次</p>
+              </div>
+              <div class="box-small b2 long-2 wid">
+                <p>加：3次机器打蜡</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div id="part">
+          <div class="header">
+            <img src="../pic/color_cube-03.png" alt="无法显示">
+            <p class="inner-text">长久如新A</p>
+          </div>
+          <div id="box-all">
+            <div class="box1 box-cor3">
+              <a href="#">
+                <img src="../pic/套餐-02.png" alt="无法显示">
+                <p>套餐价：1550元</p>
+                <div class="line">原价：2168元</div>
+              </a>
+            </div>
+            <div class="box2">
+              <div class="box-small b2 long">
+                <p>包含卡A套餐内的全部服务</p>
+              </div>
+              <div class="box-small b3">
+                <p>加：1次抛光打蜡</p>
+              </div>
+              <div class="box-small b4">
+                <p>加：2次机器打蜡</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div id="part">
+          <div class="header">
+            <img src="../pic/color_cube-02.png" alt="无法显示">
+            <p class="inner-text">长久如新C</p>
+          </div>
+          <div id="box-all">
+            <div class="box1 box-cor4">
+              <a href="#">
+                <img src="../pic/套餐-03.png" alt="无法显示">
+                <p>套餐价：1650元</p>
+                <div class="line">原价：2320元</div>
+              </a>
+            </div>
+            <div class="box2">
+              <div class="box-small b2 long">
+                <p>包含卡A套餐内的全部服务</p>
+              </div>
+              <div class="box-small b3">
+                <p>加：1次抛光封釉</p>
+              </div>
+              <div class="box-small b4">
+                <p>加：2次机器打蜡</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div id="part">
+          <div class="header">
+            <img src="../pic/color_cube-02.png" alt="无法显示">
+            <p class="inner-text">镀晶套餐</p>
+          </div>
+          <div id="box-all">
+            <div class="box1 box-cor5">
+              <a href="#">
+                <img src="../pic/套餐-04.png" alt="无法显示">
+                <p>套餐价：1950元</p>
+                <div class="line">原价：2788元</div>
+              </a>
+            </div>
+            <div class="box2">
+              <div class="box-small b1 long">
+                <p>包含卡A套餐内的全部服务</p>
+              </div>
+              <div class="box-small b3">
+                <p>加：1次镀晶</p>
+              </div>
+              <div class="box-small b4">
+                <p>加：2次镀晶护理</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+      <script type="text/javascript" src="../../js/car.js"></script>
+
+
+
+  </body>
+</html>

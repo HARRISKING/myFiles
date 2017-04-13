@@ -1,0 +1,107 @@
+.broadcast-top ul li {
+    float: left;
+    width: 32%;
+}
+
+.broadcast-top .broadcast-mid {
+    margin: 0 2%;
+}
+
+.broadcast-top .broadcast-show {
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bdc-show-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bdc-show-modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	// background: url(../img/play.png) ;
+}
+
+.bdc-show-play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 3rem;
+	height: 3rem;
+	transform: translate(-50%, -50%);
+}
+
+.broadcast {
+    padding: 1.4rem 1.5rem;
+    margin-top: 2.5rem;
+    background-color: #fff;
+}
+
+.broadcast .broadcast-content article {
+	position: relative;
+	float: left;
+	margin-bottom: 1.5rem;
+	width: 240px;
+	height: 240px;
+	overflow: hidden;
+}
+
+.broadcast .broadcast-content article:not(:nth-child(4n + 4)) {
+	margin-right: 1.5rem;
+}
+
+.broadcast-content article .bdc-title {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0 1.9rem;
+	margin-bottom: .5rem;
+	width: 75%;
+	color: #fff;
+	text-align: center;
+	z-index: 20;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.broadcast-content article .bdc-bg {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-image: url(/static/img/direct/bg-modal.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 10;
+}
+
+.bdc-show-modal-display {
+	opacity: 0;
+	transition: all .2s linear;
+}
+
+.bdc-show-modal-display:hover {
+	opacity: 1;
+}
+
+
+
+

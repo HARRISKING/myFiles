@@ -1,0 +1,58 @@
+.submit {
+	margin-top: 35px;
+	margin-left: 5%;
+	width: 90%;
+	color: #fff;
+	background: rgb(84, 153, 210);
+	font-size: 14px;
+	height: 45px;
+	border-radius: 5px;
+	border: none;
+}
+
+.mark {
+	padding: 10px;
+	font-size: 13px;
+	line-height: 15px;
+	color: #666;
+}
+
+.ticket {
+	padding: 12px 10px;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 45px;
+}
+
+.ticket-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 45px;
+	color: #999;
+}
+
+.left-top span {
+	color: #333;
+	margin-right: 15px;
+}
+
+.left-bottom {
+	font-size: 13px;
+}
+
+.ticket-right input[type="checkbox"] {
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/ticket/Unselected-01.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.ticket-right input[type="checkbox"]:checked {
+	background-image: url(../img/ticket/duihao.png);
+}
