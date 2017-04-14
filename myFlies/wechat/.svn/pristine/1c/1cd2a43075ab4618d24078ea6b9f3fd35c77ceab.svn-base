@@ -5,10 +5,7 @@ body {
 }
 
 
-a:hover,
-a:focus{
-	text-decoration: none;
-}
+
 
 
 .panel-default > .panel-heading {
@@ -94,16 +91,6 @@ a:focus{
   border-bottom-width: 0px;
 }
 
-
-.translate{
-  transform:rotate(180deg);
-}
-
-.subhead{
-	display: none;
-}
-
-
 @media (min-width: 1400px) {
   .container {
     width: 1250px;
@@ -118,7 +105,4 @@ a:focus{
   .hide-ele{
     display: none;
   }
-	.subhead{
-		display: inline-block;
-	}
 }

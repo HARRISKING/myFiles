@@ -229,7 +229,7 @@ var _hmt = _hmt || [];
       <div class="bar-all">
         <div class="bar-left">
           <div class="bar-title">
-            <p class="solo">产品</p>
+            <p>产品</p>
           </div>
           <div class="num-bar">
 
@@ -247,22 +247,22 @@ var _hmt = _hmt || [];
           <div class="num-bar">
             <div class="progress">
               <div class="progress-bar bar-yellow" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em;">
-                  0
+                  0%
               </div>
             </div>
             <div class="progress">
               <div class="progress-bar bar-yellow" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 2%;">
-                2
+                2%
               </div>
             </div>
             <div class="progress">
               <div class="progress-bar bar-yellow" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 53%;">
-                53
+                53%
               </div>
             </div>
             <div class="progress">
               <div class="progress-bar bar-yellow" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 88%;">
-                88
+                88%
               </div>
             </div>
           </div>
@@ -277,22 +277,22 @@ var _hmt = _hmt || [];
             <div class="num-bar">
               <div class="progress">
                 <div class="progress-bar bar-red" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em;">
-                    0
+                    0%
                 </div>
               </div>
               <div class="progress">
                 <div class="progress-bar bar-red" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 30%;">
-                  30
+                  30%
                 </div>
               </div>
               <div class="progress">
                 <div class="progress-bar bar-red" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 60%;">
-                  70
+                  70%
                 </div>
               </div>
               <div class="progress">
                 <div class="progress-bar bar-red" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 92%;">
-                  92
+                  92%
                 </div>
               </div>
             </div>

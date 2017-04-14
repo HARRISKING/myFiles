@@ -27,9 +27,7 @@
 <script type="text/javascript" src="http://7xkwub.com1.z0.glb.clouddn.com/datetimepicker/bootstrap-datetimepicker.zh-CN.js"></script>
 <link href="./css/style.css" rel="stylesheet">
 <link href="./css/style_setting.css" rel="stylesheet">
-<link href="./css/customer.css" rel="stylesheet">
 <link href="./css/header.css" rel="stylesheet">
-
 
 
 <script>
@@ -44,27 +42,38 @@ var _hmt = _hmt || [];
 
 </head>
 <body>
-  <div>
-    <nav class="navbar navbar-default" role="navigation">
-    	<!-- Brand and toggle get grouped for better mobile display -->
-    	<div class="navbar-header">
-        <img class="menu" data-toggle="collapse"
-    			data-target="#bs-example-navbar-collapse-1" src="./img/menu.png" alt="">
-    		<div class="pic">
-    			<img class="img-hiden" src="./img/home_icon_whitelogo1.png" alt="">
-          <h4 class="subhead">D+云管理平台</h4>
-    		</div>
-    	</div>
-    	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div>
+
+
+
+
+
+
+
+<nav class="navbar navbar-default" role="navigation">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse"
+			data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+			<span class="icon-bar"></span> <span class="icon-bar"></span>
+		</button>
+		<div class="pic">
+			<img src="./img/home_icon_whitelogo1.png" alt="">
+		</div>
+	</div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
 
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_goods.png" alt=""><p>销售管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_goods.png" alt=""><p>销售管理</p></a>
 					<ul class="dropdown-menu" role="menu">
 
 						<li><a href="#">商品</a></li>
+
+						<li><a href="#">服务</a></li>
 
 						<li><a href="#">服务</a></li>
 
@@ -74,11 +83,11 @@ var _hmt = _hmt || [];
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_user.png" alt=""><p>客户管理</p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_user.png" alt=""><p>客户管理</p></a>
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_order.png" alt=""><p>订单管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_order.png" alt=""><p>订单管理</p></a>
 					<ul class="dropdown-menu" role="menu">
 
 						<li><a href="#">保养服务</a></li>
@@ -88,7 +97,7 @@ var _hmt = _hmt || [];
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_stores.png" alt=""><p>门店管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_stores.png" alt=""><p>门店管理</p></a>
 					<ul class="dropdown-menu" role="menu">
 						<li><a href="#">门店</a></li>
 
@@ -97,7 +106,7 @@ var _hmt = _hmt || [];
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_card.png" alt=""><p>卡券管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_card.png" alt=""><p>卡券管理</p></a>
 					<ul class="dropdown-menu" role="menu">
 
 						<li><a href="#">会员卡模板</a></li>
@@ -107,7 +116,7 @@ var _hmt = _hmt || [];
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_finance.png" alt=""><p>财务<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_finance.png" alt=""><p>财务</p></a>
 					<ul class="dropdown-menu" role="menu">
 
 						<li><a href="#">统计</a></li>
@@ -116,11 +125,13 @@ var _hmt = _hmt || [];
 					</ul>
 				</li>
 
+
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown"><a href="" class="dropdown-toggle setting1"
-						data-toggle="dropdown"><img class="img-hiden" class="master-pic" src="./img/home_icon_user.png" alt=""><span>管理员<img class="arrow" src="./img/zhankai.png" alt=""><span class="caret img-hiden"></span>
+						data-toggle="dropdown"><img class="master-pic" src="./img/home_icon_user.png" alt="">管理员<span class="caret"></span>
 					</a>
 						<ul class="dropdown-menu" role="menu">
+
 							<li><a href="/password">设置</a>
 							</li>
 							<li><a href="/password">修改密码</a>
@@ -140,115 +151,102 @@ var _hmt = _hmt || [];
 	<div id="content" class="container">
 
 	<div class="panel panel-default">
-		<div class="panel-heading">客户 /<span class="username">阿拉啦啦啦啦啦了</span></div>
-
+		<div class="panel-heading">设置</div>
     <!-- pc端： -->
     <ul class="nav nav-pills show-ele">
-      <li role="presentation" class="active"><a href="">基本信息</a></li>
+      <li role="presentation" class="active"><a href="">积分规则</a></li>
 
 
       <span class="borders">|</span>
-      <li role="presentation"><a href="">服务订单</a></li>
+      <li role="presentation"><a href="">等级定义</a></li>
 
 
       <span class="borders">|</span>
-      <li role="presentation"><a href="">车辆信息</a></li>
+      <li role="presentation"><a href="">服务区域</a></li>
 
 
       <span class="borders">|</span>
-      <li role="presentation"><a href="">会员卡信息</a></li>
+      <li role="presentation"><a href="">参数管理</a></li>
 
 
       <span class="borders">|</span>
-      <li role="presentation"><a href="">优惠券信息</a></li>
+      <li role="presentation"><a href="">车型</a></li>
+
+      <span class="borders">|</span>
+      <li role="presentation"><a href="">账号管理</a></li>
+
 
   </ul>
 
   <!-- 移动端： -->
-  <div class="col-sm-2 hide-ele">
-  	<ul class="list-group">
-  		<a href="/customers/8a9a98715b0e6277015b180973d7027c/detail" class="list-group-item">客户信息 </a>
-  		<a href="/customers/8a9a98715b0e6277015b180973d7027c/cars" class="list-group-item">车 </a>
-  		<a href="/customers/8a9a98715b0e6277015b180973d7027c/services" class="list-group-item">服务订单</a>
-  		<a href="/customers/8a9a98715b0e6277015b180973d7027c/coupons" class="list-group-item">优惠券</a>
-  		<a href="/customers/8a9a98715b0e6277015b180973d7027c/cards" class="list-group-item">会员卡</a>
+  <div class="col-sm-2 hide-ele1">
+    <ul class="list-group">
+      <a href="/customers/8a9a98715b0e6277015b180973d7027c/detail" class="list-group-item">客户信息 </a>
+      <a href="/customers/8a9a98715b0e6277015b180973d7027c/cars" class="list-group-item">车 </a>
+      <a href="/customers/8a9a98715b0e6277015b180973d7027c/services" class="list-group-item">服务订单</a>
+      <a href="/customers/8a9a98715b0e6277015b180973d7027c/coupons" class="list-group-item">优惠券</a>
+      <a href="/customers/8a9a98715b0e6277015b180973d7027c/cards" class="list-group-item">会员卡</a>
 
-  	</ul>
+    </ul>
   </div>
+
+  <button type="button" class="btn btn-primary">添加</button>
+
 
 		<div class="panel-body">
 			<div>
 				<table class="table table-bordered table-hover table-striped">
-
+					<thead>
+						<tr>
+							<th>名称</th>
+							<th class="hide-ele">类型</th>
+							<th class="hide-ele">常用类型</th>
+							<th>价格</th>
+							<th class="hide-ele">状态</th>
+							<th class="hide-ele">详情</th>
+							<th>代理商</th>
+							<th class="option"><span>编辑</span><span>删除</span></th>
+						</tr>
+					</thead>
 					<tbody>
 						<tr>
-              <td class="col-md-2 head-word">头像</td>
-							<td><img class="head-pic" src="./img/customer/head-pic.png" alt="无法显示"></td>
+							<td>补胎-蘑菇钉</td>
+							<td class="hide-ele">蘑菇钉补胎</td>
+							<td class="hide-ele"></td>
+							<td>80.0</td>
+							<td class="hide-ele">上架 </td>
+							<td class="hide-ele">蘑菇钉补胎</td>
+							<td>13683365711</td>
+							<td class="option"><a href="/services/8a9a98715a7d6b01015a8ed5ce5e0046"><img style="width:18px" src="./img/home_icon_edit.png" alt=""></a>
+								<a onclick="opendeleteserviceModal('8a9a98715a7d6b01015a8ed5ce5e0046')" href="#"><img src="./img/home_icon_delete.png" alt=""></a>
+							</td>
 						</tr>
-            <tr>
-              <td class="col-md-2">姓名</td>
-              <td>发的广泛地公司代付分公司答复</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">联系电话</td>
-              <td>11111111111111</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">车辆信息</td>
-              <td class="car-info">
-                <a href="#">粤A1234 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 高尔夫R 手动风尚版 2.0L</a><br/>
-                <a href="#">粤A1234 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 高尔夫R 手动风尚版 2.0L</a>
-              </td>
-            </tr>
-            <tr>
-              <td class="col-md-2">总消费次数</td>
-              <td>22次</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">消费总额</td>
-              <td>11111111111元</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">会员卡信息</td>
-              <td><a href="#">发的广泛地公司代付分公司答复发的广泛地公司代付分公司答复</a></td>
-            </tr>
-            <tr>
-              <td class="col-md-2">优惠券信息</td>
-              <td><a href="#">发的广泛地公司代付分公司答复发的广泛地公司代付分公司答复</a></td>
-            </tr>
-            <tr>
-              <td class="col-md-2">微信号</td>
-              <td>发的广泛地公司代付分公司答235435325345214wetew复</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">微信昵称</td>
-              <td>发的广泛地公司代付分公司答复</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">性别</td>
-              <td>男</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">微信地址</td>
-              <td>发的广泛地公司代付分公司答复</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">当前状态</td>
-              <td>正常</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">是否关注</td>
-              <td>已关注</td>
-            </tr>
-            <tr>
-              <td class="col-md-2">创建时间</td>
-              <td>2017年4月8日</td>
-            </tr>
 					</tbody>
 				</table>
 			</div>
 
+<div class="pull-right">
 
+	<ul class="pagination">
+
+		<li class="disabled"><a href="#">&laquo;</a></li>
+		<li class="disabled"><a href="#">&lt;</a></li>
+
+					<li class="active"><a
+						href="?page=1&search_EQ_ishot=1&search_EQ_kind=2">1</a></li>
+
+					<li><a href="?page=2&search_EQ_ishot=1&search_EQ_kind=2">2</a></li>
+
+					<li><a href="?page=3&search_EQ_ishot=1&search_EQ_kind=2">3</a></li>
+
+		<li><a
+			href="?page=2&search_EQ_ishot=1&search_EQ_kind=2">&gt;</a></li>
+		<li><a
+			href="?page=3&search_EQ_ishot=1&search_EQ_kind=2">&raquo;</a></li>
+
+
+	</ul>
+</div>
 
 
 
@@ -280,7 +278,6 @@ var _hmt = _hmt || [];
 Copyright &copy; 2015-2018 <a href="http://www.dijiahuche.com"  target="_Blank">迪迦（北京）科技有限公司</a>
 </div>
 <script src="./js/common.js" charset="utf-8"></script>
-
 
 
 

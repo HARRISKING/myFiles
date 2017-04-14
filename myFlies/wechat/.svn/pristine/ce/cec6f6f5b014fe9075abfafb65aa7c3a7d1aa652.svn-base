@@ -44,27 +44,32 @@ var _hmt = _hmt || [];
 
 </head>
 <body>
-  <div>
-    <nav class="navbar navbar-default" role="navigation">
-    	<!-- Brand and toggle get grouped for better mobile display -->
-    	<div class="navbar-header">
-        <img class="menu" data-toggle="collapse"
-    			data-target="#bs-example-navbar-collapse-1" src="./img/menu.png" alt="">
-    		<div class="pic">
-    			<img class="img-hiden" src="./img/home_icon_whitelogo1.png" alt="">
-          <h4 class="subhead">D+云管理平台</h4>
-    		</div>
-    	</div>
-    	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div>
+
+<nav class="navbar navbar-default" role="navigation">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse"
+			data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+			<span class="icon-bar"></span> <span class="icon-bar"></span>
+		</button>
+		<div class="pic">
+			<img src="./img/home_icon_whitelogo1.png" alt="">
+		</div>
+	</div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
 
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_goods.png" alt=""><p>销售管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_goods.png" alt=""><p>销售管理</p></a>
 					<ul class="dropdown-menu" role="menu">
 
 						<li><a href="#">商品</a></li>
+
+						<li><a href="#">服务</a></li>
 
 						<li><a href="#">服务</a></li>
 
@@ -74,11 +79,11 @@ var _hmt = _hmt || [];
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_user.png" alt=""><p>客户管理</p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_user.png" alt=""><p>客户管理</p></a>
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_order.png" alt=""><p>订单管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_order.png" alt=""><p>订单管理</p></a>
 					<ul class="dropdown-menu" role="menu">
 
 						<li><a href="#">保养服务</a></li>
@@ -88,7 +93,7 @@ var _hmt = _hmt || [];
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_stores.png" alt=""><p>门店管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_stores.png" alt=""><p>门店管理</p></a>
 					<ul class="dropdown-menu" role="menu">
 						<li><a href="#">门店</a></li>
 
@@ -97,7 +102,7 @@ var _hmt = _hmt || [];
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_card.png" alt=""><p>卡券管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_card.png" alt=""><p>卡券管理</p></a>
 					<ul class="dropdown-menu" role="menu">
 
 						<li><a href="#">会员卡模板</a></li>
@@ -107,7 +112,7 @@ var _hmt = _hmt || [];
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_finance.png" alt=""><p>财务<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
+					data-toggle="dropdown"><img src="./img/home_icon_finance.png" alt=""><p>财务</p></a>
 					<ul class="dropdown-menu" role="menu">
 
 						<li><a href="#">统计</a></li>
@@ -116,11 +121,13 @@ var _hmt = _hmt || [];
 					</ul>
 				</li>
 
+
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown"><a href="" class="dropdown-toggle setting1"
-						data-toggle="dropdown"><img class="img-hiden" class="master-pic" src="./img/home_icon_user.png" alt=""><span>管理员<img class="arrow" src="./img/zhankai.png" alt=""><span class="caret img-hiden"></span>
+						data-toggle="dropdown"><img class="master-pic" src="./img/home_icon_user.png" alt="">管理员<span class="caret"></span>
 					</a>
 						<ul class="dropdown-menu" role="menu">
+
 							<li><a href="/password">设置</a>
 							</li>
 							<li><a href="/password">修改密码</a>

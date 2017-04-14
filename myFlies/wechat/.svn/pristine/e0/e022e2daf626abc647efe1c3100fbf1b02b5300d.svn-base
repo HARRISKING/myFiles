@@ -64,13 +64,15 @@ var _hmt = _hmt || [];
 
 						<li><a href="#">服务</a></li>
 
+						<li><a href="#">服务</a></li>
+
 						<li><a href="#">商品分类</a>
 						</li>
 					</ul>
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
-					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_user.png" alt=""><p>客户管理</p></a>
+					data-toggle="dropdown"><img class="img-hiden" src="./img/home_icon_user.png" alt=""><p>客户管理<img class="arrow" src="./img/zhankai.png" alt=""></p></a>
 				</li>
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
@@ -171,162 +173,38 @@ var _hmt = _hmt || [];
             </div>
           </div>
 
-    				<div class="form-group"  style="margin-bottom:15px">
-    						<div class="input-group">
-    							<div class="input-group-addon">起始时间</div>
-    							<div class="input-group date form_date"
-    								data-link-field="startdate" data-link-format="yyyy-mm-dd">
-    								<input class="form-control required" id="startdate"
-    									name="search_GTE_createtime" type="text" placeholder="起始日期"
-    									value="" readonly> <span
-    									class="input-group-addon"><span
-    									class="glyphicon glyphicon-calendar"></span> </span>
-    							</div>
-    						</div>
-    					</div>
-
-    				<div class="form-group"  style="margin-bottom:15px">
-    						<div class="input-group">
-    							<div class="input-group-addon">终止时间</div>
-    							<div class="input-group date form_date" data-link-field="enddate"
-    								data-link-format="yyyy-mm-dd">
-    								<input class="form-control required" id="enddate"
-    									name="search_LTE_createtime" type="text" placeholder="终止日期"
-    									value="" readonly> <span
-    									class="input-group-addon"><span
-    									class="glyphicon glyphicon-calendar"></span> </span>
-    							</div>
-    						</div>
-    					</div>
 
 					<button type="submit" class="btn btn-default"
 						style="margin-bottom:15px">搜索</button>
 				</form>
 			<div>
 
-
-      <div class="box-all">
-        <div class="boxs box-left">
-          <img class="hide-ele" src="./img/total revenue.png" alt="无法显示">
-          <div class="box-word">
-            <h3>8888888元</h3>
-            <p>商品销售总额</p>
-          </div>
-        </div>
-
-        <div class="boxs box-right">
-          <img class="hide-ele" src="./img/sales.png" alt="无法显示">
-          <div class="box-word">
-            <h3>8888888元</h3>
-            <p>商品总计销售量</p>
-          </div>
-        </div>
-      </div>
-
-      <h5>销售对比</h5>
-
-
-      <div class="bar-all">
-        <div class="bar-left">
-          <div class="bar-title">
-            <p class="solo">产品</p>
-          </div>
-          <div class="num-bar">
-
-          <p class="num-tit">车身养护</p>
-          <p class="num-tit">冷却系统养护</p>
-          <p class="num-tit">空调系统养护</p>
-          <p class="num-tit">空调系统养护</p>
-        </div>
-      </div>
-
-        <div class="bar-middle">
-
-          <div class="bar-title">
-                <p>商品销售额</p>
-          <div class="num-bar">
-            <div class="progress">
-              <div class="progress-bar bar-yellow" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em;">
-                  0
-              </div>
-            </div>
-            <div class="progress">
-              <div class="progress-bar bar-yellow" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 2%;">
-                2
-              </div>
-            </div>
-            <div class="progress">
-              <div class="progress-bar bar-yellow" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 53%;">
-                53
-              </div>
-            </div>
-            <div class="progress">
-              <div class="progress-bar bar-yellow" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 88%;">
-                88
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-        <div class="bar-right">
-          <div class="bar-title">
-            <p>商品销售量</p>
-
-            <div class="num-bar">
-              <div class="progress">
-                <div class="progress-bar bar-red" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em;">
-                    0
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar bar-red" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 30%;">
-                  30
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar bar-red" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 60%;">
-                  70
-                </div>
-              </div>
-              <div class="progress">
-                <div class="progress-bar bar-red" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 92%;">
-                  92
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <h5>销售详情</h5>
 					<table class="table table-bordered table-hover table-striped">
 						<thead>
 							<tr>
-								<th>产品名称</th>
-								<th class="hide-ele">产品分类</th>
-								<th>购买数量</th>
-								<th>费用</th>
-								<th class="hide-ele">客户名称</th>
-								<th class="hide-ele">购买时间</th>
-								<th class="hide-ele">订单</th>
+								<th>名称</th>
+								<th class="hide-ele">类型</th>
+								<th class="hide-ele">常用类型</th>
+								<th>价格</th>
+								<th class="hide-ele">状态</th>
+								<th class="hide-ele">详情</th>
+								<th class="hide-ele">代理商</th>
+								<th class="option"><span>详情</span><span>编辑</span><span>下架</span></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>补胎-蘑菇钉</td>
 								<td class="hide-ele">蘑菇钉补胎</td>
-								<td>1</td>
-								<td>80元</td>
-								<td class="hide-ele">大所发生的 </td>
-								<td class="hide-ele">2017-04-14 11:11:11</td>
-								<td class="hide-ele"><a href="#">1368336d4353455711</a></td>
+								<td class="hide-ele"></td>
+								<td>80.0</td>
+								<td class="hide-ele">上架 </td>
+								<td class="hide-ele">蘑菇钉补胎</td>
+								<td class="hide-ele">13683365711</td>
+								<td class="option"><a href="/services/8a9a98715a7d6b01015a8ed5ce5e0046"><img src="./img/home_icon_details.png" alt=""></a> <a
+									href="/services/8a9a98715a7d6b01015a8ed5ce5e0046/update"><img style="width:18px" src="./img/home_icon_edit.png" alt=""></a>
+									<a onclick="opendeleteserviceModal('8a9a98715a7d6b01015a8ed5ce5e0046')" href="#"><img src="./img/home_icon_xiajia.png" alt=""></a>
+								</td>
 							</tr>
 						</tbody>
 					</table>
@@ -366,23 +244,6 @@ var _hmt = _hmt || [];
 
 
 	</div>
-  <script src="http://apps.bdimg.com/libs/zepto/1.1.4/zepto.min.js" charset="utf-8"></script>
   <script src="./js/common.js" charset="utf-8"></script>
-
-  <script type="text/javascript">
-  $ ('.form_date').datetimepicker (
-      {
-          language : 'zh-CN',
-          weekStart : 1,
-          todayBtn : 1,
-          autoclose : 1,
-          todayHighlight : 1,
-          startView : 2,
-          minView : 2,
-          forceParse : 0
-
-      });
-    </script>
-
 </body>
 </html>

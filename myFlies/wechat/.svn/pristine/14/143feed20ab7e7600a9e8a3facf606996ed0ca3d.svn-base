@@ -39,33 +39,16 @@ $(document).ready(function() {
   })
 });
 
-// $('.dropdown').hover(function(){
-//   $('.dropdown').removeClass('open');
-//   $(this).addClass('open');
-//   $(this).find('.arrow').css('transform','rotate(180deg)');
-// });
-// $('.dropdown').tap(function(){
-//   $('.arrow').removeClass('translate');
-//   $(this).find('.arrow').addClass('translate');
-// });
-
-
-// 逻辑永远更重要，先梳理清楚再动手！
-
-$('.dropdown').on('click',function(){
-  if(!$(this).find('.arrow').hasClass('translate')){
-    $('.arrow').removeClass('translate');
-    $(this).find('.arrow').addClass('translate');
-  }else{
-    $('.arrow').removeClass('translate');
-  }
+$('.dropdown').hover(function(){
+  $('.dropdown').removeClass('open');
+  $(this).addClass('open');
+  $(this).find('.arrow').css('transform','rotate(180deg)');
 });
+$('.dropdown').mouseleave(function(){
+  $('.dropdown').removeClass('open');
+  $(this).find('.arrow').css('transform','rotate(0deg)');
 
-
-
-// $('.dropdown').on('blur',function(){
-//   $('.arrow').removeClass('translate');
-// });
+});
 
 function opendeleteserviceModal(code) {
   $('#deleteservicecode').val(code);
