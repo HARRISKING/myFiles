@@ -1,0 +1,62 @@
+<!--weather-->
+
+<loading hidden="{{loading}}">
+  加载中...
+</loading>
+
+<view class="container">
+	<view class="header cm_area_level{{pagedata.quality.idx}}" style="background-image: url(../../resources/{{pagedata.quality.idx || 1}}/{{random}}.jpg);">
+		<view class="info">
+			<view class="info-detail">
+				<view class="info-detail-top">
+					<!--<text class="top-left">{{pagedataPlus.address}}</text>-->
+					<text class="top-left">{{pagedataPlus.ad_info.city+pagedataPlus.ad_info.district}}</text>
+					<text class="top-right" bindtap="refresh">
+						<!-- <text class="refresh-icon"  bindtap="refresh"></text> -->
+						<text>{{pagedata.time.s}}</text>
+					</text>
+				</view>
+				<view class="info-detail-mid">
+					<view class="mid-left">{{pagedata.aqi}}</view>	
+					<view class="mid-right">
+						<text>AQI指数</text>
+						<text class="cm_area_level{{pagedata.quality.idx}}">{{pagedata.quality.level}}</text>
+					</view>
+				</view>
+				<view class="info-detail-bot">
+					<text>{{pagedata.cityname}}实时空气质量指数（AQI）</text>
+				</view>
+			</view>
+		</view>
+		<view class="share">
+			<!-- <view bindtap="onShareAppMessage" class="share-btn">
+				<text class="share-word">分享</text>
+				<text class="share-icon"></text>
+			</view> -->
+			<view class="share-from">数据来源: 美国驻北京大使馆</view>
+		</view>
+	</view>
+	<view class="content">
+		<view class="item">
+			<view class="title">对健康影响情况</view>
+			<text>{{pagedata.quality.health}}</text>
+		</view>
+		<view class="item">
+			<view class="title">建议采取的措施</view>
+			<text>{{pagedata.quality.do}}</text>
+		</view>
+		<view class="station item">
+			<view class="sta-name">
+				<text>观测站</text>
+				<text>AQI</text>
+			</view>
+
+			<view class="sta-item" wx:for="{{nearestList}}" wx:for-item="item" wx:for-index="idx">
+				<text>{{item.name}}</text>
+				<text class="bglevel_{{item.lv.idx}}">{{item.aqi}}</text>
+			</view>
+			
+		</view>
+	</view>
+
+</view>
