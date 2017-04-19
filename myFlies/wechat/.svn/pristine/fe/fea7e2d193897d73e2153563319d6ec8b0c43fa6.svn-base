@@ -7,10 +7,10 @@
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
     <meta name="format-detection" content="telephone=no" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/goods.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/goods.css">
 </head>
 
 <body>
@@ -78,9 +78,9 @@
             <p>服务</p>
         </div>
     </section>
-    <script src="js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <!-- Swiper JS -->
-    <script src="js/swiper.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
     var swiper = new Swiper('.swiper-container', {

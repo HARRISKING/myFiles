@@ -19,15 +19,18 @@
             <li>
                 <div>车辆照片：</divs>
                 <div class="pic">
+                  <img src="" alt="">
+                  <img src="" alt="">
 
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
+                  <img src="" alt="">
+
+                  <img src="" alt="">
+
+                  <img src="" alt="">
+                  <img src="" alt="">
+                  <img src="" alt="">
+                  <img src="" alt="">
+
 
                 </div>
             </li>

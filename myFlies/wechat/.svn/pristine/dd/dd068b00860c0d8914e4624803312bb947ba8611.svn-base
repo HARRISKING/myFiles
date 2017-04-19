@@ -103,23 +103,28 @@
 
 
 
-      // 1:链接有效，你已领过
-      // 2:链接有效，卡券没有剩余次数
-      // 3:链接已失效，下次再领吧
-      let a = 2;
+      // 链接有效，你已经领过
       btnFir.addEventListener('click',function(){
         btnFir.style.display="none";
+        btnSed.style.display="flex";
         already.style.display="flex";
-        if(a === 1){
-          btnSed.style.display="flex";
-        }else if(a === 2){
-          btnthir.style.display="flex";
-        }else if(a === 3){
-          btnfor.style.display="flex";
-        }
       },false)
 
 
+      // 链接有效，卡券没有剩余次数
+      btnFir.addEventListener('click',function(){
+        btnFir.style.display="none";
+        btnthir.style.display="flex";
+        already.style.display="flex";
+      },false)
+
+
+      // 链接无效
+      btnFir.addEventListener('click',function(){
+        btnFir.style.display="none";
+        btnfor.style.display="flex";
+        already.style.display="flex";
+      },false)
     </script>
 
   </body>

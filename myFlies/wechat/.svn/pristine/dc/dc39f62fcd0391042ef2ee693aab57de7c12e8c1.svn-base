@@ -7,16 +7,16 @@
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
     <meta name="format-detection" content="telephone=no" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 
 <body>
     <header>
         <div class="area">
-        <img src="img/index/home_icon_adress.png" alt="">北京</div>
+        <img src="../img/index/home_icon_adress.png" alt="">北京</div>
         <p>首页</p>
     </header>
     <div class="banner">
@@ -34,28 +34,28 @@
     </div>
     <article class="btn-panel">
         <ul class="btn-lists">
-            <li><img src="img/index/home_icon_dianchi.png" alt="">
+            <li><img src="../img/index/home_icon_dianchi.png" alt="">
                 <p>电池</p>
             </li>
-            <li><img src="img/index/home_icon_baoyang.png" alt="">
+            <li><img src="../img/index/home_icon_baoyang.png" alt="">
                 <p>保养</p>
             </li>
-            <li><img src="img/index/home_icon_jiyou.png" alt="">
+            <li><img src="../img/index/home_icon_jiyou.png" alt="">
                 <p>机油</p>
             </li>
-            <li><img src="img/index/home_icon_luntai.png" alt="">
+            <li><img src="../img/index/home_icon_luntai.png" alt="">
                 <p>轮胎</p>
             </li>
-            <li><img src="img/index/home_icon_dianchi.png" alt="">
+            <li><img src="../img/index/home_icon_dianchi.png" alt="">
                 <p>电池</p>
             </li>
-            <li><img src="img/index/home_icon_baoyang.png" alt="">
+            <li><img src="../img/index/home_icon_baoyang.png" alt="">
                 <p>保养</p>
             </li>
-            <li><img src="img/index/home_icon_jiyou.png" alt="">
+            <li><img src="../img/index/home_icon_jiyou.png" alt="">
                 <p>机油</p>
             </li>
-            <li><img src="img/index/home_icon_luntai.png" alt="">
+            <li><img src="../img/index/home_icon_luntai.png" alt="">
                 <p>轮胎</p>
             </li>
         </ul>
@@ -67,7 +67,7 @@
         </div>
         <div class="goods-lists">
             <article>
-                <img src="img/2.png" alt="">
+                <img src="../img/2.png" alt="">
                 <div class="goods-info">
                     <p class="goods-infoname">明心电池</p>
                     <p class="goods-note">(以旧换新)</p>
@@ -78,7 +78,7 @@
                 </div>
             </article>
             <article>
-                <img src="img/2.png" alt="">
+                <img src="../img/2.png" alt="">
                 <div class="goods-info">
                     <p class="goods-infoname">明心电池</p>
                     <p class="goods-note">(以旧换新)</p>
@@ -93,17 +93,17 @@
     <footer>
         <ul>
             <li>
-                <img src="img/common/tab_icon_home_selected.png" alt="">
+                <img src="../img/common/tab_icon_home_selected.png" alt="">
                 <p class="is-active">首页</p>
             </li>
             <li>
-                <img src="img/common/tab_icon_my_default.png" alt="">
+                <img src="../img/common/tab_icon_my_default.png" alt="">
                 <p>我的</p>
             </li>
         </ul>
     </footer>
     <!-- Swiper JS -->
-    <script src="js/swiper.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
     var swiper = new Swiper('.swiper-container', {

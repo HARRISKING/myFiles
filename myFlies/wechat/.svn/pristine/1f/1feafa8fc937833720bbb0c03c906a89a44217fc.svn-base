@@ -7,9 +7,9 @@
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
     <meta name="format-detection" content="telephone=no" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/battery.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/battery.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
     <article class="goods">
         <div class="goods-lists">
             <article>
-                <img src="img/2.png" alt="">
+                <img src="../img/2.png" alt="">
                 <div class="goods-info">
                     <p class="goods-infoname">明心电池</p>
                     <p class="goods-note">(以旧换新)</p>
@@ -35,7 +35,7 @@
                 </div>
             </article>
             <article>
-                <img src="img/2.png" alt="">
+                <img src="../img/2.png" alt="">
                 <div class="goods-info">
                     <p class="goods-infoname">明心电池</p>
                     <p class="goods-note">(以旧换新)</p>

@@ -7,9 +7,9 @@
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
     <meta name="format-detection" content="telephone=no" />
     <title>我的会员</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/myvip.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/myvip.css">
 </head>
 
 <body>
@@ -25,18 +25,18 @@
         <div class="vip">
             <div class="vip-top">
                 <span>D+护车会员卡</span>
-                <img src="img/vip/vip_icon_logo.png" alt="">
+                <img src="../img/vip/vip_icon_logo.png" alt="">
             </div>
             <div class="vip-bottom">
                 <div class="vip-item">
-                    <img src="img/vip/my_icon_car.png" alt="">
+                    <img src="../img/vip/my_icon_car.png" alt="">
                     <div class="item-info">
                         <p class="item-name">洗车权益</p>
                         <p>已使用10次，剩余90次</p>
                     </div>
                 </div>
                 <div class="vip-item">
-                    <img src="img/vip/my_icon_car.png" alt="">
+                    <img src="../img/vip/my_icon_car.png" alt="">
                     <div class="item-info">
                         <p class="item-name">洗车权益</p>
                         <p>已使用10次，剩余90次</p>
@@ -66,7 +66,7 @@
     </section>
     <script type="text/javascript">
       document.getElementsByClassName('gift-btn')[0].addEventListener('click',function(){
-        window.location.href = "./donateCard0.html";
+        window.location.href = "../donateCard0.html";
       })
     </script>
 </body>

@@ -236,8 +236,8 @@ div.eletext img.tu6 {
 .small {
     width: 4%;
     float: right;
-    padding-left: 4%;
-    padding-top: 4%;
+    /*padding-right: 6%;*/
+    padding-top: 3%;
     display: none;
 }
 

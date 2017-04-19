@@ -18,17 +18,8 @@
         <ul>
             <li>
                 <div>车辆照片：</divs>
-                <div class="pic">
-
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-                  <img src="./img/girl.png" alt="">
-
+                <div class="">
+                  <img src="" alt="">
                 </div>
             </li>
             <li>

@@ -1,6 +1,5 @@
 body {
 	background-color: #fff;
-	width: 100%;
 }
 
 .car {
@@ -24,23 +23,14 @@ body {
 	align-items: center;
 }
 
+.car ul li img {
+	width: 60px;
+	height: 60px;
+}
 
 .car .word{
 	width: 85%;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-}
-
-.pic{
-	/*display: flex;
-	justify-content: space-around;*/
-	overflow-x: hidden;
-	white-space: nowrap;
-	width: 100%;
-
-}
-
-.pic img{
-	width: 24.4%;
 }
