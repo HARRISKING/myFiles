@@ -22,57 +22,91 @@
 
 .goods-lists {
     display: flex;
-    flex-wrap: wrap;
-}
-
-.goods-lists article {
-    box-sizing: border-box;
-    flex-basis: 50%;
-    width: 50%;
-    min-height: 200px;
+    flex-direction: column;
     border-bottom: 1px solid #eee;
 }
 
-.goods-lists article:nth-of-type(2n+1) {
-    border-right: 1px solid #eee;
+.goods-lists:last-child{
+  margin-bottom: 60px;
+}
+.goods-infos{
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
 }
 
-.goods-lists article img {
-    display: block;
-    width: 100%;
+.lists-pics{
+  width: 35%;
+  height: 35%;
 }
 
-.goods-info {
-    padding: 5px 10px 10px 10px;
+
+.info>h4{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+  line-height: 23px;
+  margin:20px 20px 20px 0;
 }
 
-.goods-infoname {
-    font-size: 14px;
+.mark1{
+  border-left: 5px solid rgb(49, 100, 209);
+  padding-left: 10px;
+}
+
+.prices{
+  display: flex;
+  justify-content: space-between;
+  margin:30px 20px 20px 0;
+}
+.good-price{
+  color: rgb(254, 138, 1);
+}
+
+.ex-price{
+  text-decoration: line-through;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #999;
+}
+.purchase-num{
+  font-size: 13px;
+  color: #999;
+}
+
+
+
+
+.goods {
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.goods-name {
+    font-size: 16px;
     color: #333;
-    line-height: 25px;
 }
 
-.goods-note {
-    font-size: 12px;
+.goods-more {
+    font-size: 13px;
     color: #999;
 }
 
-.goods-rate {
-    margin-top: 10px;
+.goods-title {
     display: flex;
-    align-items: baseline;
+    justify-content: space-between;
+    padding: 12px 10px;
+    border-bottom: 1px solid #eee;
 }
 
-.goods-now {
-    color: #f89c0d;
-    font-size: 14px;
-    margin-right: 10px;
+@media screen and (max-width:320px){
+  .prices{
+    margin-top: 20px;
+  }
+  .ex-price{
+    margin-left: 0;
+  }
+  }
 }
-
-.goods-old {
-    color: #999;
-    font-size: 12px;
-    text-decoration: line-through;
-}
-
-

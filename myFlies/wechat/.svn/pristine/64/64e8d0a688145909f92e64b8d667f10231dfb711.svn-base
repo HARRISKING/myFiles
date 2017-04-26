@@ -14,6 +14,14 @@
 </head>
 
 <body>
+    <!-- <header>
+        <div class="back">
+            <a href="">
+              <i class="back-icon"></i>
+            </a>
+        </div>
+        <p>商品详情</p>
+    </header> -->
     <section class="banner">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -71,7 +79,7 @@
           <span class="parameter">商品参数</span>
         </div>
 
-        <div class="goods-content content1 show1">
+        <div class="goods-content content1 show">
             <p>配件列别:<span>电饭锅华发单方事故是的发个商都</span></p>
             <p>产品编号：<span>电饭锅华三大分公司电饭锅干啥的分公司电饭锅发商都</span></p>
             <p>运费：<span>电饭锅华水电费山东分公司的 大幅度分公司答复和国防生的国防生的规范的三个人   发商都</span></p>
@@ -115,15 +123,15 @@
     })
 
     $(".detail").on("click",function(){
-      $(".goods-content").removeClass("show1");
+      $(".goods-content").removeClass("show");
       $(".goods-intr-title span").removeClass("active-blue");
-      $(".content1").addClass("show1");
+      $(".content1").addClass("show");
       $(".detail").addClass("active-blue");
     })
     $(".parameter").on("click",function(){
-      $(".goods-content").removeClass("show1");
+      $(".goods-content").removeClass("show");
       $(".goods-intr-title span").removeClass("active-blue");
-      $(".content2").addClass("show1");
+      $(".content2").addClass("show");
       $(".parameter").addClass("active-blue");
     })
     $(".content2").on("click",function(){

@@ -15,7 +15,7 @@
     display: -webkit-box;
     -webkit-box-orient:vertical;
     -webkit-line-clamp:2;
-    line-height: 27px;
+    line-height: 23px;
 
 }
 
@@ -68,17 +68,16 @@
     margin: 10px 0 5px 10px;
     display: inline-block;
     text-align: center;
-    width: 30%;
     height: 20px;
     line-height: 20px;
     color: #999;
-    border: 2px solid #999;
+    border: 1px solid #999;
     border-radius: 5px;
     padding: 8px;
 }
 .form-ch-active{
   color: rgb(50, 102, 204);
-  border: 2px solid rgb(50, 102, 204);
+  border: 1px solid rgb(50, 102, 204);
 }
 .form-num {
 	display: flex;
@@ -87,23 +86,21 @@
 	padding: 10px;
 	font-size: 14px;
 	color: #333;
-	border-bottom: 2px solid #eee;
+	border-bottom: 1px solid #eee;
 	height: 34px;
 }
 
 .form-panel {
     display: flex;
-    margin-left: 20px;
 }
 
 .form-panel .down,
 .form-panel .up {
-    width: 25px;
-    height: 37px;
+    width: 40px;
     line-height: 37px;
     text-align: center;
     font-size: 25px;
-    border: 2px solid rgb(50, 102, 204);
+    border: 1px solid rgb(50, 102, 204);
     color: #666;
     border-radius: 5px 0 0 5px;
 }
@@ -113,13 +110,15 @@
 
 .form-panel .show {
     width: 100px;
-    border-top: 2px solid rgb(50, 102, 204);
-    border-bottom: 2px solid rgb(50, 102, 204);
+    border-top: 1px solid rgb(50, 102, 204);
+    border-bottom: 1px solid rgb(50, 102, 204);
     border-left: 0;
     border-right: 0;
     text-align: center;
-    height: 35px;
     color: #333;
+    border-radius: 0;
+    height: 35px;
+    font-size: 16px;
 }
 
 .form-btn {
@@ -132,28 +131,48 @@
 	color: #fff;
 	background-color: rgb(50, 102, 204);
 	height: 40px;
-    border: 0;
-    font-size: 14px;
+  border: 0;
+  font-size: 14px;
 }
 
 .goods-intr {
 	background-color: #fff;
+  margin-bottom: 10px;
 }
 
 .goods-intr-title {
-	padding: 15px 10px;
+	padding: 15px;
 	color: #999;
 	border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-around;
 }
 
 .goods-content {
 	padding: 10px;
 }
 
+.content1{
+  display: none;
+}
+
+.content2{
+  display: none;
+}
+
+.show1{
+  display: block;
+}
+
+.active-blue{
+  color: rgb(50, 102, 204);
+}
+
+
 .goods-content p {
 	font-size: 14px;
 	color: #999;
-	line-height: 21px;
+	line-height: 23px;
 }
 
 .swiper-container {
@@ -183,3 +202,7 @@
 .swiper-pagination-bullet-active {
     background-color: rgb(50, 102, 204);
 }
+
+/*section :last-child{
+  margin-bottom: 10px;
+}*/
