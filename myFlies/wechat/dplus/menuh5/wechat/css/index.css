@@ -73,10 +73,27 @@ header {
 
 .goods-lists {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.goods-lists article {
+.goods-infos{
+  display: flex;
+}
+.lists-pics{
+  width: 30%;
+  height: 30%;
+}
+
+
+.info>h4{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+  line-height: 21px;
+}
+/*.goods-lists article {
     box-sizing: border-box;
     flex-basis: 50%;
     width: 50%;
@@ -124,7 +141,7 @@ header {
     color: #999;
     font-size: 12px;
     text-decoration: line-through;
-}
+}*/
 
 .swiper-container {
     width: 100%;
