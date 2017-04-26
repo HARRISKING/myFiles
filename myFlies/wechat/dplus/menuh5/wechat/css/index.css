@@ -74,14 +74,21 @@ header {
 .goods-lists {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid #eee;
 }
 
+.goods-lists:last-child{
+  margin-bottom: 60px;
+}
 .goods-infos{
   display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
 }
+
 .lists-pics{
-  width: 30%;
-  height: 30%;
+  width: 25%;
+  height: 25%;
 }
 
 
@@ -91,7 +98,33 @@ header {
   display:-webkit-box;
   -webkit-box-orient:vertical;
   -webkit-line-clamp:2;
-  line-height: 21px;
+  line-height: 27px;
+  margin:20px 20px 20px 0;
+}
+
+.mark1{
+  border-left: 5px solid rgb(49, 100, 209);
+  padding-left: 10px;
+}
+
+.prices{
+  display: flex;
+  justify-content: space-between;
+  margin:30px 20px 20px 0;
+}
+.good-price{
+  color: rgb(254, 138, 1);
+}
+
+.ex-price{
+  text-decoration: line-through;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #999;
+}
+.purchase-num{
+  font-size: 13px;
+  color: #999;
 }
 /*.goods-lists article {
     box-sizing: border-box;

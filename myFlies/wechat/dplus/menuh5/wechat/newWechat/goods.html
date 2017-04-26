@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
     <meta name="format-detection" content="telephone=no" />
-    <title>Document</title>
+    <title>商品详情</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/swiper.min.css">
@@ -14,14 +14,14 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <div class="back">
             <a href="">
               <i class="back-icon"></i>
             </a>
         </div>
         <p>商品详情</p>
-    </header>
+    </header> -->
     <section class="banner">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -36,11 +36,10 @@
         </div>
     </section>
     <section class="goods-info">
-        <p class="goods-name">明心电池</p>
+        <p class="goods-name">明心待付款麓山国际阿克苏代理费gas抵sd法规回复电话发的广泛地沟通抗力发多少开了房间阿斯蒂芬卡拉飞机阿萨德雷锋精神淡蓝色的 肯德基法拉第看电池</p>
         <div class="goods-fee">
             <div class="fee-left">
                 <p class="left-new">1980元</p>
-                <p class="left-old">(以旧换新)</p>
             </div>
             <div class="fee-right">
                 32人购买
@@ -52,11 +51,16 @@
         <ul>
             <li class="form-choose">
                 <span class="form-type">选择类别:</span>
-                <span class="form-chs">终极蓄电池L2-400</span>
-                <span class="form-chs-name">终极蓄电池L2-400</span>
+                <div class="form-chs">
+                  <p class="form-ch">终极蓄电池L2-400</p>
+                  <p class="form-ch">终极蓄电池L2-400</p>
+                  <p class="form-ch">终极蓄电池L2-400</p>
+                  <p class="form-ch">终极蓄电池L2-400</p>
+
+                </div>
             </li>
             <li class="form-num">
-                <span>购买数量:</span>
+                <span>请选择数量:</span>
                 <div class="form-panel">
                     <div class="down">-</div>
                     <input type="text" class="show" value="1" data-num="1">
@@ -104,6 +108,12 @@
             .attr("data-num", num)
             .val(num);
     })
+
+    $(".form-ch").on("click",function(){
+      $(".form-ch").removeClass("form-ch-active");
+      $(this).addClass("form-ch-active");
+    })
+
     </script>
 </body>
 

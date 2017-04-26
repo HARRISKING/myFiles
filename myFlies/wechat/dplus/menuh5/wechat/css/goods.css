@@ -10,13 +10,20 @@
 }
 
 .goods-name {
-    padding-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    line-height: 27px;
+
 }
 
 .goods-fee {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .fee-left {
@@ -38,7 +45,7 @@
 
 .fee-right {
     font-size: 14px;
-    color: #666;
+    color: #999;
 }
 
 .goods-form {
@@ -47,30 +54,40 @@
 }
 
 .form-choose {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px;
     font-size: 14px;
     color: #999;
     border-bottom: 1px solid #eee;
-    height: 34px;
 }
 
-.form-chs {
-    color: #f89c0d;
-    border: 1px solid #f89c0d;
+.form-chs{
+  margin-left: -10px;
+}
+
+.form-ch {
+    margin: 10px 0 5px 10px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 20px;
+    line-height: 20px;
+    color: #999;
+    border: 2px solid #999;
     border-radius: 5px;
     padding: 8px;
 }
-
+.form-ch-active{
+  color: rgb(50, 102, 204);
+  border: 2px solid rgb(50, 102, 204);
+}
 .form-num {
 	display: flex;
 	align-items: center;
+  justify-content: space-between;
 	padding: 10px;
 	font-size: 14px;
-	color: #999; 
-	border-bottom: 1px solid #eee;
+	color: #333;
+	border-bottom: 2px solid #eee;
 	height: 34px;
 }
 
@@ -82,32 +99,38 @@
 .form-panel .down,
 .form-panel .up {
     width: 25px;
-    height: 25px;
-    line-height: 25px;
+    height: 37px;
+    line-height: 37px;
     text-align: center;
     font-size: 25px;
-    border: 1px solid #999;
+    border: 2px solid rgb(50, 102, 204);
     color: #666;
+    border-radius: 5px 0 0 5px;
+}
+.form-panel .up {
+  border-radius: 0 5px 5px 0;
 }
 
 .form-panel .show {
     width: 100px;
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
+    border-top: 2px solid rgb(50, 102, 204);
+    border-bottom: 2px solid rgb(50, 102, 204);
     border-left: 0;
     border-right: 0;
     text-align: center;
+    height: 35px;
+    color: #333;
 }
 
 .form-btn {
-	padding: 10px;	
+	padding: 10px;
 }
 
 .form-btn button {
 	width: 100%;
 	border-radius: 5px;
 	color: #fff;
-	background-color: #f89c0d;
+	background-color: rgb(50, 102, 204);
 	height: 40px;
     border: 0;
     font-size: 14px;
@@ -158,5 +181,5 @@
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #fff;
+    background-color: rgb(50, 102, 204);
 }
