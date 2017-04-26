@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>冒泡算法</title>
+  </head>
+  <body>
+    <script>
+      function interchange(myArray,n1,n2){
+        let array1 = myArray[n1];
+        myArray[n1] = myArray[n2];
+        myArray[n2] = array1;
+      }
+      var array2 = [3,5,3,6,67,9];
+      console.log(array2);
+      interchange(array2,'3','4')
+      console.log(array2);
+
+      // 冒泡算法：
+      // 依次比较每一位数，当大于后一位则将其向后移动一位。小于或者等于则不变。
+
+      function sorting(myArray2){
+        var i;
+        var j;
+        for(j=0;j<)
+        for(i=0; i<myArray2.length; i++){
+           if(myArray2[i]>myArray2[i+1]){
+             interchange(myArray2,i,i+1);
+           }
+        }
+      }
+
+      var a = [34,5,3,6,2,477];
+      console.log(a);
+      sorting(a);
+      console.log(a);
+
+    </script>
+  </body>
+</html>
