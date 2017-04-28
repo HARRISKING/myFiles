@@ -18,18 +18,22 @@
       function sorting(myArray2){
         var i;
         var j;
-        for(j=0;j<myArray2.length-1-j;j++){
+        var len = myArray2.length;
+        var len1;
 
-        }
-        for(i=0; i<myArray2.length-1; i++){
-           if(myArray2[i]>myArray2[i+1]){
-             interchange(myArray2,i,i+1);
-           }
+        for(i=0;i<len-1;i++){
+
+          for(j=0,len1=len-1-i;j<len1;j++){
+            if(myArray2[j]>myArray2[j+1]){
+              interchange(myArray2,j,j+1);
+            }
+          }
+
         }
         return myArray2;
       }
 
-      var a = [34,5,3,6,2,477];
+      var a = [34,1,5,3,6,2,477];
       console.log(a);
       sorting(a);
       console.log(a);

@@ -56,13 +56,17 @@
 .form-choose {
     padding: 10px;
     font-size: 14px;
-    color: #999;
     border-bottom: 1px solid #eee;
+}
+
+.form-choose .form-type{
+  color: #333;
 }
 
 .form-chs{
   margin-left: -10px;
-}
+  color: #999;
+.}
 
 .form-ch {
     margin: 10px 0 5px 10px;
